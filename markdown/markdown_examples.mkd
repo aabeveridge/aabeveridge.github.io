@@ -1,4 +1,4 @@
-[Intro](https://aaronbev79.github.io/markdown/markdown_intro.html)//[History](https://aaronbev79.github.io/markdown/markdown_history.html)//[Examples](https://aaronbev79.github.io/markdown/markdown_examples.html)
+<a href="http://imgur.com/MdMZu2A"><img src="http://i.imgur.com/MdMZu2A.jpg" title="source: imgur.com" /></a>    [Intro](https://aaronbev79.github.io/markdown/markdown_intro.html)//[History](https://aaronbev79.github.io/markdown/markdown_history.html)//[Examples](https://aaronbev79.github.io/markdown/markdown_examples.html)
 
 ##Examples of Markdown
 
