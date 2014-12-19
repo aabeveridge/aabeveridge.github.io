@@ -1,1 +1,1 @@
-pandoc <filename>.md -s -c buttondown.css -o index.html
+pandoc <input_filename>.mkd -s -c <filename>.css -o <output_filename>.html
