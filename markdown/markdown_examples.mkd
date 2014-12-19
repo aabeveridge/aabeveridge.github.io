@@ -2,4 +2,23 @@
 
 ##Examples of Markdown
 
-Sample text goes here
+This site was produced with Markdown and Pandoc. The original files/texts were written in Markdown and converted to HTML. All of the Markdown files and code for this site are hosted on GitHub and the source files can be seen [here.](https://github.com/aaronbev79/aaronbev79.github.io/tree/master/markdown)
+
+Here is a PDF created from the same Markdown files that created this site:
+
+XXXPDF FILE HEREXXX
+
+Here is a WORD document created from the same Markdown files as well:
+
+XXXWORD file hereXXX
+
+The image below, taken from Wikipedia shows Markdown syntax side-by-side with HTML. It is easy to see how much easier it is to code with Markdown as opposed to coding in HTML. This displays how Pandoc functions. Pandoc will take the Markdown syntax on the left and convert it to the HTML displayed on the right:
+<a href="http://imgur.com/mQ3U6q7"><img src="http://i.imgur.com/mQ3U6q7.png" title="source: imgur.com" /></a>
+
+The image below displays all of the document conversions that are possible with Pandoc. Markdown can convert to all of the file types listed on the right. This image is from John MacFarlane's Pandoc site:
+<a href="http://imgur.com/UUyAKCh"><img src="http://i.imgur.com/UUyAKCh.png" title="source: imgur.com" /></a>
+
+
+
+
+
