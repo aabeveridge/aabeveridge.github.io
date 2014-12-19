@@ -6,18 +6,16 @@ This site was produced with Markdown and Pandoc. The original files/texts were w
 
 Here is a PDF created from the same Markdown files that created this site:
 
-XXXPDF FILE HEREXXX
+[PDF File](https://www.dropbox.com/s/nqru925n1k1xzti/markdown_pdf.pdf?dl=0)
 
-Here is a WORD document created from the same Markdown files as well:
-
-XXXWORD file hereXXX
+[PDF File--References](https://www.dropbox.com/s/iwwamhqq54k7q4j/references.pdf?dl=0)
 
 The image below, taken from Wikipedia shows Markdown syntax side-by-side with HTML. It is easy to see how much easier it is to code with Markdown as opposed to coding in HTML. This displays how Pandoc functions. Pandoc will take the Markdown syntax on the left and convert it to the HTML displayed on the right:
 
 <a href="http://imgur.com/mQ3U6q7"><img src="http://i.imgur.com/mQ3U6q7.png" title="source: imgur.com" /></a>
 
 
-The image below displays all of the document conversions that are possible with Pandoc. Markdown can convert to all of the file types listed on the right. This image is from John MacFarlane's Pandoc site:
+The next image displays all of the document conversions that are possible with Pandoc. Markdown can convert to all of the file types listed on the right. This image is from John MacFarlane's Pandoc site:
 <a href="http://imgur.com/UUyAKCh"><img src="http://i.imgur.com/UUyAKCh.png" title="source: imgur.com" /></a>
 
 
