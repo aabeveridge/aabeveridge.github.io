@@ -1,1 +1,0 @@
-pandoc <filename>.md -s -c buttondown.css -o index.html
