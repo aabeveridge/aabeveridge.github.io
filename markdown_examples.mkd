@@ -2,7 +2,7 @@
 
 ##Examples of Markdown
 
-This site was produced with Markdown and Pandoc. The original files/texts were written in Markdown and converted to HTML. All of the Markdown files and code for this site are hosted on GitHub and the source files can be seen [here.](https://github.com/aaronbev79/aaronbev79.github.io/tree/master/markdown)
+This site was produced with Markdown and Pandoc. The original files/texts were written in Markdown and converted to HTML. All of the Markdown files and code for this site are hosted on GitHub and the source files can be seen [here.](https://github.com/aaronbev79/aaronbev79.github.io)
 
 Here is a PDF created from the same Markdown files that created this site:
 
