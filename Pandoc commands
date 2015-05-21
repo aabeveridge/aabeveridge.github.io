@@ -1,1 +1,0 @@
-pandoc <input_filename>.mkd -s -c <filename>.css -o <output_filename>.html
