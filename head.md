@@ -1,1 +1,1 @@
-[Home](https://aaronbev79.github.io)  //  [CV](https://aaronbev79.github.io/cv.html)  //  [Projects](https://aaronbev79.github.io/projects.html)  //  [Teaching](https://aaronbev79.github.io/teaching.html)
+**[HOME](https://aaronbev79.github.io)   //   [CV](https://aaronbev79.github.io/cv.html)   //   [PROJECTS](https://aaronbev79.github.io/projects.html)   //   [TEACHING](https://aaronbev79.github.io/teaching.html)**
