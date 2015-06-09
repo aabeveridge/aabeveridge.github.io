@@ -1,11 +1,11 @@
 ###Education
 **University of Florda**  
 Degree: PhD (Expected 2016)  
-Field: Rhetoric and Writing Studies
+Field: Writing Studies, Media Ecology
 
 **University of Akron**  
 Degree: MA (2008)  
-Field: Rhetoric and Composition
+Field: Composition Studies
 
 **The Ohio State University**  
 Degree: BA  
