@@ -15,7 +15,8 @@ body {
   font-size: 12px;
   line-height: 1.7;
   padding: 1em;
-  margin: auto;
+  margin-top: 1px;
+  margin-left: 5.25cm;
   max-width: 42em;
   background: #fefefe;
 }
@@ -243,6 +244,19 @@ table td {
   border-top: 1px solid #ddd;
   border-left: 1px solid #ddd;
   vertical-align: top;
+}
+
+div#TOC {
+  position: fixed;
+  float: left;
+  font-size: 16px;
+  padding-top: 94px;
+  right: 1px;
+  left: 1px;
+  top: 1px;
+  width: 190px; 
+  height: 195px; 
+  -webkit-backface-visibility: hidden;  
 }
 
 .author {
