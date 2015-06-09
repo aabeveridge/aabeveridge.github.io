@@ -15,7 +15,8 @@ body {
   font-size: 12px;
   line-height: 1.7;
   padding: 1em;
-  margin auto;
+  margin-top: 1px;
+  margin-left: 5.25cm;
   max-width: 42em;
   background: #fefefe;
 }
