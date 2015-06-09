@@ -15,7 +15,7 @@ body {
   font-size: 12px;
   line-height: 1.7;
   padding: 1em;
-  margin: auto;
+  margin auto;
   max-width: 42em;
   background: #fefefe;
 }
@@ -261,6 +261,17 @@ div#TOC {
 .author {
   font-size: 1.2em;
   text-align: center;
+}
+
+@media only screen and (min-width: 480px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
 }
 @media print {
   * {
