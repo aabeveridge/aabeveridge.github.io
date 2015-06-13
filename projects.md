@@ -4,4 +4,4 @@
 
 **MLA JIL Data Analysis**
 
-I am creating an archive of job description data from the MLA Jobs Information List (JIL) and analyzing for word frequencies and correlations to "rhetoric," "composition," "writingm," and "technical." This project is currently "in-progress," but all of the code and data are available through my GitHub [page](https://github.com/aaronbev79/mla_data).
+I am creating an archive of job description data from the MLA Jobs Information List (JIL) and analyzing for word frequencies and correlations to "rhetoric," "composition," "writingm," and "technical." This project is currently "in-progress," but all of the code and data are available through my [GitHub page for the MLA JIL data project](https://github.com/aaronbev79/mla_data).
