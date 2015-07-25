@@ -1,6 +1,5 @@
 #!/bin/bash
-
-pandoc head.md -c pandoc.css -o head.html
+#pandoc head.md -c pandoc.css -o head.html
 
 pandoc home.md -c pandoc.css -o index.html --smart --template template.html --include-before-body=head.html --title-prefix="Welcome"
 
