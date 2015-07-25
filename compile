@@ -1,11 +1,13 @@
 #!/bin/bash
-pandoc head.md -c pandoc.css -o head.html
 
-pandoc home.md -c pandoc.css -o index.html --smart --template template.html --include-before-body=head.html 
+pandoc home.md cv.md projects.md -o index.html --template template.html
+#pandoc head.md -c pandoc.css -o head.html
+
+#pandoc home.md -c pandoc.css -o index.html --smart --template template.html --include-before-body=head.html 
 #--title-prefix="- Welcome"
-pandoc cv.md -c pandoc.css -o cv.html --smart --template template.html --include-before-body=head.html 
+#pandoc cv.md -c pandoc.css -o cv.html --smart --template template.html --include-before-body=head.html 
 #--title-prefix="- CV" --toc
-pandoc projects.md -c pandoc.css -o projects.html --smart --template template.html --include-before-body=head.html 
+#pandoc projects.md -c pandoc.css -o projects.html --smart --template template.html --include-before-body=head.html 
 #--title-prefix="- Projects" 
 #pandoc teaching.md -S -c pandoc.css -o teaching.html --smart --include-before-body=head.html 
 #--title-prefix="- Teaching"
