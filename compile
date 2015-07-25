@@ -1,10 +1,15 @@
 #!/bin/bash
-#pandoc head.md -c pandoc.css -o head.html
-pandoc home.md -c pandoc.css -o index.html --smart --include-before-body=head.html --title-prefix="- Welcome"
-pandoc cv.md -c pandoc.css -o cv.html --smart --include-before-body=head.html --title-prefix="- CV" --toc
-pandoc projects.md -c pandoc.css -o projects.html --smart --include-before-body=head.html --title-prefix="- Projects" 
-pandoc teaching.md -c pandoc.css -o teaching.html --smart --include-before-body=head.html --title-prefix="- Teaching"
-#git add --all
-#git commit -m "site update"
-#git push
+pandoc head.md -c pandoc.css -o head.html
+
+pandoc home.md -S -c pandoc.css -o index.html --smart --include-before-body=head.html 
+#--title-prefix="- Welcome"
+pandoc cv.md -S -c pandoc.css -o cv.html --smart --include-before-body=head.html 
+#--title-prefix="- CV" --toc
+pandoc projects.md -S -c pandoc.css -o projects.html --smart --include-before-body=head.html 
+#--title-prefix="- Projects" 
+#pandoc teaching.md -S -c pandoc.css -o teaching.html --smart --include-before-body=head.html 
+#--title-prefix="- Teaching"
+git add --all
+git commit -m "site update"
+git push
 
