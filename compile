@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pandoc home.md cv.md projects.md -o index.html --template template.html
+pandoc home.md cv.md projects.md -o index.html --template template.html -c pandoc.css
 #pandoc head.md -c pandoc.css -o head.html
 
 #pandoc home.md -c pandoc.css -o index.html --smart --template template.html --include-before-body=head.html 
