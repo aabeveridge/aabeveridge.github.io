@@ -1,5 +1,3 @@
-% CV
-
 ###Education
 **University of Florda**  
 Degree: PhD (Expected 2016)  
