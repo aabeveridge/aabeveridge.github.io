@@ -3,7 +3,7 @@
 
 pandoc home.md -c pandoc.css -o index.html --smart --template template.html --include-before-body=head.html --title-prefix="Welcome"
 
-pandoc cv.md -c pandoc.css -o cv.html --smart --template template.html --include-before-body=head.html --title-prefix="CV" --toc
+pandoc cv.md -c pandoc.css -o cv.html --smart --template template.html --include-before-body=head.html --title-prefix="CV"
 
 pandoc projects.md -c pandoc.css -o projects.html --smart --template template.html --include-before-body=head.html --title-prefix="Projects" 
 
