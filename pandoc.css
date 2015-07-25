@@ -21,6 +21,10 @@ body {
   background: #fefefe;
 }
 
+nav {
+  font-size: 150%;
+}
+
 a {
   color: #0645ad;
   text-decoration: none;
