@@ -1,5 +1,5 @@
 #!/bin/bash
-#pandoc head.md -c pandoc.css -o head.html
+pandoc head.md -c pandoc.css -o head.html
 
 pandoc home.md -c pandoc.css -o index.html --smart --template template.html --include-before-body=head.html --title-prefix="Welcome"
 
@@ -9,6 +9,7 @@ pandoc projects.md -c pandoc.css -o projects.html --smart --template template.ht
 
 #pandoc teaching.md -S -c pandoc.css -o teaching.html --smart --include-before-body=head.html 
 #--title-prefix="- Teaching"
+
 git add --all
 git commit -m "site update"
 git push
