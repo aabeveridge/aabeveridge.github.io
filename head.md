@@ -1,1 +1,0 @@
-**[HOME](https://aaronbev79.github.io)    |    [CV](https://aaronbev79.github.io/cv.html)    |    [PROJECTS](https://aaronbev79.github.io/projects.html)**

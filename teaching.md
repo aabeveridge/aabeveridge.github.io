@@ -1,3 +1,0 @@
-###Writing through Big Data
-
-Description coming soon...

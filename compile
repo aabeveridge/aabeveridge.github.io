@@ -1,16 +1,39 @@
 #!/bin/bash
-pandoc head.md -c pandoc.css -o head.html
 
-pandoc home.md -c pandoc.css -o index.html --smart --template template.html --include-before-body=head.html --title-prefix="Welcome"
+######################################################
+##  aaronbeveridge.com
+######################################################
 
-pandoc cv.md -c pandoc.css -o cv.html --smart --template template.html --include-before-body=head.html --title-prefix="CV"
+######################################################
+## My personal website is built with Pandoc using
+## markdown. Site navigation is created with Pandoc's
+## include-before-body function by inserting nav.html
+## into every page's HTML when it is built by Pandoc.
+###################################################### 
 
-pandoc projects.md -c pandoc.css -o projects.html --smart --template template.html --include-before-body=head.html --title-prefix="Projects" 
+#Home page
+pandoc ~/aabeveridge.github.io/home/home.md \
+--css pandoc.css \
+--template template.html \
+--output index.html \
+--smart \
+--include-before-body=nav.html \
+--title-prefix="Welcome"
 
-#pandoc teaching.md -S -c pandoc.css -o teaching.html --smart --include-before-body=head.html 
-#--title-prefix="- Teaching"
+#CV page
+pandoc ~/aabeveridge.github.io/cv/cv.md \
+--css pandoc.css \
+--template template.html \
+--output ~/aabeveridge.github.io/cv/cv.html \
+--smart \
+--include-before-body=nav.html \
+--title-prefix="CV"
 
-git add --all
-git commit -m "site update"
-git push
-
+#Projects page
+pandoc ~/aabeveridge.github.io/projects/projects.md \
+--css pandoc.css \
+--template template.html \
+--output ~/aabeveridge.github.io/projects/projects.html \
+--smart \
+--include-before-body=nav.html \
+--title-prefix="Projects" 
