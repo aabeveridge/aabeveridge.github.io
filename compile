@@ -12,28 +12,28 @@
 ###################################################### 
 
 #Home page
-pandoc ~/aabeveridge.github.io/home/home.md \
---css ~/aabeveridge.github.io/pandoc.css \
---template ~/aabeveridge.github.io/template.html \
+pandoc home.md \
+--css pandoc.css \
+--template template.html \
 --output index.html \
 --smart \
 --include-before-body=nav.html \
 --title-prefix="Welcome"
 
 #CV page
-pandoc ~/aabeveridge.github.io/cv/cv.md \
---css ~/aabeveridge.github.io/pandoc.css \
---template ~/aabeveridge.github.io/template.html \
---output ~/aabeveridge.github.io/cv/cv.html \
+pandoc cv.md \
+--css pandoc.css \
+--template template.html \
+--output cv.html \
 --smart \
 --include-before-body=nav.html \
 --title-prefix="CV"
 
 #Projects page
-pandoc ~/aabeveridge.github.io/projects/projects.md \
---css ~/aabeveridge.github.io/pandoc.css \
---template ~/aabeveridge.github.io/template.html \
---output ~/aabeveridge.github.io/projects/projects.html \
+pandoc projects.md \
+--css pandoc.css \
+--template template.html \
+--output projects.html \
 --smart \
 --include-before-body=nav.html \
 --title-prefix="Projects" 
