@@ -13,8 +13,8 @@
 
 #Home page
 pandoc ~/aabeveridge.github.io/home/home.md \
---css pandoc.css \
---template template.html \
+--css ~/aabeveridge.github.io/pandoc.css \
+--template ~/aabeveridge.github.io/template.html \
 --output index.html \
 --smart \
 --include-before-body=nav.html \
@@ -22,8 +22,8 @@ pandoc ~/aabeveridge.github.io/home/home.md \
 
 #CV page
 pandoc ~/aabeveridge.github.io/cv/cv.md \
---css pandoc.css \
---template template.html \
+--css ~/aabeveridge.github.io/pandoc.css \
+--template ~/aabeveridge.github.io/template.html \
 --output ~/aabeveridge.github.io/cv/cv.html \
 --smart \
 --include-before-body=nav.html \
@@ -31,8 +31,8 @@ pandoc ~/aabeveridge.github.io/cv/cv.md \
 
 #Projects page
 pandoc ~/aabeveridge.github.io/projects/projects.md \
---css pandoc.css \
---template template.html \
+--css ~/aabeveridge.github.io/pandoc.css \
+--template ~/aabeveridge.github.io/template.html \
 --output ~/aabeveridge.github.io/projects/projects.html \
 --smart \
 --include-before-body=nav.html \
