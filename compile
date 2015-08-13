@@ -37,3 +37,7 @@ pandoc projects.md \
 --smart \
 --include-before-body=nav.html \
 --title-prefix="Projects" 
+
+git add --all
+git commit -m "updates"
+git push
