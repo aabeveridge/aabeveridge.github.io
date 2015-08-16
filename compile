@@ -13,7 +13,7 @@
 
 #Home page
 pandoc home.md \
---css pandoc.css \
+--css pandoc1.css \
 --template template.html \
 --output index.html \
 --smart \
@@ -22,7 +22,7 @@ pandoc home.md \
 
 #CV page
 pandoc cv.md \
---css pandoc.css \
+--css pandoc1.css \
 --template template.html \
 --output cv.html \
 --smart \
@@ -31,13 +31,13 @@ pandoc cv.md \
 
 #Projects page
 pandoc projects.md \
---css pandoc.css \
+--css pandoc1.css \
 --template template.html \
 --output projects.html \
 --smart \
 --include-before-body=nav.html \
 --title-prefix="Projects" 
 
-git add --all
-git commit -m "updates"
-git push
+#git add --all
+#git commit -m "updates"
+#git push

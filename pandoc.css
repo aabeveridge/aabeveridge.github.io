@@ -14,8 +14,8 @@ body {
   font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
   font-size: 12px;
   line-height: 1.7;
-  padding: 0;
-  margin-top: 0;
+  padding: 1em;
+  margin-top: 1px;
   margin-left: 6cm;
   max-width: 42em;
   background: #fefefe;
@@ -102,7 +102,10 @@ a::selection {
 }
 
 p {
-  margin: 1em 0;
+  padding: 1em;
+  margin-top: 1px;
+  margin-left: 6cm;
+  max-width: 42em;
 }
 
 img {
