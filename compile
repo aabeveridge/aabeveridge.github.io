@@ -14,7 +14,7 @@
 #Home page
 pandoc ./markdown/home.md \
 --css style.css \
---template ./templates/template.html \
+--template ./templates/main.html \
 --output index.html \
 --smart \
 --include-before-body ./templates/nav.html \
@@ -24,7 +24,7 @@ pandoc ./markdown/home.md \
 #CV page
 pandoc ./markdown/cv.md \
 --css style.css \
---template ./templates/template.html \
+--template ./templates/main.html \
 --output cv.html \
 --smart \
 --include-before-body ./templates/nav.html \
@@ -34,7 +34,7 @@ pandoc ./markdown/cv.md \
 #Projects page
 pandoc ./markdown/projects.md \
 --css style.css \
---template ./templates/template.html \
+--template ./templates/main.html \
 --output projects.html \
 --smart \
 --include-before-body ./templates/nav.html \
@@ -44,7 +44,7 @@ pandoc ./markdown/projects.md \
 #Teaching page
 pandoc ./markdown/teaching.md \
 --css style.css \
---template ./templates/template.html \
+--template ./templates/main.html \
 --output teaching.html \
 --smart \
 --include-before-body ./templates/nav.html \
