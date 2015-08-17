@@ -48,8 +48,8 @@ pandoc ./markdown/teaching.md \
 --output teaching.html \
 --smart \
 --include-before-body ./templates/nav.html \
---include-after-body ./templates/footer.html \
 --title-prefix="Teaching" 
+#--include-after-body ./templates/footer.html \
 
 #git add --all
 #git commit -m "updates"
