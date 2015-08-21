@@ -319,8 +319,8 @@ a::selection {
 }
 
 .footer p {
-  color: #666666;
-  padding-left: 2.45em;
+/*  color: #666666;*/
+/*  padding-left: 2.45em;*/
 }
 
 @media screen and (min-width: 850px) {
