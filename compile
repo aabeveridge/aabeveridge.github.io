@@ -13,29 +13,32 @@
 
 #Home page
 pandoc home.md \
---css pandoc1.css \
+--css pandoc.css \
 --template template.html \
 --output index.html \
 --smart \
 --include-before-body nav.html \
+--include-after-body footer.html \
 --title-prefix="Welcome"
 
 #CV page
 pandoc cv.md \
---css pandoc1.css \
+--css pandoc.css \
 --template template.html \
 --output cv.html \
 --smart \
 --include-before-body nav.html \
+--include-after-body footer.html \
 --title-prefix="CV"
 
 #Projects page
 pandoc projects.md \
---css pandoc1.css \
+--css pandoc.css \
 --template template.html \
 --output projects.html \
 --smart \
 --include-before-body nav.html \
+--include-after-body footer.html \
 --title-prefix="Projects" 
 
 #git add --all
