@@ -232,9 +232,9 @@ a:active {
   color: #faa700;
 }
 
-a:focus {
-  outline: thin dotted;
-}
+/*a:focus {*/
+/*  outline: thin dotted;*/
+/*}*/
 
 *::-moz-selection {
   background: rgba(255, 255, 0, 0.3);
