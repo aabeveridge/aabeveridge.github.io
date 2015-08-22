@@ -17,7 +17,7 @@ pandoc home.md \
 --template template.html \
 --output index.html \
 --smart \
---include-before-body=nav.html \
+--include-before-body nav.html \
 --title-prefix="Welcome"
 
 #CV page
@@ -26,7 +26,7 @@ pandoc cv.md \
 --template template.html \
 --output cv.html \
 --smart \
---include-before-body=nav.html \
+--include-before-body nav.html \
 --title-prefix="CV"
 
 #Projects page
@@ -35,7 +35,7 @@ pandoc projects.md \
 --template template.html \
 --output projects.html \
 --smart \
---include-before-body=nav.html \
+--include-before-body nav.html \
 --title-prefix="Projects" 
 
 #git add --all
