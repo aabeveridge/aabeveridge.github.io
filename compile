@@ -12,33 +12,33 @@
 ####################################################### 
 
 #Home page
-pandoc home.md \
+pandoc ./markdown/home.md \
 --css pandoc.css \
---template template.html \
+--template ./templates/template.html \
 --output index.html \
 --smart \
---include-before-body nav.html \
---include-after-body footer.html \
+--include-before-body ./templates/nav.html \
+--include-after-body ./templates/footer.html \
 --title-prefix="Welcome"
 
 #CV page
-pandoc cv.md \
+pandoc ./markdown/cv.md \
 --css pandoc.css \
---template template.html \
+--template ./templates/template.html \
 --output cv.html \
 --smart \
---include-before-body nav.html \
---include-after-body footer.html \
+--include-before-body ./templates/nav.html \
+--include-after-body ./templates/footer.html \
 --title-prefix="CV"
 
 #Projects page
-pandoc projects.md \
+pandoc ./markdown/projects.md \
 --css pandoc.css \
---template template.html \
+--template ./templates/template.html \
 --output projects.html \
 --smart \
---include-before-body nav.html \
---include-after-body footer.html \
+--include-before-body ./templates/nav.html \
+--include-after-body ./templates/footer.html \
 --title-prefix="Projects" 
 
 #git add --all

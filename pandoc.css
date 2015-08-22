@@ -3,6 +3,7 @@ html {
   overflow-y: scroll;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+  height: 100%;
 }
 
 body {
@@ -310,19 +311,12 @@ a::selection {
 }
 
 .footer {
-  margin-top: 100px;
-}
-
-.footer img {
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 35px;
 }
 
 .footer p {
-  text-align: center;
-  font-size: small;
   color: #808080;
-
+  padding-left: 2.8em;
 }
 
 @media screen and (min-width: 850px) {
