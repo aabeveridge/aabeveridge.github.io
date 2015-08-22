@@ -13,7 +13,7 @@
 
 #Home page
 pandoc ./markdown/home.md \
---css pandoc.css \
+--css style.css \
 --template ./templates/template.html \
 --output index.html \
 --smart \
@@ -23,7 +23,7 @@ pandoc ./markdown/home.md \
 
 #CV page
 pandoc ./markdown/cv.md \
---css pandoc.css \
+--css style.css \
 --template ./templates/template.html \
 --output cv.html \
 --smart \
@@ -33,7 +33,7 @@ pandoc ./markdown/cv.md \
 
 #Projects page
 pandoc ./markdown/projects.md \
---css pandoc.css \
+--css style.css \
 --template ./templates/template.html \
 --output projects.html \
 --smart \
