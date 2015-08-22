@@ -5,4 +5,4 @@
 > Aaron Beveridge, Ph.D. Candidate  
 > Department of English  
 > University of Florida  
-> aaronbev79[at]ufl d o t edu
+> aaronbev79[at]ufl_dot_edu
