@@ -282,6 +282,7 @@ a::selection {
   text-decoration: none;
   display: block;
   transition: .3s background-color;
+  outline: none;
 }
 
 .nav .home a {
