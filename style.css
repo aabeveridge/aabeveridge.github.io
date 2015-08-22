@@ -297,6 +297,10 @@ a::selection {
   color: #fff;
 }
 
+.nav .teaching a {
+  color: #fff;
+}
+
 .nav a:hover {
   color: #808080;
 }
@@ -317,12 +321,12 @@ a::selection {
 
 .footer p {
   color: #666666;
-  padding-left: 2.8em;
+  padding-left: 2.45em;
 }
 
 @media screen and (min-width: 850px) {
   .nav li {
-    width: 100px;
+    width: 165px;
     border-bottom: none;
     height: 50px;
     line-height: 50px;
@@ -339,7 +343,6 @@ a::selection {
   .nav li {
     display: inline-block;
     margin-right: -4px;
-    width: 190px;
   }
  
   /* Options 2 - Float

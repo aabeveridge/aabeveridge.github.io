@@ -41,6 +41,16 @@ pandoc ./markdown/projects.md \
 --include-after-body ./templates/footer.html \
 --title-prefix="Projects" 
 
+#Teaching page
+pandoc ./markdown/teaching.md \
+--css style.css \
+--template ./templates/template.html \
+--output teaching.html \
+--smart \
+--include-before-body ./templates/nav.html \
+--include-after-body ./templates/footer.html \
+--title-prefix="Teaching" 
+
 #git add --all
 #git commit -m "updates"
 #git push
