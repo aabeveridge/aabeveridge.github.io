@@ -279,11 +279,22 @@ a::selection {
  
 .nav a {
   text-decoration: none;
-  color: #fff;
   display: block;
   transition: .3s background-color;
 }
+
+.nav .home a {
+  color: #FF0000;
+}
+
+.nav .cv a {
+  color: #fff;
+}
  
+.nav .projects a {
+  color: #fff;
+}
+
 .nav a:hover {
   color: #808080;
 }
