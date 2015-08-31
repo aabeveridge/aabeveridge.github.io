@@ -8,7 +8,9 @@ html {
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*  font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace;*/
   margin: 0;
+  margin-top: 70px;
   padding: 0;
   background: #fefefe;
 }
@@ -17,7 +19,7 @@ p {
   width: 750px;
   font-size: 18px;
   margin-left: auto;
-  margin-right: auto;  
+  margin-right: auto;
 }  
 
 img {
@@ -27,10 +29,12 @@ img {
 h1, h2, h3, h4, h5, h6 {
   color: #111;
   line-height: 125%;
-  margin-top: 2em;
+  margin-top: -69px;
   font-weight: normal;
   margin-left: auto;
   margin-right: auto;
+  width: 750px;
+  padding-top: 78px;
 }
 
 h4, h5, h6 {
@@ -78,16 +82,15 @@ hr {
 }
 
 pre, code, kbd, samp {
-  color: #000;
-  font-family: monospace, monospace;
-  _font-family: 'courier new', monospace;
+  color: #111;
+  font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace;
   font-size: 0.98em;
-}
-
-pre {
-  white-space: pre;
-  white-space: pre-wrap;
-  word-wrap: break-word;
+  background-color: #D3D3D3;
+  white-space: pre-wrap; /* css-3 */
+  white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
 }
 
 b, strong {
@@ -205,22 +208,28 @@ div#TOC {
   position: fixed;
   float: left;
   font-size: 16px;
-  padding-top: 94px;
+  padding-top: 70px;
   right: 1px;
   left: 16px;
-  top: 1px;
+  top: 0px;
   width: 190px; 
   height: 195px; 
   -webkit-backface-visibility: hidden;  
 }
 
-a {
-  color: #0645ad;
+.welltoc a {
+  color: #444;
   text-decoration: none;
 }
 
-a:visited {
-  color: #0b0080;
+.welltoc li {
+  list-style: square;
+  color: #444;  
+}
+
+a {
+  color: #0645ad;
+  text-decoration: none;
 }
 
 a:hover {
@@ -262,6 +271,9 @@ a::selection {
 
 
 .nav ul {
+  position: fixed;
+  width: 100%;
+  top: 0;
   list-style: none;
   background-color: #444;
   text-align: center;
@@ -288,6 +300,7 @@ a::selection {
   color: #FF0000;
 }
 
+
 .nav .cv a {
   color: #fff;
 }
@@ -305,10 +318,10 @@ a::selection {
 }
 
 .nav a::selection {
-  color: #FF0000;
+  color: #808080;
 }
  
-.nav a.active {
+.nav a:active {
   background-color: #fff;
   color: #444;
   cursor: default;
@@ -323,18 +336,21 @@ a::selection {
 }
 
 @media screen and (min-width: 850px) {
+
   .nav li {
     width: 165px;
     border-bottom: none;
     height: 50px;
     line-height: 50px;
     font-size: 1.2em;
+    -webkit-backface-visibility: hidden;
   }
   
   .nav hm {
   padding-left: 4px;
   position: absolute;
   left: 20px;
+  z-index: 10;
   }
  
   /* Option 1 - Display Inline */

@@ -29,7 +29,8 @@ pandoc ./markdown/cv.md \
 --smart \
 --include-before-body ./templates/nav.html \
 --include-after-body ./templates/footer.html \
---title-prefix="CV"
+--title-prefix="CV" \
+--toc
 
 #Projects page
 pandoc ./markdown/projects.md \
