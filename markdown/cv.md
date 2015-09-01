@@ -37,7 +37,7 @@ Eds. Collin Brooke and Laurie Gries. Chapter accepted. Collection under review.
 
 University of Florida Informatics Institute, Seed Grant Fellowship (2015 -- 2016)
 
-Graduate Research Fellow, University of Florida (2013 – 2015)
+Graduate Research Fellowship, University of Florida (2013 – 2015)
 
 > ENG1131 “Writing through Big Data” (Writing Studies, eScience, Data
 > Visualization)
