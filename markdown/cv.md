@@ -14,11 +14,11 @@ Field: Composition Studies
 Degree: BA  
 Major: English (Rhetoric)
 
-### **Books in progress**
+### **Monographs in progress**
 
 *Big Data and the Humanities*. Co-authored with Sidney Dobrin. Under review. 
 
-### **Publications in progress**
+### **Articles/Chapters in progress**
 
 "Circulation Analytics: Software Development and Social Network Data." *Circulation, Rhetoric, and Writing*. 
 Eds. Collin Brooke and Laurie Gries. Chapter accepted. Collection under review. 
@@ -27,13 +27,15 @@ Eds. Collin Brooke and Laurie Gries. Chapter accepted. Collection under review.
 
 "Collecting and Analyzing Social Network Data." Co-authored with Nicholas Van Horn. Under review.
 
+"Data Janitorial Work and Visual Rhetoric." In progress. 
+
 "Writing through Big Data." In progress. 
 
 "Hackers and Entrepreneurs: Startup Methodologies and the Writing Practices of Programmers." In progress.
 
 ### **Professional posts**
 
-University of Florida Informatics Institute, Seed Grant Fellowship for MassMine (2015 -- 2016)
+University of Florida Informatics Institute, Seed Grant Fellowship (2015 -- 2016)
 
 Graduate Research Fellow, University of Florida (2013 – 2015)
 
