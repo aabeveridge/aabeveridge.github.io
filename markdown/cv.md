@@ -35,7 +35,7 @@ Eds. Collin Brooke and Laurie Gries. Chapter accepted. Collection under review.
 
 ### **Professional posts**
 
-Seed Grant Fellowship, University of Florida Informatics Institute (2015 -- 2016)
+Seed Grant Research Fellowship, University of Florida Informatics Institute (2015 -- 2016)
 
 Graduate Research Fellowship, University of Florida (2013 – 2015)
 
