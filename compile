@@ -40,7 +40,8 @@ pandoc ./markdown/projects.md \
 --smart \
 --include-before-body ./templates/nav.html \
 --include-after-body ./templates/footer.html \
---title-prefix="projects" 
+--title-prefix="projects" \
+--toc
 
 #Teaching page
 pandoc ./markdown/teaching.md \
