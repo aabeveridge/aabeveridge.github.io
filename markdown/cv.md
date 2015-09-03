@@ -25,7 +25,7 @@ Eds. Collin Brooke and Laurie Gries. Chapter accepted. Collection under review.
 
 "Attention Ecology: Trend Circulation and the Virality Threshold." Co-authored with Nicholas Van Horn and Sean Morey. Under review. 
 
-"Data Mining Social Networks." Co-authored with Nicholas Van Horn. Under review.
+"Collecting and Analyzing Social Network Data." Co-authored with Nicholas Van Horn. Under review.
 
 "Writing through Big Data." In progress. 
 

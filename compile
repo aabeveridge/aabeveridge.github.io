@@ -19,7 +19,7 @@ pandoc ./markdown/home.md \
 --smart \
 --include-before-body ./templates/nav.html \
 --include-after-body ./templates/footer.html \
---title-prefix="Welcome"
+--title-prefix="welcome"
 
 #CV page
 pandoc ./markdown/cv.md \
@@ -29,7 +29,7 @@ pandoc ./markdown/cv.md \
 --smart \
 --include-before-body ./templates/nav.html \
 --include-after-body ./templates/footer.html \
---title-prefix="CV" \
+--title-prefix="cv" \
 --toc
 
 #Projects page
@@ -40,7 +40,7 @@ pandoc ./markdown/projects.md \
 --smart \
 --include-before-body ./templates/nav.html \
 --include-after-body ./templates/footer.html \
---title-prefix="Projects" 
+--title-prefix="projects" 
 
 #Teaching page
 pandoc ./markdown/teaching.md \
@@ -49,7 +49,7 @@ pandoc ./markdown/teaching.md \
 --output teaching.html \
 --smart \
 --include-before-body ./templates/nav.html \
---title-prefix="Teaching" 
+--title-prefix="teaching" 
 #--include-after-body ./templates/footer.html \
 
 #git add --all
