@@ -4,21 +4,23 @@
 Degree: PhD (Expected Spring 2017)  
 Field: writing studies  
 Director: Sidney Dobrin  
-Dissertation in progress: "Writing eScience: Data Science Methods for Writing Studies Research."
+Dissertation in progress: "Writing eScience: Data Science Methods for Networked Writing Research."
 
 **University of Akron**  
 Degree: MA (2008)  
-Field: Composition Studies
+Field: Composition Studies  
+Advisor: Julie Drew  
+Thesis: "(Inter)Active Rhetoric: The Ethics of Agency and Praxis"
 
 **The Ohio State University**  
 Degree: BA  
-Major: English (Rhetoric)
+Major: English (Focus: Rhetoric)
 
 ### **Monographs in progress**
 
 *Big Data and the Humanities*. Co-authored with Sidney Dobrin. Under review.
 
-### **Articles/Chapters in progress**
+### **Peer Reviewed Articles and Chapters in progress**
 
 "Circulation Analytics: Research Software Development and Social Network Data." *Circulation, Rhetoric, and Writing*. Eds. Collin Brooke and Laurie Gries. Chapter accepted. Collection under review. 
 
@@ -34,9 +36,9 @@ Major: English (Rhetoric)
 
 <!--"Genre and Public Rhetoric: Digital blah blah blah." In progress.-->
 
-<!--"Markdown Markup: Webtext and Internet Publishing" In progress.-->
+<!--"Markdown Markup: Unintimidating Webtext Coding for Multimodal Writing" In progress.-->
 
-<!--"Tagging Feedback: Comparing Digital and Physical Rhetorics." In progress.-->
+<!--"Tagging Feedback Loops: Comparing Digital and Physical Tagging" In progress.-->
 
 ### **Professional Posts and Teaching**
 
@@ -45,7 +47,7 @@ Seed Grant Research Fellowship, University of Florida Informatics Institute (201
 Graduate Research Fellowship, University of Florida (2013 – 2015)
 
 > ENG1131 “Writing through Big Data” (Writing Studies, eScience, Data
-> Visualization)
+> Visualization)  
 > ENC5236 “Advanced Business Writing for Accountants” (Graduate Business
 > Writing)
 
@@ -54,6 +56,18 @@ Graduate Teaching Assistant, University of Akron (2006 – 2008)
 > English 3300:111 “Composition 111” (Freshman Composition)
 
 Writing Center Consultant, The Ohio State University (2004 - 2006)
+
+### **Grants Funded**
+“MassMine: Collecting and Archiving Big Data for Social Media Humanities Research.” *National Endowment for the Humanities*. May 2015.
+
+> **Amount funded:** $60,000.00  
+> **Roles:** Grant writing, data analytics development, participant training, and testing.  
+> **Grant application:** <http://ufdc.ufl.edu/AA00025642/00001/pdf>
+
+"MassMine Development and Training Project." *University of Florida Informatics Institute*. May 2015.
+
+> **Amount funded:** $49,837.00  
+> **Roles:** Grant writing, interdisciplinary curriculum and classroom support (UF college of Journalism, UF Digital Humanities Graduate Cirtificate), training.  
 
 ### **Conference Presentations**
 
@@ -74,18 +88,6 @@ Writing Center Consultant, The Ohio State University (2004 - 2006)
 “Rereading James Berlin: Composition’s Pragmatic Turn.” The University of Akron Graduate Symposium, Akron, OH (February 2008).
 
 “The Language of Homelessness.” Denman Research Forum, Columbus, OH (May 2005).
-
-### **Grants Funded**
-“MassMine: Collecting and Archiving Big Data for Social Media Humanities Research.” *National Endowment for the Humanities*. May 2015.
-
-> **Amount funded:** $60,000.00  
-> **Roles:** Grant writing, data analytics development, participant training, and testing.  
-> **Grant application:** <http://ufdc.ufl.edu/AA00025642/00001/pdf>
-
-"MassMine Development and Training Project." *University of Florida Informatics Institute*. May 2015.
-
-> **Amount funded:** $49,837.00  
-> **Roles:** Grant writing, interdisciplinary curriculum and classroom support (UF college of Journalism, UF Digital Humanities Graduate Cirtificate), training.  
 
 ### **Trainings and lectures**
 
