@@ -4,7 +4,7 @@
 Degree: PhD (Expected Spring 2017)  
 Field: writing studies  
 Director: Sidney Dobrin  
-Dissertation in progress: "Writing eScience: Data Science Applications for Writing Studies and Rhetoric."
+Dissertation in progress: "Writing eScience: Applying Data Science Methods to Rhetoric and Writing Studies."
 
 **University of Akron**  
 Degree: MA (2008)  
