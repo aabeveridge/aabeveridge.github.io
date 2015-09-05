@@ -16,7 +16,7 @@ Major: English (Rhetoric)
 
 ### **Monographs in progress**
 
-*Big Data and the Humanities*. Co-authored with Sidney Dobrin. Under review. 
+*Big Data and the Humanities*. Co-authored with Sidney Dobrin. Under review.
 
 ### **Articles/Chapters in progress**
 
@@ -31,6 +31,12 @@ Major: English (Rhetoric)
 "Writing through Big Data." In progress. 
 
 "Hackers and Entrepreneurs: Startup Methodologies and the Writing Practices of Programmers." In progress.
+
+<!--"Genre and Public Rhetoric: Digital blah blah blah." In progress.-->
+
+<!--"Markdown Markup: Webtext and Internet Publishing" In progress.-->
+
+<!--"Tagging Feedback: Comparing Digital and Physical Rhetorics." In progress.-->
 
 ### **Professional Posts and Teaching**
 
@@ -88,3 +94,9 @@ Writing Center Consultant, The Ohio State University (2004 - 2006)
 “MassMine: Creating, Curating, & Data Mining Social Media.” George A. Smathers Library, University of Florida (November 2014).
 
 “Professional Web Presence, Personal Site, Online Portfolios.” George A. Smathers Library, University of Florida (October 2014).
+
+### **Professional Activities and Service**
+
+Panel and presentation reviewer, *Rhetoric Society of America Conference*, 2015.
+
+Editor, *Trace Journal*, 2015.
