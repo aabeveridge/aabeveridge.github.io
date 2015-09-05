@@ -4,7 +4,7 @@
 Degree: PhD (Expected Spring 2017)  
 Field: writing studies  
 Director: Sidney Dobrin  
-Dissertation in progress: "Writing eScience: Applying Data Science Methods to Rhetoric and Writing Studies."
+Dissertation in progress: "Writing eScience: Data Science Methods for Writing Studies Research."
 
 **University of Akron**  
 Degree: MA (2008)  
@@ -99,4 +99,4 @@ Writing Center Consultant, The Ohio State University (2004 - 2006)
 
 Panel and presentation reviewer, *Rhetoric Society of America Conference*, 2015.
 
-Editor, *Trace Journal*, 2015.
+Technical Editor, *Trace Journal*, 2015.
