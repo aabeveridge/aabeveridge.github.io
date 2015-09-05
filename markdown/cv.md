@@ -32,7 +32,7 @@ Major: English (Rhetoric)
 
 "Hackers and Entrepreneurs: Startup Methodologies and the Writing Practices of Programmers." In progress.
 
-### **Professional posts**
+### **Professional Posts and Teaching**
 
 Seed Grant Research Fellowship, University of Florida Informatics Institute (2015 -- 2016)
 
@@ -49,7 +49,7 @@ Graduate Teaching Assistant, University of Akron (2006 – 2008)
 
 Writing Center Consultant, The Ohio State University (2004 - 2006)
 
-### **Conference presentations**
+### **Conference Presentations**
 
 "Writing through Big Data: Using MassMine in the Advanced Writing Classroom." College Conference on Composition and Communication. Houston, TX (April 2016).
 
@@ -69,7 +69,7 @@ Writing Center Consultant, The Ohio State University (2004 - 2006)
 
 “The Language of Homelessness.” Denman Research Forum, Columbus, OH (May 2005).
 
-### **Grants funded**
+### **Grants Funded**
 “MassMine: Collecting and Archiving Big Data for Social Media Humanities Research.” *National Endowment for the Humanities*. May 2015.
 
 > **Amount funded:** $60,000.00  
