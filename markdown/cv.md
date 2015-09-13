@@ -2,7 +2,7 @@
 
 **University of Florda**  
 Degree: PhD (Expected Spring 2017)  
-Field: writing studies  
+Field: Writing Studies  
 Director: Sidney Dobrin  
 Dissertation in progress: "Writing eScience: Data Science Methods for Networked Writing Research."
 
@@ -99,6 +99,8 @@ Writing Center Consultant, The Ohio State University (2004 - 2006)
 
 ### **Professional Activities and Service**
 
-Panel and presentation reviewer, *Rhetoric Society of America Conference*, 2015.
+Technical Editor, *Trace Journal*. (2015 -- present).
 
-Technical Editor, *Trace Journal*, 2015.
+Technical Editor, *Kudzu House Quarterly*. (2015 -- present). 
+
+Panel and presentation reviewer, *Rhetoric Society of America Conference*. (2016).
