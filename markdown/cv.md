@@ -16,9 +16,9 @@ Thesis: "(Inter)Active Rhetoric: The Ethics of Agency and Praxis"
 Degree: BA  
 Major: English (Focus: Rhetoric)
 
-### **Monographs in progress**
+<!--### **Monographs in progress**-->
 
-*Big Data and the Humanities*. Co-authored with Sidney Dobrin. Under review.
+<!--*Big Data and the Humanities*. Co-authored with Sidney Dobrin. Under review.-->
 
 ### **Peer Reviewed Articles and Chapters in progress**
 
@@ -26,19 +26,19 @@ Major: English (Focus: Rhetoric)
 
 "Attention Ecology: Trend Circulation and the Virality Threshold." Co-authored with Nicholas Van Horn and Sean Morey. Under review. 
 
-"Collecting and Analyzing Social Network Data." Co-authored with Nicholas Van Horn. Under review.
+<!--"Collecting and Analyzing Social Network Data." Co-authored with Nicholas Van Horn. Under review.-->
 
-"Data Janitorial Work and Visual Rhetoric." In progress. 
+<!--"Data Janitorial Work and Visual Rhetoric." In progress. -->
 
-"Writing through Big Data." In progress. 
+<!--"Writing through Big Data." In progress. -->
 
-"Hackers and Entrepreneurs: Startup Methodologies and the Writing Practices of Programmers." In progress.
+<!--"Hackers and Entrepreneurs: Startup Methodologies and the Writing Practices of Programmers." In progress.-->
 
 <!--"Genre and Public Rhetoric: Digital blah blah blah." In progress.-->
 
 <!--"Markdown Markup: Unintimidating Webtext Coding for Multimodal Writing" In progress.-->
 
-<!--"Tagging Feedback Loops: Comparing Digital and Physical Tagging" In progress.-->
+<!--"Tagging Feedback Loops: A Case Study for Visual Writing Networks" In progress.-->
 
 ### **Professional Posts and Teaching**
 
