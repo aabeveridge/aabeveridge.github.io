@@ -28,7 +28,7 @@ Major: English (Focus: Rhetoric)
 
 <!--"Collecting and Analyzing Social Network Data." Co-authored with Nicholas Van Horn. Under review.-->
 
-<!--"Data Janitorial Work and Visual Rhetoric." In progress. -->
+"Looking in the Dustbin: Data Janitorial Work, Statistical Reasoning, and Information Rhetorics" Under review. 
 
 <!--"Writing through Big Data." In progress. -->
 
