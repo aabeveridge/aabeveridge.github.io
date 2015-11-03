@@ -22,7 +22,7 @@ Major: English (Focus: Rhetoric)
 
 ### **Peer Reviewed Articles and Chapters in progress**
 
-"Circulation Analytics: Research Software Development and Social Network Data." *Circulation, Rhetoric, and Writing*. Eds. Collin Brooke and Laurie Gries. Chapter accepted. Collection under review. 
+"Circulation Analytics: Research Software Development and Social Network Data." *Circulation, Rhetoric, and Writing*. Eds. Collin Gifford Brooke and Laurie E. Gries. Chapter accepted. Collection under review. 
 
 "Attention Ecology: Trend Circulation and the Virality Threshold." Co-authored with Nicholas Van Horn and Sean Morey. Under review. 
 
