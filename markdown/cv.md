@@ -20,7 +20,7 @@ Major: English (Focus: Rhetoric)
 
 <!--*Big Data and the Humanities*. Co-authored with Sidney Dobrin. Under review.-->
 
-### **Peer Reviewed Articles and Chapters in progress**
+### **Peer Reviewed Articles and Chapters In Progress**
 
 "Circulation Analytics: Research Software Development and Social Network Data." *Circulation, Rhetoric, and Writing*. Eds. Collin Gifford Brooke and Laurie E. Gries. Chapter accepted. Collection under review. 
 
@@ -89,9 +89,9 @@ Writing Center Consultant, The Ohio State University (2004 - 2006)
 
 “The Language of Homelessness.” Denman Research Forum, Columbus, OH (May 2005).
 
-### **Trainings and lectures**
+### **Trainings and Lectures**
 
-“Introduction to Arduino: Prototyping and Programming.” Marston Science Library, University of Florida (April 2015).
+“Introduction to Arduino: Prototyping and Programming.” Marston Science Library, University of Florida (April, November 2015).
 
 “MassMine: Creating, Curating, & Data Mining Social Media.” George A. Smathers Library, University of Florida (November 2014).
 
@@ -103,4 +103,4 @@ Technical Editor, *Trace Journal*. (2015 -- present).
 
 Technical Editor, *Kudzu House Quarterly*. (2015 -- present). 
 
-Panel and presentation reviewer, *Rhetoric Society of America Conference*. (2016).
+Panel and Presentation Reviewer, *Rhetoric Society of America Conference*. (2016).
