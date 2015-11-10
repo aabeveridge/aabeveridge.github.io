@@ -7,7 +7,7 @@ I am the co-creator of [MassMine](http://massmine.org) along with Nicholas Van H
 ###**Writing through Big Data**
 ![](images/HiPerGator.jpg)
 <br>
-Based on Gregory Ulmer's "Writing through Media" course design for advanced writing students, I developed a course for the University of Florida called "Writing through Big Data" (WtBD). WtBD is the first humanities course at UF to use the HiPerGator supercomputer cluster in a humanities classroom (and, possibly, the first such course in the country to do so). Using MassMine, students in WtBD collected large social media data sets (networked writing) to study and write about social media trends. All of the work in the course built toward the student's final projects where they created slideware presentations of their research and presented them to their peers through the use of infographics and basic data visualizations. 
+Based on Gregory Ulmer's "Writing through Media" course design for advanced writing students, I developed a course for the University of Florida called "Writing through Big Data" (WtBD). WtBD is the first humanities course at UF to use the HiPerGator supercomputer cluster in a humanities classroom (and, possibly, the first such course in the country to do so). Using MassMine, students in WtBD collected large social media datasets (networked writing) to study and write about social media trends. All of the work in the course built toward the student's final projects where they created slideware presentations of their research and presented them to their peers through the use of infographics and basic data visualizations. 
 
 ### **Arduino: Programming and Prototyping for Physical Computing**
 ![](./images/breadboard.jpg)
