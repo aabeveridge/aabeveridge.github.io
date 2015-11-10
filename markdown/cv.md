@@ -20,7 +20,7 @@ Major: English (Focus: Rhetoric)
 
 <!--*Big Data and the Humanities*. Co-authored with Sidney Dobrin. Under review.-->
 
-### **Peer Reviewed Articles and Chapters In Progress**
+### **Peer Reviewed Articles and Book Chapters In Progress**
 
 "Circulation Analytics: Research Software Development and Social Network Data." *Circulation, Rhetoric, and Writing*. Eds. Collin Gifford Brooke and Laurie E. Gries. Chapter accepted. Collection under review. 
 

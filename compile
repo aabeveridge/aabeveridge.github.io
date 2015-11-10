@@ -11,7 +11,7 @@
 ## into every page's HTML when it is built by Pandoc.
 ####################################################### 
 
-#Home page
+#home page
 pandoc ./markdown/home.md \
 --css style.css \
 --template ./templates/body.html \
@@ -21,7 +21,7 @@ pandoc ./markdown/home.md \
 --include-after-body ./templates/footer.html \
 --title-prefix="welcome"
 
-#Projects page
+#projects page
 pandoc ./markdown/projects.md \
 --css style.css \
 --template ./templates/body.html \
@@ -31,7 +31,7 @@ pandoc ./markdown/projects.md \
 --include-after-body ./templates/footer.html \
 --title-prefix="projects"
 
-#CV page
+#cv page
 pandoc ./markdown/cv.md \
 --css style.css \
 --template ./templates/body.html \

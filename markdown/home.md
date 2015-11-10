@@ -3,5 +3,5 @@
 #### **Contact:**
 Aaron Beveridge, Ph.D. Candidate  
 Department of English  
-University of Florida  beveridge.com  
+University of Florida  
 aaronkbeveridge[at]gmail_dot_com
