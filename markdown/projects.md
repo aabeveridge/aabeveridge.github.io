@@ -12,7 +12,7 @@ Based on Gregory Ulmer's "Writing through Media" course design for advanced writ
 ### **Arduino: Programming and Prototyping for Physical Computing**
 ![](./images/breadboard.jpg)
 <br>
-Along with Emily Faith, I developed an Arduino programming and prototyping training series for the Marston Science Library at the University of Florida. The training series is open to all students at UF, and provides a basic introduction to making and physical computing. The LibGuides for the training are available [here](http://guides.uflib.ufl.edu/arduino), and the for Arduino code for the basic LED light sensor training is available through my [GitHub page](https://github.com/aabeveridge/arduino-training). 
+Along with Emily Faith, I developed an Arduino programming and prototyping training series for the Marston Science Library at the University of Florida. The training series is open to all students at UF, and provides a basic introduction to making and physical computing. The LibGuides for the training are available [here](http://guides.uflib.ufl.edu/arduino), and the Arduino scripts for the basic LED light sensor training is available through my [GitHub page](https://github.com/aabeveridge/arduino-training). 
 
 ### **MLA JIL Data Analysis**  
 Inspired by Jim Ridolfo's work with <http://www.rhetmap.org>, I am curating an archive of job description data and writing studies related analyses from the MLA Jobs Information List (JIL). I am analyzing the data for word frequencies and correlations related to the terms: “rhetoric,” “composition,” “writing,” and “technical.” This project is currently “in-progress,” but all of the code and data are available through my [GitHub page for the MLA JIL data project](https://github.com/aaronbev79/mla_data).
