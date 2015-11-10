@@ -302,15 +302,7 @@ a::selection {
 }
 
 
-.nav .cv a {
-  color: #fff;
-}
- 
-.nav .projects a {
-  color: #fff;
-}
-
-.nav .teaching a {
+.nav .nav-link a {
   color: #fff;
 }
 
@@ -322,9 +314,9 @@ a::selection {
   color: #808080;
 }
  
-.nav a:active {
-  background-color: #fff;
-  color: #444;
+.nav .active a {
+/*  background-color: #fff;*/
+  color: #000000;
   cursor: default;
 }
 
