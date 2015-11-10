@@ -316,6 +316,7 @@ a::selection {
  
 .nav .active a {
 /*  background-color: #fff;*/
+  background-color: #808080;
   color: #000000;
   cursor: default;
 }
