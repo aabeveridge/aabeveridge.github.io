@@ -22,13 +22,13 @@ Major: English (Focus: Rhetoric)
 
 ### **Peer Reviewed Articles and Book Chapters In Progress**
 
+"Looking in the Dustbin: Data Janitorial Work, Statistical Reasoning, and Information Rhetorics." *Computers and Composition Online*. Forthcoming.
+
+"Attention Ecology: Trend Circulation and the Virality Threshold." Co-authored with Nicholas Van Horn and Sean Morey. *Digital Humanities Quarterly*. Forthcoming. 
+
 "Circulation Analytics: Research Software Development and Social Network Data." *Circulation, Rhetoric, and Writing*. Eds. Collin Gifford Brooke and Laurie E. Gries. Chapter accepted. Collection under review. 
 
-"Attention Ecology: Trend Circulation and the Virality Threshold." Co-authored with Nicholas Van Horn and Sean Morey. Under review. 
-
 <!--"Collecting and Analyzing Social Network Data." Co-authored with Nicholas Van Horn. Under review.-->
-
-"Looking in the Dustbin: Data Janitorial Work, Statistical Reasoning, and Information Rhetorics." Under review. 
 
 <!--"Writing through Big Data." In progress. -->
 
