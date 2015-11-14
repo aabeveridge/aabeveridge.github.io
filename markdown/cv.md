@@ -71,6 +71,8 @@ Writing Center Consultant, The Ohio State University (2004 - 2006)
 
 ### **Conference Presentations**
 
+"Circulation, Data Viz, and Visual Rhetoric." Panel Member. 17th Biennial Rhetoric Society of America Conference, Atlanta, GA, (May 2016).
+
 "Writing through Big Data: Using MassMine in the Advanced Writing Classroom." College Conference on Composition and Communication. Houston, TX (April 2016).
 
 “Writing eScience: Using Data Science Tools to Study Networked Writing Ecologies.” College Conference on Composition and Communication. Tampa, FL (March 2015).
