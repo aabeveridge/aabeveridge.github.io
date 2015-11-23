@@ -1,0 +1,13 @@
+.jumbotron {
+    position: relative;
+    background: #000 url("../images/header.jpg") center center;
+    height: 340px;
+    width: 100%;
+    background-size: cover;
+    overflow: bottom;
+    color: #FFFFFF;
+}
+
+.button a {
+    font-color: #FFFFFF;
+}
