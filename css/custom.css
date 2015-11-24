@@ -6,4 +6,41 @@
     background-size: cover;
     overflow: bottom;
     color: #FFFFFF;
+    padding-bottom: -15px;
+    margin-bottom: -15px;
 }
+
+p {
+    font-size: 16px;
+}
+
+.btn-default {
+    background: #D3D3D3;
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-brand {
+    color: #2F4F4F;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: black;
+}
+
+.nav .navbar-default .navbar-nav:hover {
+    color: black;
+}
+
+ul.nav a { 
+    color: #2F4F4F !important; 
+}
+
+ul.nav a:hover { 
+    color: black !important; 
+}
+
+/*small {*/
+/*    color: gray;*/
+/*}*/
+
