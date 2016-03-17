@@ -1,14 +1,14 @@
-.jumbotron {
-    position: relative;
-    background: #000 url("../images/header.jpg") center center;
-    height: 340px;
-    width: 100%;
-    background-size: cover;
-    overflow: bottom;
-    color: #FFFFFF;
-    padding-bottom: -15px;
-    margin-bottom: -15px;
-}
+/*.jumbotron {*/
+/*    position: relative;*/
+/*    background: #000 url("../images/header.jpg") center center;*/
+/*    height: 340px;*/
+/*    width: 100%;*/
+/*    background-size: cover;*/
+/*    overflow: bottom;*/
+/*    color: #FFFFFF;*/
+/*    padding-bottom: -15px;*/
+/*    margin-bottom: -15px;*/
+/*}*/
 
 p {
     font-size: 16px;

@@ -22,21 +22,17 @@ Major: English (Focus: Rhetoric)
 
 ### **Peer Reviewed Articles and Book Chapters In Progress**
 
-"Looking in the Dustbin: Data Janitorial Work, Statistical Reasoning, and Information Rhetorics." *Computers and Composition Online*. Forthcoming.
+"Looking in the Dustbin: Data Janitorial Work, Statistical Reasoning, and Information Rhetorics." *Computers and Composition Online*. Fall 2015. Web.
 
-"Attention Ecology: Trend Circulation and the Virality Threshold." Co-authored with Nicholas Van Horn and Sean Morey. *Digital Humanities Quarterly*. Forthcoming. 
+"Attention Ecology: Trend Circulation and the Virality Threshold." Co-authored with Nicholas Van Horn and Sean Morey. *Digital Humanities Quarterly*. Forthcoming.
 
-"Circulation Analytics: Research Software Development and Social Network Data." *Circulation, Rhetoric, and Writing*. Eds. Collin Gifford Brooke and Laurie E. Gries. Chapter accepted. Collection under review. 
+"Circulation Analytics: Research Software Development and Social Network Data." *Circulation, Rhetoric, and Writing*. Eds. Collin Gifford Brooke and Laurie E. Gries. Chapter accepted. Collection under review.
 
-<!--"Collecting and Analyzing Social Network Data." Co-authored with Nicholas Van Horn. Under review.-->
+"Writing through Big Data: New Challenges and Possibilities for Data-Driven Arguments." Under Review.
 
-<!--"Writing through Big Data." In progress. -->
-
-<!--"Hackers and Entrepreneurs: Startup Methodologies and the Writing Practices of Programmers." In progress.-->
+"The Markdown Movement: Writing's Influence on Markup." In progress.
 
 <!--"Genre and Public Rhetoric: Digital blah blah blah." In progress.-->
-
-<!--"Markdown Markup: Unintimidating Webtext Coding for Multimodal Writing" In progress.-->
 
 <!--"Tagging Feedback Loops: A Case Study for Visual Writing Networks" In progress.-->
 
@@ -103,6 +99,6 @@ Writing Center Consultant, The Ohio State University (2004 - 2006)
 
 Technical Editor, *Trace Journal*. (2015 -- present).
 
-Technical Editor, *Kudzu House Quarterly*. (2015 -- present). 
+Technical Editor, *Kudzu House Quarterly*. (2015 -- present).
 
 Panel and Presentation Reviewer, *Rhetoric Society of America Conference*. (2016).
