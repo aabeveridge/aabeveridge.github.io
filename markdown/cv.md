@@ -4,7 +4,7 @@
 Degree: PhD (Expected Spring 2017)  
 Field: Writing Studies  
 Director: Sidney Dobrin  
-Dissertation in progress: "Writing eScience: Data Science Methods for Networked Writing Research."
+Dissertation in progress: "Writing Macroscopes: Networked Writing, Trend Analytics, and Attention Ecology"
 
 **University of Akron**  
 Degree: MA (2008)  
@@ -38,12 +38,15 @@ Major: English (Focus: Rhetoric)
 
 ### **Professional Posts and Teaching**
 
-Seed Grant Research Fellowship, University of Florida Informatics Institute (2015 -- 2016)
+Graduate Research Fellowship, University of Florida (2016--present)
 
-Graduate Research Fellowship, University of Florida (2013 – 2015)
+> ENG1131 "Writing through Trends" (Writing Studies, Social Networks)
 
-> ENG1131 “Writing through Big Data” (Writing Studies, eScience, Data
-> Visualization)  
+Seed Grant Research Fellowship, University of Florida Informatics Institute (2015--2016)
+
+Graduate Research Fellowship, University of Florida (2013--2015)
+
+> ENG1131 “Writing through Big Data” (Writing Studies, Data Visualization)  
 > ENC5236 “Advanced Business Writing for Accountants” (Graduate Business
 > Writing)
 
@@ -87,7 +90,8 @@ Writing Center Consultant, The Ohio State University (2004 - 2006)
 
 “The Language of Homelessness.” Denman Research Forum, Columbus, OH (May 2005).
 
-### **Trainings and Lectures**
+### **Invited Lectures and Academic Trainings**
+"Text Mining and Visualization." Digital Humanities Bootcamp. George A. Smathers Library, University of Florida (January 2016).
 
 “Introduction to Arduino: Prototyping and Programming.” Marston Science Library, University of Florida (April, November 2015).
 
