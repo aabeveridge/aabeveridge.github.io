@@ -91,7 +91,7 @@ Writing Center Consultant, The Ohio State University (2004 - 2006)
 “The Language of Homelessness.” Denman Research Forum, Columbus, OH (May 2005).
 
 ### **Invited Lectures and Academic Trainings**
-"Text Mining and Visualization." Digital Humanities Bootcamp. George A. Smathers Library, University of Florida (January 2016).
+"Text Mining and Visualization." Digital Humanities Bootcamp, University of Florida (January 2016).
 
 “Introduction to Arduino: Prototyping and Programming.” Marston Science Library, University of Florida (April, November 2015).
 
