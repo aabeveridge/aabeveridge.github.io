@@ -30,7 +30,7 @@ Major: English (Focus: Rhetoric)
 
 "Writing through Big Data: New Challenges and Possibilities for Data-Driven Arguments." Under Review.
 
-"The Markdown Movement: Writing's Influence on Markup." In progress.
+"The Markdown Movement: Writing's Influence on Markup." Under Review.
 
 <!--"Genre and Public Rhetoric: Digital blah blah blah." In progress.-->
 
