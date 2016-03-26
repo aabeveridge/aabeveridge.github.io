@@ -40,15 +40,16 @@ Major: English (Focus: Rhetoric)
 
 Graduate Research Fellowship, University of Florida (2016--present)
 
-> ENG1131 "Writing through Trends" (Writing Studies, Social Networks)
+> ENC3310 "Advanced Exposition: Digital Rhetoric as Scholarship" (Digital Rhetoric, Advanced Writing)  
+> ENG1131 "Writing through Trends" (Writing Studies, Social Networks)  
 
 Seed Grant Research Fellowship, University of Florida Informatics Institute (2015--2016)
 
 Graduate Research Fellowship, University of Florida (2013--2015)
 
-> ENG1131 “Writing through Big Data” (Writing Studies, Data Visualization)  
 > ENC5236 “Advanced Business Writing for Accountants” (Graduate Business
-> Writing)
+> Writing)  
+> ENG1131 “Writing through Big Data” (Writing Studies, Data Visualization)  
 
 Graduate Teaching Assistant, University of Akron (2006 – 2008)
 
