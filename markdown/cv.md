@@ -4,7 +4,7 @@
 Degree: PhD (Expected Spring 2017)  
 Field: Writing Studies  
 Director: Sidney Dobrin  
-Dissertation in progress: "Writing Macroscopes: Data Mining Methods for Networked Writing and Digital Rhetoric"
+Dissertation in progress: "Writing Macroscopes: Data Mining Methods for Networked Writing, Digital Rhetoric, and Attention Ecology"
 
 **University of Akron**  
 Degree: MA (2008)  
@@ -32,9 +32,11 @@ Major: English (Focus: Rhetoric)
 
 "The Markdown Movement: Writing's Influence on Markup." Under Review.
 
-<!--"Genre and Public Rhetoric: Digital blah blah blah." In progress.-->
+<!--"Genre and Public Rhetoric." In progress.-->
 
-<!--"Tagging Feedback Loops: A Case Study for Visual Writing Networks" In progress.-->
+<!--"Tagging Feedback Loops: A Case Study for Visual Writing Networks." In progress.-->
+
+<!--"Landspeak." In progress.-->
 
 ### **Professional Posts and Teaching**
 
@@ -107,3 +109,5 @@ Technical Editor, *Trace Journal*. (2015 -- present).
 Technical Editor, *Kudzu House Quarterly*. (2015 -- present).
 
 Panel and Presentation Reviewer, *Rhetoric Society of America Conference*. (2016).
+
+Newcomers Welcome Committee Volunteer. *Conference on College Composition and Communication.* (2016)
