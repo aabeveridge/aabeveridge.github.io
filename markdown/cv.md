@@ -110,4 +110,4 @@ Technical Editor, *Kudzu House Quarterly*. (2015 -- present).
 
 Panel and Presentation Reviewer, *Rhetoric Society of America Conference*. (2016).
 
-Newcomers Welcome Committee Volunteer. *Conference on College Composition and Communication.* (2016)
+Newcomers Welcome Committee Volunteer. *Conference on College Composition and Communication.* (2016).
