@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MassMine: Your Access to Data</title>
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- PANDOC template code -->
+<!-- end PANDAC template code -->
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="banner" id="startchange">
+      <div class="container text-right">
+        <div class="row">
+          <div class="col-xl-12">
+            <a href="install.html">Install<i class="fa fa-download"></i></a>
+            <a href="index.html">Docs<i class="fa fa-file-text"></i></a>
+            <a class="far-right" href="https://github.com/n3mo/massmine" target="_blank">Github<i class="fa fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-custom navbar-fixed-top">
+      <div class="navbar-header pull-left">
+          <a href="#menu-toggle" id="menu-toggle" class="navbar-brand"><i class="fa fa-bars" style="font-size:x-large;"></i></a>
+      </div>
+        <div class="container-fluid">
+          <div class-"row">
+              <div class="col-md-8 col-md-offset-2">
+                <a href="../index.html">
+                  <span class="nav-title-a">Mass</span>
+                  <span class="nav-title-b">Mine</span>
+                  <span class="nav-subtitle">YOUR ACCESS TO DATA</span>
+                </a>
+              </div>
+          </div>
+        </div>
+    </div>
+    <!-- /Navbar -->
+    <!-- The following div can wrap just the sidebar, or if its /div is moved to below page content then the sidebar will shift page content rather than cover it -->
+    <!-- Remove the class "toggled" from this div to have the sidebar auto open -->
+    <div id="wrapper" class="toggled">
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="side-top">
+                <h1>Installation and Setup</h1>
+                <a href="index.html">Getting Started</a>
+            </li>
+            <li>
+                <a href="install.html">Installation</a>
+            </li>
+            <li>
+                <a href="authorization.html">Authentication</a>
+            </li>
+            <li>
+                <a href="config.html">Usage & Configuration</a>
+            </li>
+            <li>
+                <h1>Accessing Data Sources</h1>
+                <a href="google.html">Google Trends</a>
+            </li>
+            <li>
+                <a href="tumblr.html">Tumblr</a>
+            </li>
+            <li>
+                <a href="twitter.html">Twitter</a>
+            </li>
+            <li>
+                <a href="wikipedia.html">Wikipedia</a>
+            </li>
+            <li>
+                <a href="web.html">Web (URL) Scraping</a>
+            </li>
+            <li  class="side-bottom">
+                <h1>Data Analysis</h1>
+                <a href="twitter-analysis.html">Twitter</a>
+            </li>
+            <hr/>
+            <li>
+                <span class="left-icon" href="#">
+                  <i class="fa fa-github" data-toggle="tooltip" title="Github"></i>
+                </span>
+                <span class="icon" href="#" title="Email">
+                  <i class="fa fa-envelope"></i>
+                </span>
+                <span class="icon" href="#" title="Facebook">
+                  <i class="fa fa-facebook-official"></i>
+                </span>
+                <span class="icon" href="#" title="Twitter">
+                  <i class="fa fa-twitter-square"></i>
+                </span>
+            </li>
+            <li>
+              <span class="version">MassMine Version: 0.11.0</span>
+            </li>
+            <li>
+              <span class="side-copy">© 2016 N. Van Horn & A. Beveridge</span>
+            </li>
+        </ul>
+    </div>
+    <!-- /#sidebar-wrapper -->
+    <!-- move this div to the end of Page Content to shift content when it expands. Leave here to cover Page Content-->
+    </div>
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="page-content">
+<!-- PANDOC main page template -->
+<h1 class="title">Using MassMine</h1>
+<h1 id="introduction">Introduction</h1>
+<p>MassMine's behavior is controlled via options set either directly on the command line, or by using a configuration file (or a combination of both). For most options, MassMine accepts short and long versions. For example, the following long format command</p>
+<pre><code>massmine --count=50</code></pre>
+<p>is equivalent to the following short format version</p>
+<pre><code>massmine -c 50</code></pre>
+<p>Users are free to use whichever form is preferred, but for the sake of clarity long format options will be used for this documentation.</p>
+<h1 id="getting-help">Getting Help</h1>
+<p>MassMine ships with built-in help to familiarize users with features. See what options are available to you with</p>
+<pre><code>massmine --help</code></pre>
+<div class="raw">
+<p>Usage: massmine ... [options...]<br> <br>   -h, --help             Help information<br>   -v, --version          Version information<br>   -p, --project=NAME     Create project<br>   -a, --auth=FILE        Credentials file<br>   -o, --output=FILE      Write to file<br>   -t, --task=TASK        Task name<br>   -q, --query=QUERY      Query string<br>   -c, --count=NUM        Number of records<br>   -d, --dur=SECOND       Max runtime<br>   -g, --geo=LOCATION     Location<br>   -l, --lang=LANG        Language<br>   -u, --user=NAME        Screen name<br>       --date=YYYYMMDD    Date (or date range)<br>       --config=FILE      Config file<br>       --no-splash        Inhibit splash screen<br></p>
+</div>
+<p>The help printout indicates what options are available, and which can be used with the short or long format syntax.</p>
+<p>The help option also accepts keywords matching the available options. For example, to learn more about the --count option you can run</p>
+<pre><code>massmine --help count</code></pre>
+<div class="raw">
+<p>Request a number of records for tasks that accept limits<br> Example(s): 'massmine --count=100'<br>             'massmine -c 100'<br></p>
+</div>
+<p>In addition to per-option help, example commands for collecting data are provided with</p>
+<pre><code>massmine --help examples</code></pre>
+<h1 id="using-and-configuring-massmine">Using and Configuring MassMine</h1>
+<p>Fetching data using MassMine involves composing a series of options that describe your data collection request. To compose such a request, you must:</p>
+<ol style="list-style-type: decimal">
+<li>Choose an appropriate <strong>task</strong></li>
+<li>Include any necessary options to specify the details of your data request.</li>
+</ol>
+<h2 id="choosing-a-task">Choosing a Task</h2>
+<p>Data access methods in MassMine are referred to as &quot;tasks&quot;. Each task corresponds to a different data source. To see a list of all available tasks, use the help functionality:</p>
+<pre><code>massmine --help task</code></pre>
+<p>A listing of available tasks is printed to the terminal, each with a brief description. Next, it is important to learn what MassMine options are available for each task. To inspect these options, use</p>
+<pre><code>massmine --help task-options</code></pre>
+<p>Some tasks require zero options, such as the &quot;twitter-locations&quot; task. To run such tasks, the command is simply</p>
+<pre><code>massmine --task=twitter-locations</code></pre>
+<p>Most tasks, however, accept additional optional and/or required information as described in the help printout.</p>
+<h2 id="composing-data-requests">Composing Data Requests</h2>
+<p>Once you know which task you would like, you are ready to compose a data collection request. Let's assume you would like to search for tweets on Twitter that contain the keyword &quot;love&quot;. Using <code>massmine --help task</code> we learn that the appropriate task to use is called &quot;twitter-search&quot;. Next, we use <code>massmine --help task-options</code> to determine which options the twitter-search task accepts. We find:</p>
+<div class="raw">
+<p>twitter-search -- query* count geo lang</p>
+</div>
+<p>It seems that we must include the --query option. We can also optionally specify --count --geo and --lang. Let's assume that we would like to collect 200 tweets matching the query &quot;love&quot;. We can now compose our custom data request:</p>
+<pre><code>massmine --task=twitter-search --count=200 --query=love</code></pre>
+<p>Note that the order of the options does not matter. The above command could be rewritten as</p>
+<pre><code>massmine --query=love --count=200 --task=twitter-search</code></pre>
+<p>If you run one of the above commands, the resulting data (in JSON format) will be printed to your terminal. This is probably not what you want. MassMine provides two methods for saving your data.</p>
+<p><strong>Option 1: Save directly to disk with massmine</strong></p>
+<p>First, you can use the built-in option <code>--output</code> to have MassMine write the data to a file. This options accepts file paths and names (existing files will trigger a warning from massmine). Building on our previous command, we can save our data to the current working directory with:</p>
+<pre><code>massmine --task=twitter-search --count=200 --query=love --output=mydata.json</code></pre>
+<p>Include a file path to save to a specific directory (relative and absolute file paths are accepted):</p>
+<pre><code>massmine --task=twitter-search --count=200 --query=love --output=./results/mydata.json</code></pre>
+<p><strong>Option 2: Use shell redirects to save your data</strong></p>
+<p>MassMine is designed to work with tradition Linux/Unix pipelines, so output redirection works:</p>
+<pre><code>massmine --task=twitter-search --count=200 --query=love &gt; mydata.json</code></pre>
+<p>as well as piping</p>
+<pre><code>massmine --task=twitter-search --count=200 --query=love | tee output.json</code></pre>
+<h1 id="alternative-configuration-file">Alternative Configuration File</h1>
+<p>For complex MassMine data requests the command line options can become long and unwieldy. For such situations, MassMine can also be controlled via a configuration file by use of the <code>--config=FILE</code> option. The configuration file should be a plain text file with the following format:</p>
+<ul>
+<li>Each line should have the format <code>option = value</code>, where <code>option</code> should be any valid long-format option (e.g., <code>task</code> and not <code>t</code>).</li>
+<li><code>value</code> can be any valid number or text string (with no quotes).</li>
+<li>Each line should contain only ONE option.</li>
+</ul>
+<p>For example, the following command line call to MassMine:</p>
+<pre><code>massmine --task=twitter-search --count=200 --query=love --output=mydata.json</code></pre>
+<p>can be called via a configuration file as</p>
+<pre><code>massmine --config=my_config.txt</code></pre>
+<p>Assuming you first create a file called <code>my_config.txt</code> with the following lines:</p>
+<pre><code>task = twitter-search
+count = 200
+query = love
+output = mydata.json</code></pre>
+<h1 id="working-with-the-resulting-data">Working With The Resulting Data</h1>
+<p>MassMine returns data from all sources as JSON. Depending on your analysis workflow, it can be more desirable to work in a column-oriented data format (such as csv format), such as when importing data into R, SPSS, Excel, or similar. A <a href="https://github.com/n3mo/jsan">companion tool has been created called jsan</a> (The <strong>J</strong>SON <strong>S</strong>wiss <strong>A</strong>rmy k<strong>N</strong>ife) that provides quick and memory-efficient conversion into column-oriented data formats.</p>
+<p><code>jsan</code> can be used after data has been collected. For example:</p>
+<pre><code># Fetch some data first
+massmine --task=twitter-search --count=200 --query=love --output=mydata.json
+
+# Convert the JSON from above into .csv, keeping the
+# &quot;text&quot; and &quot;user:screen_name&quot; fields
+jsan --input=mydata.json --output=mydata.csv --keep text user:screen_name</code></pre>
+<p>For large data sets, such as when pulling data from the twitter-stream task, it can be advantageous to utilize the streaming capabilities of <code>massmine</code> and <code>jsan</code> to allow conversion while data is being collected:</p>
+<pre><code># Big request, piped into jsan using tee to create a .json file AND a .csv
+# copy of the desired fields. This saves the headache of converting a huge
+# file later
+massmine --task=twitter-stream --query=love --count=2000000 | tee mydata.json | jsan --output=mydata.csv --keep text user:screen_name</code></pre>
+<!-- end PANDAC template code -->
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="push"></div>
+    </div>
+    <!-- /#page-content-wrapper -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <p>© 2014-2016  &bull;  Content and images are copyrighted by <a href="http://nicholasvanhorn.com/" target="_blank"><b>Nicholas Van Horn</b></a> &amp; <a href="http://aaronbeveridge.com" target="_blank"><b>Aaron Beveridge</b></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- js files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/extra.js" type="text/javascript"></script>
+  </body>
+</html>
