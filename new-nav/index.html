@@ -16,8 +16,6 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-<!-- PANDOC template code -->
-<!-- end PANDAC template code -->
   </head>
   <body>
     <!-- Navbar -->
@@ -115,46 +113,111 @@
     <!-- move this div to the end of Page Content to shift content when it expands. Leave here to cover Page Content-->
     </div>
     <!-- Page Content -->
-    <div id="page-content-wrapper">
+    <div id="page-content-wrapper" style="background-color: #F8F8F8;">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
             <div class="page-content">
-<!-- PANDOC main page template -->
-<!-- MassMine is a social media mining and archiving application that simplifies the process of collecting and managing large amounts of data across multiple sources. It is designed with the researcher in mind, providing a flexible framework for tackling individualized research needs. MassMine is designed to run both on personal computers and dedicated servers/clusters. MassMine handles credential authorizations, rate limiting, data acquisition & archiving, as well as customized data export and analysis. -->
-<div class="embed-responsive embed-responsive-16by9">
-<p><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1J2ywTHhGvU" frameborder="0" allowfullscreen></iframe></p>
-</div>
-<h3 id="with-massmine-you-can">With MassMine You Can:</h3>
-<ul>
-<li>Automate access to social media and web data through a flexible interface. MassMine runs on personal computers and headless environments such as dedicated servers.</li>
-<li>Collect current and past data from sources such as Twitter, Facebook, Google trends, and Wikipedia. Your data is stored on your own machine.<br />
-</li>
-<li>Process and analyze your data to satisfy exploratory and targeted investigations of social media trends and network connectivity.</li>
-</ul>
-<h3 id="a-tool-for-conducting-and-teaching-about-research">A Tool For Conducting And Teaching About Research</h3>
-<p>If you present or publish work that uses MassMine, please cite this website:</p>
-<reference>
-<p class="bibreference">
-Van Horn, N. M. &amp; Beveridge, A. (2014). <em>MassMine: Your Access To Data</em>. http://www.massmine.org
-</p>
-<p></reference></p>
-<p>MassMine is currently being used for research and as a pedagogical tool at The Ohio State University, the University of Florida, Capital University, and Clemson University. See the <a href="/about.html">About page</a> for more information. Recent conference presentations involving MassMine include:</p>
-<reference>
-<p class="bibreference">
-Beveridge, A. &amp; Van Horn, N. M. (2015) Writing eScience: Using Data Science Tools to Study Networked Writing Ecologies. <em>College, Conference on Composition and Communication</em>. Tampa, FL (March 2015)
-</p>
-<p></reference></p>
-<reference>
-<p class="bibreference">
-Beveridge, A., &amp; Van Horn, N. M. (2014). Humanities Software Development: Data Mining and Writing Studies. <em>The humanities and technology camp (THATCamp) conference</em>.
-</p>
-<p></reference></p>
-<h3 id="installation-and-usage">Installation and Usage</h3>
-<p>MassMine can be installed and used free of charge. Downloadable files and installation instructions are <a href="/docs/index.html">available here</a></p>
-<h3 id="contact">Contact</h3>
-<p>Questions, comments, and bug reports should be directed at the MassMine <a href="https://github.com/n3mo/massmine/issues">issue tracker</a>, and feature requests at the <a href="https://github.com/n3mo/massmine/pulls">pull request page.</a></p>
-<!-- end PANDAC template code -->
+              <div class="embed-responsive embed-responsive-16by9">
+                <p><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1J2ywTHhGvU" frameborder="0" allowfullscreen></iframe></p>
+              </div>
+              <div class="row">
+                <div class="home-modals">
+                  <!-- features modal -->
+                  <div class="first-modal">
+                    <div class="col-md-4">
+                      <h1>Features:</h1>
+                      <p>MassMine's suite of tools help researchers collect and analyze social network and web datasets.</p>
+                      <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#featuresmodal"><i class="glyphicon glyphicon-info-sign"></i>Features</button>
+                    </div>
+                  </div>
+                  <div id="featuresmodal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title"><span class="m-logo">M</span><b>Features:</b></h4>
+                        </div>
+                        <div class="modal-body">
+                          <ul>
+                            <li>Is designed for use on personal computers or on servers/clusters.</li>
+                            <li>Handles the acquisition of data from sites such as Twitter, Wikipedia, etc., including rate limits imposed by these services.</li>
+                            <li>Makes setting up custom data requests easy, allowing for flexible deployment for individualized research needs.</li>
+                            <li>Creates and manages databases of collected data automatically. This means that all tweets, trends, posts, etc. related to your research questions are saved permanently on your local hard drive.</li>
+                            <li>Is designed for long-running data collection projects. MassMine makes it easy to create your own database of social media content spanning days, months, or years.</li>
+                            <li>Balances ease of use with powerful flexibility:
+                              <ul>
+                                <li>Offers access to social media APIs.</li>
+                                <li>Designed for the non-programmer looking to get into big data research, but offers additional functionality for power users.</li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /features modal -->
+                  <!-- data sources modal -->
+                  <div class="col-md-4">
+                    <h1>Data Sources:</h1>
+                    <p>The MassMine team is hard at work to extend the data sources available to our users.</p>
+                    <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#sourcesmodal"><i class="glyphicon glyphicon-info-sign"></i>Data Sources</button>
+                  </div>
+                  <div id="sourcesmodal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title"><span class="m-logo">M</span><b>Data Sources:</b></h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>Some text in the modal.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /data sources modal -->
+                  <!-- funding modal -->
+                  <div class="col-md-4">
+                    <h1>Funding:</h1>
+                    <img class="img-responsive"  src="docs/images/neh-logo.jpg" />
+                    <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#fundingmodal"><i class="glyphicon glyphicon-info-sign"></i>Funding</button>
+                  </div>
+                  <div id="fundingmodal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title"><span class="m-logo">M</span><b>Funding:</b></h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>Some text in the modal.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /funding modal -->
+                  <!-- /cite modal -->
+                  <div id="citemodal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title"><span class="m-logo">M</span><b>Citation for Academic Use:</b></h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>Van Horn, N. M. & Beveridge, A. (2014). MassMine: Your Access To Data. http://www.massmine.org</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /cite modal -->
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -166,7 +229,7 @@ Beveridge, A., &amp; Van Horn, N. M. (2014). Humanities Software Development: Da
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
-            <p>© 2014-2016  &bull;  Content and images are copyrighted by <a href="http://nicholasvanhorn.com/" target="_blank"><b>Nicholas Van Horn</b></a> &amp; <a href="http://aaronbeveridge.com" target="_blank"><b>Aaron Beveridge</b></a></p>
+            <p>© 2014-2016  &bull;  Content and images are copyrighted by <a href="http://nicholasvanhorn.com/" target="_blank"><b>Nicholas Van Horn</b></a> &amp; <a href="http://aaronbeveridge.com" target="_blank"><b>Aaron Beveridge</b></a><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#citemodal">Citation</button></p>
           </div>
         </div>
       </div>

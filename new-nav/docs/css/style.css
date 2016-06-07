@@ -1,6 +1,81 @@
 html, body {
     height: 100%;
 }
+/*======================================
+  Home modals and jumbotron
+======================================*/
+.home-modals {
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.btn-secondary {
+  background-color: #D8D8D8;
+  font-family: Verdana,Geneva,sans-serif;
+  font-size: 14px;
+  padding: 4px;
+  color:black;
+}
+
+.btn-secondary:hover {
+  background-color: #C0C0C0;
+}
+
+.btn-secondary:focus, btn-secondary:active, btn-secondary a {
+  outline: 0;
+  color:black;
+}
+
+.home-modals h1 {
+  margin-top: 0 !important;
+  margin-bottom: -5px !important;
+  font-size: 20px !important;
+}
+
+.home-modals p {
+  font-size: 17px !important;
+}
+
+.home-modals i {
+  font-size: 13px;
+  margin-right: 4px;
+}
+
+.home-modals img {
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.modal-header {
+  background-color: #D8D8D8;
+}
+
+.m-logo {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 900;
+  background-color: black;
+  color:#989898;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-right: 7px;
+}
+
+/*.home-modals > [class*='col-']:before {
+ background: #e3e3e3;
+ bottom: 0;
+ content: " ";
+ left: 0;
+ position: absolute;
+ width: 3px;
+ top: 0;
+ margin-left: -10px;
+}
+
+.home-modals > [class*='col-']:first-child:before {
+ display: none;
+}*/
 
 /*======================================
   Banner
@@ -96,11 +171,11 @@ html, body {
 }
 
 .nav-title-a {
-    position: relative;
+    /*position: relative;*/
     color:#989898;
     font-size:x-large;
     font-family: proxima-nova, sans-serif;
-    z-index: -1;
+    /*z-index: -1;*/
     margin-left: 21px;
     font-weight: 900;
 }
@@ -114,12 +189,12 @@ html, body {
 }
 
 .nav-subtitle {
-    position: relative;
+    /*position: relative;*/
     color: #989898;
     font-size:small;
     margin-left: 10px;
     font-family: proxima-nova, sans-serif;
-    z-index: -1;
+    /*z-index: -1;*/
 }
 
 /*======================================
@@ -165,7 +240,7 @@ html, body {
   font-size: 26px;
   padding-left: 4px;
   padding-right: 4px;
-  background-color: #F0F0F0;
+  background-color: #E0E0E0;
   border-radius: 3px;
 }
 
@@ -207,6 +282,16 @@ html, body {
 
 .footer a:hover {
   color: #E8E8E8;
+}
+
+.footer .btn {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-left: 14px;
+  margin-bottom: -2px;
+  outline: none;
 }
 
 .page-content {
@@ -357,11 +442,37 @@ html, body {
 }
 
 /*======================================
-  Tablet style
+  Medium width style
 ======================================*/
-@media(max-width:767px) {
+@media (max-width:992px) {
+
+  .home-modals .btn-secondary {
+    margin-bottom: 37px;
+  }
+
+  .home-modals h1 {
+    margin-bottom: -12px !important;
+  }
+
+/*======================================
+  Tablet width style
+======================================*/
+@media (max-width:767px) {
+
+  .home-modals .btn-secondary {
+    margin-bottom: 37px;
+  }
+
+  .home-modals h1 {
+    margin-bottom: -12px !important;
+  }
+
   .footer p {
     margin-left: 0px;
+  }
+
+  .first-modal {
+    margin-left: 0;
   }
 
   #wrapper.toggled {
@@ -388,20 +499,21 @@ html, body {
 }
 
 /*======================================
-  Mobile style
+  Mobile width style
 ======================================*/
 @media (max-width: 480px) {
 
-  .nav-title-b {
-    position: absolute;
-    margin-left: 0;
-    z-index: 1;
+  .home-modals .btn-secondary {
+    margin-bottom: 37px;
+  }
+
+  .home-modals h1 {
+    margin-bottom: -12px !important;
   }
 
   .nav-subtitle {
     color: black;
-    position: absolute;
-    z-index: -1;
+    font-size: 1px;
   }
 
   .footer {
