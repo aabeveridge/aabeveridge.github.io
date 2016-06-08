@@ -204,7 +204,7 @@ After loading the package...
          main = "Tweet Frequency As A Function Of Days")
     grid(col = "darkgray")
 
-<img src="images/twitter-time-series.png" class="img-fluid">
+<img src="images/twitter-time-series.png" class="img-responsive" alt="responsive image" />
 
 # Text Mining Using R's TM Package
 R's TM package provides many standard text mining functions that are useful for Twitter text analysis. Documentation for the TM package is available [here](https://cran.r-project.org/web/packages/tm/tm.pdf).

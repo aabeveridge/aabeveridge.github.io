@@ -1,4 +1,4 @@
-<img src="https://github.com/n3mo/massmine/raw/master/img/splash.png" class="img-fluid">
+<img src="https://github.com/n3mo/massmine/raw/master/img/splash.png" class="img-responsive">
 
 MassMine is a research tool designed to simplify the collection and use of data from social media outlets.
 
