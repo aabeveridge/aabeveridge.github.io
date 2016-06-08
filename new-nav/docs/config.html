@@ -124,8 +124,7 @@
           <div class="col-md-8 col-md-offset-2">
             <div class="page-content">
 <!-- PANDOC main page template -->
-<hr />
-<p>title: Using MassMine ...</p>
+<h1 class="title">Using MassMine</h1>
 <h1 id="introduction">Introduction</h1>
 <p>MassMine's behavior is controlled via options set either directly on the command line, or by using a configuration file (or a combination of both). For most options, MassMine accepts short and long versions. For example, the following long format command</p>
 <pre><code>massmine --count=50</code></pre>
@@ -136,16 +135,14 @@
 <p>MassMine ships with built-in help to familiarize users with features. See what options are available to you with</p>
 <pre><code>massmine --help</code></pre>
 <div class="raw">
-Usage: massmine ... [options...]<br> <br>   -h, --help             Help information<br>   -v, --version          Version information<br>   -p, --project=NAME     Create project<br>   -a, --auth=FILE        Credentials file<br>   -o, --output=FILE      Write to file<br>   -t, --task=TASK        Task name<br>   -q, --query=QUERY      Query string<br>   -c, --count=NUM        Number of records<br>   -d, --dur=SECOND       Max runtime<br>   -g, --geo=LOCATION     Location<br>   -l, --lang=LANG        Language<br>   -u, --user=NAME        Screen name<br>       --date=YYYYMMDD    Date (or date range)<br>       --config=FILE      Config file<br>       --no-splash        Inhibit splash screen<br>
+<p>Usage: massmine ... [options...]<br> <br>   -h, --help             Help information<br>   -v, --version          Version information<br>   -p, --project=NAME     Create project<br>   -a, --auth=FILE        Credentials file<br>   -o, --output=FILE      Write to file<br>   -t, --task=TASK        Task name<br>   -q, --query=QUERY      Query string<br>   -c, --count=NUM        Number of records<br>   -d, --dur=SECOND       Max runtime<br>   -g, --geo=LOCATION     Location<br>   -l, --lang=LANG        Language<br>   -u, --user=NAME        Screen name<br>       --date=YYYYMMDD    Date (or date range)<br>       --config=FILE      Config file<br>       --no-splash        Inhibit splash screen<br></p>
 </div>
-
 <p>The help printout indicates what options are available, and which can be used with the short or long format syntax.</p>
 <p>The help option also accepts keywords matching the available options. For example, to learn more about the --count option you can run</p>
 <pre><code>massmine --help count</code></pre>
 <div class="raw">
-Request a number of records for tasks that accept limits<br> Example(s): 'massmine --count=100'<br>             'massmine -c 100'<br>
+<p>Request a number of records for tasks that accept limits<br> Example(s): 'massmine --count=100'<br>             'massmine -c 100'<br></p>
 </div>
-
 <p>In addition to per-option help, example commands for collecting data are provided with</p>
 <pre><code>massmine --help examples</code></pre>
 <h1 id="using-and-configuring-massmine">Using and Configuring MassMine</h1>
@@ -165,9 +162,8 @@ Request a number of records for tasks that accept limits<br> Example(s): 'massmi
 <h2 id="composing-data-requests">Composing Data Requests</h2>
 <p>Once you know which task you would like, you are ready to compose a data collection request. Let's assume you would like to search for tweets on Twitter that contain the keyword &quot;love&quot;. Using <code>massmine --help task</code> we learn that the appropriate task to use is called &quot;twitter-search&quot;. Next, we use <code>massmine --help task-options</code> to determine which options the twitter-search task accepts. We find:</p>
 <div class="raw">
-twitter-search -- query* count geo lang
+<p>twitter-search -- query* count geo lang</p>
 </div>
-
 <p>It seems that we must include the --query option. We can also optionally specify --count --geo and --lang. Let's assume that we would like to collect 200 tweets matching the query &quot;love&quot;. We can now compose our custom data request:</p>
 <pre><code>massmine --task=twitter-search --count=200 --query=love</code></pre>
 <p>Note that the order of the options does not matter. The above command could be rewritten as</p>

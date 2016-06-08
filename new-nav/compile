@@ -81,7 +81,7 @@ pandoc ./src/md/web.md \
 #twitter analysis
 pandoc ./src/md/twitter-analysis.md \
 --template ./src/frames/docs-nav.html \
---output ./docs/twitter-analysis.html #\
-# --toc \
-# --toc-depth=2 \
-# --number-sections
+--output ./docs/twitter-analysis.html \
+--toc \
+--toc-depth=2 \
+--number-sections

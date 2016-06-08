@@ -124,12 +124,10 @@
           <div class="col-md-8 col-md-offset-2">
             <div class="page-content">
 <!-- PANDOC main page template -->
-<hr />
-title: 'MassMine: Twitter' ...
+<h1 class="title">MassMine: Twitter</h1>
 <div class="hint">
 To access Twitter using MassMine you must first authenticate. This is a requirement of Twitter. <a href="/docs/authorization.html">Authorization is simple</a>, and only has to be completed once.
 </div>
-
 <p>To authenticate with Twitter, run</p>
 <pre><code>massmine --task=twitter-auth</code></pre>
 <p>Check out the <a href="/docs/config.html">general usage examples</a> to learn how to use MassMine. Below is a description of the tasks available for Twitter.</p>
@@ -139,17 +137,15 @@ To access Twitter using MassMine you must first authenticate. This is a requirem
 <div class="task">
 twitter-auth
 </div>
-
 <p>Sets up MassMine to make data requests under your Twitter account privileges. This task <em>must</em> be ran before using any other Twitter tasks, or an error will be returned.</p>
 <h2 id="parameters">Parameters</h2>
-<none>
+<p><none></p>
 <h2 id="example">Example</h2>
 <pre><code>massmine --task=twitter-auth</code></pre>
 <br></br><br></br>
 <div class="task">
 twitter-followers
 </div>
-
 <p>Returns information each follower for a specified user.</p>
 <h2 id="parameters-1">Parameters</h2>
 <ul>
@@ -161,7 +157,6 @@ twitter-followers
 <div class="task">
 twitter-friends
 </div>
-
 <p>Returns information on each friend of a specified user.</p>
 <h2 id="parameters-2">Parameters</h2>
 <ul>
@@ -173,17 +168,15 @@ twitter-friends
 <div class="task">
 twitter-locations
 </div>
-
 <p>Returns a list of valid geo-locations <a href="https://developer.yahoo.com/geo/geoplanet/guide/concepts.html">as Yahoo Where on Earth Indentifiers (WOEIDS)</a> accepted by Twitter. These WOEIDs can be used with some Twitter tasks that accept a <em>geo</em> parameter.</p>
 <h2 id="parameters-3">Parameters</h2>
-<none>
+<p><none></p>
 <h2 id="example-3">Example</h2>
 <pre><code>massmine --task=twitter-locations</code></pre>
 <br></br><br></br>
 <div class="task">
 twitter-sample
 </div>
-
 <p>Returns a random sample of tweets as they occur in <em>real time</em>. Up to 1% of Twitter's actual volume is returned. Returns up to a maximum number of tweets requested OR until a specified date/time is reached. Both &quot;count&quot; and &quot;dur&quot; can be specified, in which case the task finished whenever either target is reached.</p>
 <h2 id="parameters-4">Parameters</h2>
 <ul>
@@ -204,7 +197,6 @@ massmine --task=twitter-sample --dur=&#39;2015-10-11 14:30:00&#39; --count=50</c
 <div class="task">
 twitter-search
 </div>
-
 <p>Search for <em>pre-existing</em> tweets matching a given search phrase. Not all tweets are indexed and made available by Twitter's search, and search-able tweets are indexed for the last 7 days only. For better search coverage, consider using the <em>twitter-stream</em> task to capture tweets as they occur in real time.</p>
 <h2 id="parameters-5">Parameters</h2>
 <ul>
@@ -226,7 +218,6 @@ massmine --task=twitter-search --query=amour --count=300 --lang=fr</code></pre>
 <div class="task">
 twitter-stream
 </div>
-
 <p>Returns tweets as they occur in <em>real time</em>, matching either a search phrase, a user name, or a location. Up to 1% of Twitter's actual volume is returned. Returns up to a maximum number of tweets requested OR until a specified date/time is reached. Both &quot;count&quot; and &quot;dur&quot; can be specified, in which case the task finished whenever either target is reached.</p>
 <h2 id="parameters-6">Parameters</h2>
 <ul>
@@ -251,11 +242,10 @@ massmine --task=twitter-stream --geo=-74,40,-73,41 --count=300</code></pre>
 <div class="task">
 twitter-trends
 </div>
-
 <p>Returns the top-50 trends for a given location.</p>
 <h2 id="parameters-7">Parameters</h2>
 <ul>
-<li><strong>geo</strong>*: A location specified as a <a href="https://developer.yahoo.com/geo/geoplanet/guide/concepts.html">Yahoo Where on Earth Indentifier (WOEID)</a>. For a list of available WOEIDs, see the <em>twitter-locations</em> task.</li>
+<li><strong>geo</strong><em>: A location specified as a <a href="https://developer.yahoo.com/geo/geoplanet/guide/concepts.html">Yahoo Where on Earth Indentifier (WOEID)</a>. For a list of available WOEIDs, see the </em>twitter-locations* task.</li>
 </ul>
 <h2 id="example-7">Example</h2>
 <pre><code># Current trends in Seattle, Washington
@@ -264,11 +254,10 @@ massmine --task=twitter-trends --geo=2490383</code></pre>
 <div class="task">
 twitter-trends-nohash
 </div>
-
 <p>Returns the top-50 trends for a given location, with #hashtags excluded.</p>
 <h2 id="parameters-8">Parameters</h2>
 <ul>
-<li><strong>geo</strong>*: A location specified as a <a href="https://developer.yahoo.com/geo/geoplanet/guide/concepts.html">Yahoo Where on Earth Indentifier (WOEID)</a>. For a list of available WOEIDs, see the <em>twitter-locations</em> task.</li>
+<li><strong>geo</strong><em>: A location specified as a <a href="https://developer.yahoo.com/geo/geoplanet/guide/concepts.html">Yahoo Where on Earth Indentifier (WOEID)</a>. For a list of available WOEIDs, see the </em>twitter-locations* task.</li>
 </ul>
 <h2 id="example-8">Example</h2>
 <pre><code># Current trends in Seattle, Washington
@@ -277,7 +266,6 @@ massmine --task=twitter-trends-nohash --geo=2490383</code></pre>
 <div class="task">
 twitter-user
 </div>
-
 <p>Returns 1 or more users timelines (i.e., their tweet history), in reverse chronological order.</p>
 <h2 id="parameters-9">Parameters</h2>
 <ul>
