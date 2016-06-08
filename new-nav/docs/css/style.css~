@@ -441,11 +441,6 @@ html, body {
   color: #E8E8E8;
 }
 
-/*======================================
-  Sidebar style for all screens larger
-  than mobile
-======================================*/
-
 @media (min-width:481px) {
 
   #sidebar-wrapper .btn {
@@ -460,33 +455,6 @@ html, body {
     cursor: default;
   }
 }
-
-/*======================================
-  Between medium and large width style
-======================================*/
-@media (max-width:1200px) {
-
-  .footer p {
-    margin-left: 50px;
-  }
-
-  .footer .btn {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-right: 5px;
-    padding-left: 5px;
-    margin-top: -5px;
-    margin-left: 10px;
-    margin-bottom: -4px;
-    outline: none;
-  }
-
-  .footer-content {
-    font-size: 0px;
-    color: #454545;
-  }
-
-
 /*======================================
   Medium width style
 ======================================*/
@@ -498,26 +466,6 @@ html, body {
 
   .home-modals h1 {
     margin-bottom: -12px !important;
-  }
-
-  .footer p {
-    margin-left: 50px;
-  }
-
-  .footer .btn {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-right: 5px;
-    padding-left: 5px;
-    margin-left: 10px;
-    margin-bottom: -4px;
-    outline: none;
-    font-size: small;
-  }
-
-  .footer-content {
-    font-size: 0px;
-    color: #454545;
   }
 
 /*======================================
@@ -545,7 +493,7 @@ html, body {
     margin-left: 10px;
     margin-bottom: -4px;
     outline: none;
-    font-size: small;
+    font-size: x-small;
   }
 
   .footer-content {
@@ -623,10 +571,10 @@ html, body {
     padding-bottom: 0px;
     padding-right: 5px;
     padding-left: 5px;
-    margin-left: 59px;
+    margin-left: 64px;
     margin-bottom: -4px;
     outline: none;
-    font-size: small;
+    font-size: x-small;
   }
 
   #sidebar-wrapper .side-bottom {

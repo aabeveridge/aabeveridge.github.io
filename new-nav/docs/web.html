@@ -121,14 +121,15 @@
           <div class="col-md-8 col-md-offset-2">
             <div class="page-content">
 <!-- PANDOC main page template -->
-<h1 class="title">MassMine: Web (URL) Scraping</h1>
-<p>Check out the <a href="/docs/config.html">general usage examples</a> to learn how to use MassMine. Below is a description of the tasks available for web (URL) scraping.</p>
+<hr />
+<p>title: 'MassMine: Web (URL) Scraping' ... Check out the <a href="/docs/config.html">general usage examples</a> to learn how to use MassMine. Below is a description of the tasks available for web (URL) scraping.</p>
 <p>Task parameters marked * are required. For parameters marked with a + choose only one.</p>
 <h2 id="tasks">Tasks</h2>
 <br></br>
 <div class="task">
 web-text
 </div>
+
 <p>Returns the text from one or more supplied URLs with html tags removed. If you only want the plain text from a webpage, and don't care about the underlying structure (lists, tables, etc.), then this is the quickest method for extracting webpage content.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
@@ -141,6 +142,22 @@ massmine --task=web-text --query=http://www.massmine.org
 # Scrape multiple webpages at once
 massmine --task=web-text --query=&#39;http://www.massmine.org http://www.call-cc.org/&#39;</code></pre>
 <!-- end PANDAC template code -->
+              <!-- /cite modal -->
+              <div id="citemodal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title"><span class="m-logo">M</span><b>Citation for Academic Use:</b></h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>Van Horn, N. M. & Beveridge, A. (2014). MassMine: Your Access To Data. http://www.massmine.org</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- /cite modal -->
             </div>
           </div>
         </div>
@@ -148,15 +165,17 @@ massmine --task=web-text --query=&#39;http://www.massmine.org http://www.call-cc
     <div class="push"></div>
     </div>
     <!-- /#page-content-wrapper -->
+    <!-- footer -->
     <div class="footer">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
-            <p>© 2014-2016  &bull;  Content and images are copyrighted by <a href="http://nicholasvanhorn.com/" target="_blank"><b>Nicholas Van Horn</b></a> &amp; <a href="http://aaronbeveridge.com" target="_blank"><b>Aaron Beveridge</b></a></p>
+            <p>© 2014-2016  &bull;  <span class="footer-content">Content and images are copyrighted by</span> <a href="http://nicholasvanhorn.com/" target="_blank"><b>Nicholas Van Horn</b></a> &amp; <a href="http://aaronbeveridge.com" target="_blank"><b>Aaron Beveridge</b></a><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#citemodal">Citation</button></p>
           </div>
         </div>
       </div>
     </div>
+    <!-- /end footer -->
     <!-- js files -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
