@@ -109,10 +109,13 @@
             <li>
               <span class="side-copy">© 2016 N. Van Horn & A. Beveridge</span>
             </li>
+            <li>
+              <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#citemodal">Citation</button>
+            </li>
         </ul>
     </div>
     <!-- /#sidebar-wrapper -->
-    <!-- move this div to the end of Page Content to shift content when it expands. Leave here to cover Page Content-->
+    <!-- move the div below to the end of #page-content-wrapper to shift content when sidebar menu expands. Leave here to cover page content instead-->
     </div>
     <!-- Page Content -->
     <div id="page-content-wrapper">
@@ -121,39 +124,9 @@
           <div class="col-md-8 col-md-offset-2">
             <div class="page-content">
 <!-- PANDOC main page template -->
-<h1 class="title">Twitter Analysis</h1>
-<span class="abstract">Now that you have <a href="/docs/twitter.html">collected data from Twitter</a>, what can you do with it? The particulars of any analysis are strongly dictated by the hypotheses being tested. However, many investigations share a common set of objectives early on in their analysis. Solutions to some of these problems are shared below.</span>
-<div id="TOC">
-<ul>
-<li><a href="#converting-json-to-comma-separated-values-.csv-format"><span class="toc-section-number">1</span> Converting JSON to comma-separated-values (.csv) format</a></li>
-<li><a href="#loading-a-massmine-dataset-into-statistical-software"><span class="toc-section-number">2</span> Loading a massmine dataset into statistical software</a><ul>
-<li><a href="#read-a-csv-dataset-into-memory-in-the-r-statistical-language"><span class="toc-section-number">2.1</span> Read a CSV dataset into memory in the R Statistical Language</a></li>
-<li><a href="#read-a-csv-dataset-into-memory-in-racket-scheme"><span class="toc-section-number">2.2</span> Read a CSV dataset into memory in Racket Scheme</a></li>
-</ul></li>
-<li><a href="#cleaning-text-strings"><span class="toc-section-number">3</span> &quot;Cleaning&quot; text strings</a><ul>
-<li><a href="#homogenizing-character-encoding-in-the-r-statistical-language"><span class="toc-section-number">3.1</span> Homogenizing character encoding in the R Statistical Language</a></li>
-<li><a href="#removing-capitalization-in-the-r-statistical-language"><span class="toc-section-number">3.2</span> Removing capitalization in the R Statistical Language</a></li>
-<li><a href="#collapsing-whitespace-in-the-r-statistical-language"><span class="toc-section-number">3.3</span> Collapsing whitespace in the R Statistical Language</a></li>
-<li><a href="#removing-punctuation-in-the-r-statistical-language"><span class="toc-section-number">3.4</span> Removing punctuation in the R Statistical Language</a></li>
-</ul></li>
-<li><a href="#identifying-hashtags"><span class="toc-section-number">4</span> Identifying hashtags</a><ul>
-<li><a href="#listing-hashtags-in-the-r-statistical-language"><span class="toc-section-number">4.1</span> Listing hashtags in the R Statistical Language</a></li>
-</ul></li>
-<li><a href="#identifying-user-mentions"><span class="toc-section-number">5</span> Identifying <span class="citation">@user</span> mentions</a><ul>
-<li><a href="#listing-users-in-the-r-statistical-language"><span class="toc-section-number">5.1</span> Listing <span class="citation">@users</span> in the R Statistical Language</a></li>
-</ul></li>
-<li><a href="#time-series-tweet-frequency-as-a-function-of-time"><span class="toc-section-number">6</span> Time series: Tweet frequency as a function of time</a></li>
-<li><a href="#text-mining-using-rs-tm-package"><span class="toc-section-number">7</span> Text Mining Using R's TM Package</a><ul>
-<li><a href="#removing-additional-words-from-twitter-text"><span class="toc-section-number">7.1</span> Removing Additional Words from Twitter Text</a></li>
-<li><a href="#creating-a-corpus-and-document-term-matrix-in-tm"><span class="toc-section-number">7.2</span> Creating a Corpus and Document-Term Matrix in TM</a></li>
-<li><a href="#summary-statistics-of-tweet-texts"><span class="toc-section-number">7.3</span> Summary Statistics of Tweet Texts</a></li>
-<li><a href="#removing-sparse-words"><span class="toc-section-number">7.4</span> Removing Sparse Words</a></li>
-<li><a href="#word-frequencies"><span class="toc-section-number">7.5</span> Word Frequencies</a></li>
-<li><a href="#word-co-occurrences"><span class="toc-section-number">7.6</span> Word Co-Occurrences</a></li>
-</ul></li>
-</ul>
-</div>
-<h1 id="converting-json-to-comma-separated-values-.csv-format"><span class="header-section-number">1</span> Converting JSON to comma-separated-values (.csv) format</h1>
+<hr />
+<p>title: Twitter Analysis abstract: Now that you have <a href="/docs/twitter.html">collected data from Twitter</a>, what can you do with it? The particulars of any analysis are strongly dictated by the hypotheses being tested. However, many investigations share a common set of objectives early on in their analysis. Solutions to some of these problems are shared below. ...</p>
+<h1 id="converting-json-to-comma-separated-values-.csv-format">Converting JSON to comma-separated-values (.csv) format</h1>
 <p>MassMine returns data from all sources as JSON. Depending on your analysis workflow, it can be more desirable to work in a column-oriented data format (such as csv format), such as when importing data into R, Python, SPSS, Excel, or similar. A <a href="https://github.com/n3mo/jsan">companion tool has been created called jsan</a> (The <b>J</b>SON <b>S</b>wiss <b>A</b>rmy k<b>N</b>ife) that provides quick and memory-efficient conversion into column-oriented data formats.</p>
 <p><code>jsan</code> can be used after data has been collected. For example:</p>
 <pre><code># Fetch some data first
@@ -170,7 +143,7 @@ massmine --task=twitter-search --count=200 --query=love --output=mydata.json
 # file later
 massmine --task=twitter-stream --query=love --count=2000000 | tee mydata.json | jsan --output=mydata.csv --keep text user:screen_name</code></pre>
 <p>To learn more about using <code>jsan</code>, please check the <a href="https://github.com/n3mo/jsan">official documentation online</a>.</p>
-<h1 id="loading-a-massmine-dataset-into-statistical-software"><span class="header-section-number">2</span> Loading a massmine dataset into statistical software</h1>
+<h1 id="loading-a-massmine-dataset-into-statistical-software">Loading a massmine dataset into statistical software</h1>
 <p>To perform any analysis, you must process the data in one of two ways:</p>
 <ol style="list-style-type: decimal">
 <li>Load the entire dataset into memory</li>
@@ -178,7 +151,7 @@ massmine --task=twitter-stream --query=love --count=2000000 | tee mydata.json | 
 </ol>
 <p>Option 2 is sometimes necessary for extremely large data sets, but requires (arguably) more difficult analysis algorithms designed to operate on streaming, line-by-line data.</p>
 <p>Thankfully, memory is cheap and many data sets can safely be loaded into memory all at once. Which option is appropriate depends largely on how much RAM your computer has. The following code snippets share how to accomplish option 1.</p>
-<h2 id="read-a-csv-dataset-into-memory-in-the-r-statistical-language"><span class="header-section-number">2.1</span> Read a CSV dataset into memory in the R Statistical Language</h2>
+<h2 id="read-a-csv-dataset-into-memory-in-the-r-statistical-language">Read a CSV dataset into memory in the R Statistical Language</h2>
 <p><em>This section assumes you have converted your massmine JSON data into CSV format (see above).</em></p>
 <p>The following snippet assumes your data is in CSV format in a file called &quot;mydata.csv&quot;. Replace the filename when appropriate:</p>
 <pre><code>## Read the data into memory. Here we store the results in a
@@ -191,7 +164,7 @@ names(tweets)
 ## To extract a given column, use the $ syntax. For example, to extract
 ## the tweet text for every tweet, use
 tweets$text</code></pre>
-<h2 id="read-a-csv-dataset-into-memory-in-racket-scheme"><span class="header-section-number">2.2</span> Read a CSV dataset into memory in Racket Scheme</h2>
+<h2 id="read-a-csv-dataset-into-memory-in-racket-scheme">Read a CSV dataset into memory in Racket Scheme</h2>
 <p><em>This section assumes you have converted your massmine JSON data into CSV format (see above).</em></p>
 <p>The following snippet assumes your data is in CSV format in a file called &quot;mydata.csv&quot;. Replace the filename when appropriate:</p>
 <pre><code>;;; Required dependency: csv-reading.
@@ -210,7 +183,7 @@ tweets$text</code></pre>
 ;;; (Racket uses zero-indexing). This will return every tweet&#39;s text in
 ;;; your data set
 (map (λ (x) (list-ref x 2)) tweets)</code></pre>
-<h1 id="cleaning-text-strings"><span class="header-section-number">3</span> &quot;Cleaning&quot; text strings</h1>
+<h1 id="cleaning-text-strings">&quot;Cleaning&quot; text strings</h1>
 <p>Often, it is advisable to pre-process, or &quot;clean,&quot; text before beginning any complex analysis. This can take many forms, but often includes:</p>
 <ol style="list-style-type: decimal">
 <li><strong>Homogenizing character encoding</strong>: Some text is represented as ASCII, some as Unicode. Unicode allows for many more characters and is the preferred encoding scheme. Sometimes it is necessary to convert heterogeneous encoding into a common scheme. This is especially true if data from multiple sources will be combined.</li>
@@ -218,19 +191,19 @@ tweets$text</code></pre>
 <li><strong>Collapsing whitespace</strong>: Users often include extra whitespace in their posts, including spaces, tabs, newlines, etc. Typically, these are not meaningful components of the message. Collapsing whitespace usually involves converting sequences of whitespace into single space characters.</li>
 <li><strong>Removing punctuation</strong>: Punctuation can be meaningful, such as emoji sequences that convey emotion. Often, punctuation is not meaningful. In these situations, it adds spurious artifacts in an analysis. In these situations, punctuation can be stripped out to leave just the words contained in a message.</li>
 </ol>
-<h2 id="homogenizing-character-encoding-in-the-r-statistical-language"><span class="header-section-number">3.1</span> Homogenizing character encoding in the R Statistical Language</h2>
+<h2 id="homogenizing-character-encoding-in-the-r-statistical-language">Homogenizing character encoding in the R Statistical Language</h2>
 <p><em>The following code snippets assume your dataset is loaded into R as a data frame called <code>tweets</code> (see above)</em></p>
 <pre><code>## Convert, as necessary, character encoding to Unicode UTF-8
 tweets$text &lt;- iconv(tweets$text, &quot;&quot;, &quot;UTF-8&quot;)</code></pre>
-<h2 id="removing-capitalization-in-the-r-statistical-language"><span class="header-section-number">3.2</span> Removing capitalization in the R Statistical Language</h2>
+<h2 id="removing-capitalization-in-the-r-statistical-language">Removing capitalization in the R Statistical Language</h2>
 <p><em>The following code snippets assume your dataset is loaded into R as a data frame called <code>tweets</code> (see above)</em></p>
 <pre><code>## Lowercase everything
 tweets$text &lt;- tolower(tweets$text)</code></pre>
-<h2 id="collapsing-whitespace-in-the-r-statistical-language"><span class="header-section-number">3.3</span> Collapsing whitespace in the R Statistical Language</h2>
+<h2 id="collapsing-whitespace-in-the-r-statistical-language">Collapsing whitespace in the R Statistical Language</h2>
 <p><em>The following code snippets assume your dataset is loaded into R as a data frame called <code>tweets</code> (see above)</em></p>
 <pre><code>## Collapse extra whitespace into single space characters
 tweets$text &lt;- gsub(&quot;[[:space:]]+&quot;, &quot; &quot;, tweets$text)</code></pre>
-<h2 id="removing-punctuation-in-the-r-statistical-language"><span class="header-section-number">3.4</span> Removing punctuation in the R Statistical Language</h2>
+<h2 id="removing-punctuation-in-the-r-statistical-language">Removing punctuation in the R Statistical Language</h2>
 <p><em>The following code snippets assume your dataset is loaded into R as a data frame called <code>tweets</code> (see above)</em></p>
 <pre><code>## Heavy-handed approach. This removes all punctuation.
 tweets$text &lt;- gsub(&quot;[[:punct:]]+&quot;, &quot; &quot;, tweets$text)</code></pre>
@@ -240,9 +213,9 @@ tweets$text &lt;- gsub(&quot;(http|https)([^/]+).*&quot;, &quot; &quot;, tweets$
 
 ## Now remove punctuation
 tweets$text &lt;- gsub(&quot;[[:punct:]]+&quot;, &quot; &quot;, tweets$text)</code></pre>
-<h1 id="identifying-hashtags"><span class="header-section-number">4</span> Identifying hashtags</h1>
+<h1 id="identifying-hashtags">Identifying hashtags</h1>
 <p>What #hashtags are present in your data? Let's find out!</p>
-<h2 id="listing-hashtags-in-the-r-statistical-language"><span class="header-section-number">4.1</span> Listing hashtags in the R Statistical Language</h2>
+<h2 id="listing-hashtags-in-the-r-statistical-language">Listing hashtags in the R Statistical Language</h2>
 <p><em>The following code snippets assume your dataset is loaded into R as a data frame called <code>tweets</code> (see above)</em></p>
 <pre><code>## What hashtags do we find across all tweets?
 hash.regexp &lt;- &quot;#[[:alpha:]][[:alnum:]_]+&quot;
@@ -256,23 +229,23 @@ table(hashtags)
 ## Better yet, sort frequencies in descending order to see
 ## which hashtags were the most popular
 sort(table(hashtags), decreasing = TRUE)</code></pre>
-<h1 id="identifying-user-mentions"><span class="header-section-number">5</span> Identifying <span class="citation">@user</span> mentions</h1>
-<p>What <span class="citation">@users</span> are present in your data set? The answer requires a similar strategy to identifying #hashtags</p>
-<h2 id="listing-users-in-the-r-statistical-language"><span class="header-section-number">5.1</span> Listing <span class="citation">@users</span> in the R Statistical Language</h2>
+<h1 id="identifying-user-mentions">Identifying @user mentions</h1>
+<p>What @users are present in your data set? The answer requires a similar strategy to identifying #hashtags</p>
+<h2 id="listing-users-in-the-r-statistical-language">Listing @users in the R Statistical Language</h2>
 <p><em>The following code snippets assume your dataset is loaded into R as a data frame called <code>tweets</code> (see above)</em></p>
 <pre><code>## What users do we find across all tweets?
 user.regexp &lt;- &quot;@[[:alpha:]][[:alnum:]_]+&quot;
 usernames &lt;- unlist(sapply(1:length(tweets$text), function (x) {
     regmatches(tweets$text[x],
                gregexpr(user.regexp, tweets$text[x]))}))</code></pre>
-<p>The resulting variable <code>usernames</code> is a vector containing all observed <span class="citation">@usernames</span>, including repeats. To determine the frequency of each user in your data set, use the <code>table()</code> function:</p>
+<p>The resulting variable <code>usernames</code> is a vector containing all observed @usernames, including repeats. To determine the frequency of each user in your data set, use the <code>table()</code> function:</p>
 <pre><code>## Tabulate the number of occurrences of each @username
 table(usernames)
 
 ## Better yet, sort frequencies in descending order to see
 ## which usernames were the most popular
 sort(table(usernames), decreasing = TRUE)</code></pre>
-<h1 id="time-series-tweet-frequency-as-a-function-of-time"><span class="header-section-number">6</span> Time series: Tweet frequency as a function of time</h1>
+<h1 id="time-series-tweet-frequency-as-a-function-of-time">Time series: Tweet frequency as a function of time</h1>
 <p><em>The following code snippets assume your dataset is loaded into R as a data frame called <code>tweets</code> (see above)</em></p>
 <p>Trending topics can quickly increase and decrease in popularity on Twitter. Visualizing how frequently tweets are occurring can be useful for diagnosing such patterns. In the following example, one can replace the &quot;day&quot; in <code>cut(tweets.date, breaks = &quot;day&quot;)</code> with &quot;hour&quot;, &quot;week&quot;, and &quot;month&quot; as appropriate.</p>
 <pre><code>## Convert date strings to date data type
@@ -306,42 +279,58 @@ plot(days, counts, type=&quot;o&quot;, lwd = 2,
      xlab = &quot;Days&quot;, ylab = &quot;Frequency&quot;,
      main = &quot;Tweet Frequency As A Function Of Days&quot;)
 grid(col = &quot;darkgray&quot;)</code></pre>
-<p><img src="images/twitter-time-series.png" class="img-fluid"></p>
-<h1 id="text-mining-using-rs-tm-package"><span class="header-section-number">7</span> Text Mining Using R's TM Package</h1>
+<img src="images/twitter-time-series.png" class="img-fluid">
+<h1 id="text-mining-using-rs-tm-package">Text Mining Using R's TM Package</h1>
 <p>R's TM package provides many standard text mining functions that are useful for Twitter text analysis. Documentation for the TM package is available <a href="https://cran.r-project.org/web/packages/tm/tm.pdf">here</a>.</p>
 <p>The following assumes that you have already read your Twitter data into the <code>tweets</code> variable using the <code>read.csv()</code> example listed above, and that you have already homogenized character encoding, removed capitalization, collapsed whitespace, and removed punctuation.</p>
 <p>First, install the TM package:</p>
 <pre><code>install.packages(&quot;tm&quot;)</code></pre>
-<h2 id="removing-additional-words-from-twitter-text"><span class="header-section-number">7.1</span> Removing Additional Words from Twitter Text</h2>
+<h2 id="removing-additional-words-from-twitter-text">Removing Additional Words from Twitter Text</h2>
 <p>In addition to the text transformations already completed, it is usually necessary to remove other words for analysis. Stopwords are common words like &quot;the,&quot; &quot;and,&quot; &quot;it,&quot; &quot;there,&quot; and they will confound word frequency analyses if they are not removed. The following will remove English stopwords from text data in TM:</p>
 <pre><code>tweets$text &lt;- removeWords(tweets$text, stopwords(kind=&quot;en&quot;))</code></pre>
 <p>Sometimes there are other words that need to be removed for reasons pertaining to a specific project or because of particular research question. First, create a variable containing the list of additional words to be removed:</p>
 <pre><code>word.list &lt;- c(&quot;cat&quot;, &quot;dog&quot;, &quot;horse&quot;, &quot;chicken&quot;)</code></pre>
 <p>Next, using the same <code>removeWords()</code> function, remove the list of words from the <code>tweets$text</code> vector:</p>
 <pre><code>tweets$text &lt;- removeWords(tweets$text, word.list)</code></pre>
-<h2 id="creating-a-corpus-and-document-term-matrix-in-tm"><span class="header-section-number">7.2</span> Creating a Corpus and Document-Term Matrix in TM</h2>
+<h2 id="creating-a-corpus-and-document-term-matrix-in-tm">Creating a Corpus and Document-Term Matrix in TM</h2>
 <p>A &quot;corpus&quot; is a data type used specifically by the TM package. Using the <code>tweets$text</code> vector that contains the tweet texts from the &quot;love&quot; data collection, we can transform this collection of &quot;documents&quot; into a corpus with the following function:</p>
 <pre><code>corpus &lt;- VCorpus(VectorSource(tweets$text))</code></pre>
 <p>Once the tweet texts are changed to TM's corpus data type, it can be easily analyzed as a document-term matrix:</p>
 <pre><code>dtm &lt;- DocumentTermMatrix(corpus)</code></pre>
-<h2 id="summary-statistics-of-tweet-texts"><span class="header-section-number">7.3</span> Summary Statistics of Tweet Texts</h2>
+<h2 id="summary-statistics-of-tweet-texts">Summary Statistics of Tweet Texts</h2>
 <p>By entering just the document-term matrix variable into the REPL, TM will return summary statistics for the corpus: the number of documents (tweets), the number of original words, sparsity, maximal word length, and weighting.</p>
 <pre><code>dtm</code></pre>
-<h2 id="removing-sparse-words"><span class="header-section-number">7.4</span> Removing Sparse Words</h2>
+<h2 id="removing-sparse-words">Removing Sparse Words</h2>
 <p>The <code>removeSparseTerms()</code> function in the TM package will remove sparse (infrequently occurring) words from the corpus of tweet texts. Based on the summary statistics provided in the previous example, we can use the &quot;sparsity&quot; percentage to determine how many sparse terms to remove. The <code>0.1</code> argument in the function below determines what percentage of sparse terms to remove. It is a good idea to save the new document-term matrix with sparse words removed in a different variable in case your first attempt removes too many words:</p>
 <pre><code>dtm1 &lt;- removeSparseTerms(dtm, 0.1)</code></pre>
-<h2 id="word-frequencies"><span class="header-section-number">7.5</span> Word Frequencies</h2>
+<h2 id="word-frequencies">Word Frequencies</h2>
 <p>Word frequency totals can be returned as a vector by summing the columns of terms in the matrix:</p>
 <pre><code>freq &lt;- colSums(as.matrix(dtm1))</code></pre>
 <p>Using the <code>head()</code> and <code>table()</code> functions, we can see the top 20 most frequent terms in the corpus:</p>
 <pre><code>head(table(freq), 20)</code></pre>
-<h2 id="word-co-occurrences"><span class="header-section-number">7.6</span> Word Co-Occurrences</h2>
+<h2 id="word-co-occurrences">Word Co-Occurrences</h2>
 <p>Word co-occurrences can be determined with the <code>findAssocs()</code> function in the TM package. The function below finds which terms co-occur with the word &quot;love&quot; and returns a vector of decimal percentages. If the returned value is <code>1.0</code> for a particular word, then it occurs in 100% of the same documents as the word &quot;love.&quot; The <code>corlimit</code> argument allows you to decide a minimal percentage of co-occurrence to be returned. So, if you set the <code>corlimit</code> to <code>.5</code>, then any words that co-occur in less than 50% of the texts will be ignored. If sparse words have already been removed from the document, then it is generally best to set the <code>corlimit</code> to <code>0.0</code>. Using the <code>word.co</code> variable to save the returned vector, the following function determines word co-occurrence:</p>
 <pre><code>word.co &lt;- findAssocs(dtm, &quot;love&quot;, corlimit=0.0)</code></pre>
 <p>Using the <code>head()</code> function again, we can see the top 20 words that co-occur with &quot;love&quot; in the tweet texts:</p>
 <pre><code>head(word.co, 20)</code></pre>
 <p>Be careful when using word co-occurrence analyses over short periods of time with Twitter data. High volumes of retweets by users can create many 100% co-occurrence values. Retweets are designated with <code>RT</code> appearing at the beginning of a tweet's text, and it may be necessary for you to remove all retweeted tweets from your corpus. However, if your dataset has been collected over a long enough period of time, then retweets should not cause a problem. As always, it depends on your particular research question.</p>
 <!-- end PANDAC template code -->
+              <!-- /cite modal -->
+              <div id="citemodal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title"><span class="m-logo">M</span><b>Citation for Academic Use:</b></h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>Van Horn, N. M. & Beveridge, A. (2014). MassMine: Your Access To Data. http://www.massmine.org</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- /cite modal -->
             </div>
           </div>
         </div>
@@ -349,15 +338,17 @@ grid(col = &quot;darkgray&quot;)</code></pre>
     <div class="push"></div>
     </div>
     <!-- /#page-content-wrapper -->
+    <!-- footer -->
     <div class="footer">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
-            <p>© 2014-2016  &bull;  Content and images are copyrighted by <a href="http://nicholasvanhorn.com/" target="_blank"><b>Nicholas Van Horn</b></a> &amp; <a href="http://aaronbeveridge.com" target="_blank"><b>Aaron Beveridge</b></a></p>
+            <p>© 2014-2016  &bull;  <span class="footer-content">Content and images are copyrighted by</span> <a href="http://nicholasvanhorn.com/" target="_blank"><b>Nicholas Van Horn</b></a> &amp; <a href="http://aaronbeveridge.com" target="_blank"><b>Aaron Beveridge</b></a><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#citemodal">Citation</button></p>
           </div>
         </div>
       </div>
     </div>
+    <!-- /end footer -->
     <!-- js files -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
