@@ -609,6 +609,12 @@ html, body {
     margin-left: 75px;
   }
 
+  #TOC {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -35px;
+  }
+
   #wrapper.toggled {
     padding-left: 0;
   }
