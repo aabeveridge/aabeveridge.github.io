@@ -56,6 +56,14 @@ html, body {
   margin-bottom: 10px;
 }
 
+.goog-logo {
+  margin-top: 16px;
+}
+
+.tumb-logo {
+  margin-top: -5px;
+}
+
 .features-list {
   margin-top: 20px;
 }
@@ -504,6 +512,19 @@ html, body {
     color: #454545;
   }
 
+  .twit-logo {
+    margin-bottom: 40px;
+  }
+
+  .wiki-logo {
+    margin-bottom: 30px;
+  }
+
+  .tumb-logo, .goog-logo, .http-logo, .twit-logo, .wiki-logo {
+    margin-left: 100px;
+  }
+
+
 
 /*======================================
   Medium width style
@@ -575,6 +596,10 @@ html, body {
     margin-left: 0;
   }
 
+  .tumb-logo, .goog-logo, .http-logo, .twit-logo, .wiki-logo {
+    margin-left: 75px;
+  }
+
   #wrapper.toggled {
     padding-left: 0;
   }
@@ -614,6 +639,10 @@ html, body {
 
   .home-modals h1 {
     margin-bottom: -12px !important;
+  }
+
+  .tumb-logo, .goog-logo, .http-logo, .twit-logo, .wiki-logo {
+    margin-left: 25px;
   }
 
   .nav-subtitle {
