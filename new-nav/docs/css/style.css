@@ -512,12 +512,13 @@ html, body {
     color: #454545;
   }
 
-  .twit-logo {
+  /*.twit-logo {
     margin-bottom: 40px;
-  }
+  }*/
 
   .wiki-logo {
-    margin-bottom: 30px;
+    margin-bottom: -25px;
+    margin-top: -10px;
   }
 
   .tumb-logo, .goog-logo, .http-logo, .twit-logo, .wiki-logo {
@@ -537,6 +538,14 @@ html, body {
 
   .home-modals h1 {
     margin-bottom: -12px !important;
+  }
+
+  .goog-logo {
+    margin-top:50px;
+  }
+
+  .tumb-logo {
+    margin-top: 30px;
   }
 
   .footer p {
