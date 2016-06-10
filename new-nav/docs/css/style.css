@@ -675,6 +675,11 @@ html, body {
     margin-bottom: 10px;
   }
 
+  .modal-body ul {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
   .home-modals .btn-secondary {
     margin-bottom: 37px;
   }
