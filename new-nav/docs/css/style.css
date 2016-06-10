@@ -525,8 +525,6 @@ html, body {
     margin-left: 100px;
   }
 
-
-
 /*======================================
   Medium width style
 ======================================*/
@@ -648,6 +646,29 @@ html, body {
 ======================================*/
 @media (max-width: 480px) {
 
+  .no-gutter > [class*='col-md-8'] {
+      padding-right:0;
+      padding-left:0;
+  }
+
+  .page-content {
+    margin-left: -20px !important;
+    margin-right: -5px !important;
+  }
+
+  .page-content p, ul {
+    margin-right: -10px;
+  }
+
+  /*.img-responsive {
+    margin-left: 20px;
+  }*/
+
+  .embed-responsive {
+    margin-left: 18px;
+    padding-right: -40;
+  }
+
   .home-modals .btn-secondary {
     margin-bottom: 37px;
   }
@@ -688,16 +709,44 @@ html, body {
     border: 0px;
   }
 
+  #sidebar-wrapper h1, #sidebar-wrapper a {
+    font-size: 15px;
+    margin-right: -20px;
+  }
+
+  #sidebar-wrapper hr {
+    width: 203px;
+  }
+
+  #sidebar-wrapper .left-icon {
+    margin-left: -5px;
+    margin-right: -4px;
+  }
+
+  #sidebar-wrapper .icon, .left-icon {
+    color: #404040;
+    font-size: x-large
+  }
+
+  #sidebar-wrapper .icon {
+    margin-left: -1px;
+  }
+
+  #sidebar-wrapper .version {
+    margin-left: 32px;
+  }
+
   #sidebar-wrapper .side-copy {
     color: #484848;
+    margin-left: 6px;
   }
 
   #sidebar-wrapper .btn {
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: -1px;
     padding-right: 5px;
     padding-left: 5px;
-    margin-left: 59px;
+    margin-left: 66px;
     margin-bottom: -4px;
     outline: none;
     font-size: small;
@@ -712,7 +761,7 @@ html, body {
   }
 
   #sidebar-wrapper {
-    width: 219px;
+    width: 240px;
   }
 
   #wrapper.toggled #sidebar-wrapper {
