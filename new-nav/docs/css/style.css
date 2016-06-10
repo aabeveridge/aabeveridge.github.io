@@ -669,6 +669,12 @@ html, body {
     padding-right: -40;
   }
 
+  .modal-body p {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
+
   .home-modals .btn-secondary {
     margin-bottom: 37px;
   }
