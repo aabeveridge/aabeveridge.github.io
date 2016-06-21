@@ -8,7 +8,7 @@ abstract:
   - Tumblr
 ...
 
-# Twitter Authentication
+# Authentication for Twitter
 
 To collect data from Twitter you must login to your Twitter account and create a new "application." This "application" is not actually software or a computer program, but it is the access point through which MassMine collects data from Twitter. Every Twitter "application" is provided a certain amount of bandwidth<sup>1</sup>, and this limits the amount of free data an "application" may access through Twitter's API. For more details on how Twitter limits data access through their API, visit [Twitter's online documention](https://dev.twitter.com/overview/documentation).  MassMine automatically manages "rate limits" for the user, within the limits permitted by Twitter's bandwidth restrictions.
 
@@ -18,7 +18,7 @@ Seting up "application" access through Twitter requires a normal Twitter account
 
 Next, click on the `mobile` side bar menu option to provide your mobile number.
 
-![](/images/mobile-twit.png)
+<img src="images/mobile-twit.png" class="img-responsive" alt="responsive image" />
 
 Twitter will send a text to your phone with a code to confirm your phone number. Follow the steps provided by Twitter to finish confirmation.
 
@@ -28,17 +28,17 @@ After completing mobile verification, remain logged in to your account and go to
 
 On the following screen, fill in the boxes shown below. Under "Name" you will need to provide a unique application name, but "Description" and "Website" are allowed to be generic information.
 
-<img src="/images/create-app.png" class="img-fluid">
+<img src="images/create-app.png" class="img-responsive" alt="responsive image" />
 
 ## Application Secrets and Tokens
 
 After creating the "application," click on the application name and it will take you to the page for that application. In there you will click on a link in the middle of the page titled: "manage keys and access tokens."
 
-<img src="/images/keys-click.png" class="img-fluid">
+<img src="images/keys-click.png" class="img-responsive" alt="responsive image" />
 
 After clicking on "manage keys and access tokens" link, you will be redirected to the page that provides the credentials MassMine requires in order to collect data from the Twitter APIs. Keep this page open because you will need to copy and paste the keys and tokens on this page into MassMine.
 
-<img src="/images/keys-tokens.png" width="750" class="img-fluid">
+<img src="images/keys-tokens.png" class="img-responsive" alt="responsive image" />
 
 ## Saving Application Secrets and Tokens in MassMine
 

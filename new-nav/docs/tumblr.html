@@ -124,43 +124,71 @@
           <div class="col-md-8 col-md-offset-2">
             <div class="page-content">
 <!-- PANDOC main page template -->
-<h1 class="title">Wikipedia tasks</h1>
-<p>Check out the <a href="/docs/config.html">general usage examples</a> to learn how to use MassMine. Below is a description of the tasks available for Wikipedia.</p>
+<h1 class="title">Tumblr Tasks</h1>
+<div class="hint">
+To access Tumblr using MassMine you must first authenticate. This is a requirement of Tumblr. Authorization is simple, and only has to be completed once.
+</div>
+<p>To authenticate with Tumblr, run</p>
+<pre><code>massmine --task=tumblr-auth</code></pre>
+<p>Check out the <a href="/docs/config.html">general usage examples</a> to learn how to use MassMine. Below is a description of the tasks available for Tumblr.</p>
 <p>Task parameters marked * are required. For parameters marked with a + choose only one.</p>
 <hr/>
-<h1 id="wikipedia-page-links">wikipedia-page-links</h1>
-<p>Returns all links embedded in a given Wikipedia page.</p>
+<h1 id="tumblr-auth">tumblr-auth</h1>
+<p>Sets up MassMine to make data requests under your Tumblr account privileges. This task <em>must</em> be ran before using any other Tumble tasks, or an error will be returned.</p>
 <h2 id="parameters">Parameters</h2>
-<ul>
-<li><strong>query</strong>*: Wikipedia page title, case sensitive.</li>
-</ul>
+<p>-none-</p>
 <h2 id="example">Example</h2>
-<pre><code>massmine --task=wikipedia-page-links --query=Earl_Grey_tea</code></pre>
-<h1 id="wikipedia-search">wikipedia-search</h1>
-<p>Search wikipedia by keyword. Meta-information for all pages containing matches to the search query are returned.</p>
+<pre><code>massmine --task=tumblr-auth</code></pre>
+<h1 id="tumblr-blog-info">tumblr-blog-info</h1>
+<p>Retrieve meta data information about 1 or more blogs, including the number of posts, description, and more.</p>
 <h2 id="parameters-1">Parameters</h2>
 <ul>
-<li><strong>query</strong>*: Wikipedia page title, case sensitive.</li>
+<li><strong>query</strong>*: Blog name(s). Can be short format, full URL (including .tumblr.com), or a custom URL (see examples). Separate multiple blogs with commas.</li>
 </ul>
 <h2 id="example-1">Example</h2>
-<pre><code>massmine --task=wikipedia-search --query=bergamot</code></pre>
-<h1 id="wikipedia-text">wikipedia-text</h1>
-<p>Returns the full text (plain text, with formatting removed) of a given Wikipedia page.</p>
+<pre><code># You can specify Tumblr blogs in short format
+massmine --task=tumblr-blog-info --query=kingjamesprogramming
+
+# Fetch info on multiple blogs at once
+massmine --task=tumblr-blog-info --query=kingjamesprogramming,famouspeopledrinkingtea
+
+# You can also specify full URLs
+massmine --task=tumblr-blog-info --query=kingjamesprogramming.tumblr.com
+
+# Tumblr blogs with custom URLs can also retrieved
+massmine --task=tumblr-blog-info --query=www.exampleblog.com</code></pre>
+<h1 id="tumblr-posts">tumblr-posts</h1>
+<p>Retrieve posts from 1 or more blogs. The raw text of each post is returned with meta data.</p>
 <h2 id="parameters-2">Parameters</h2>
 <ul>
-<li><strong>query</strong>*: Wikipedia page title, case sensitive.</li>
+<li><strong>query</strong>*: Blog name(s). Can be short format, full URL (including .tumblr.com), or a custom URL (see examples). Separate multiple blogs with commas.</li>
+<li><strong>count</strong><em>: Number of posts to return </em>from each requested blog in <strong>query</strong>*.</li>
 </ul>
 <h2 id="example-2">Example</h2>
-<pre><code>massmine --task=wikipedia-text --query=Earl_Grey_tea</code></pre>
-<h1 id="wikipedia-views">wikipedia-views</h1>
-<p>Returns the daily page views for a given Wikipedia page for a given month.</p>
+<pre><code># You can specify Tumblr blogs in short format
+massmine --task=tumblr-posts --query=kingjamesprogramming --count=10
+
+# Fetch posts from multiple blogs at once.
+massmine --task=tumblr-posts --query=kingjamesprogramming,famouspeopledrinkingtea --count=10
+
+# You can also specify full URLs
+massmine --task=tumblr-posts --query=kingjamesprogramming.tumblr.com --count=10
+
+# Tumblr blogs with custom URLs can also retrieved
+massmine --task=tumblr-posts --query=www.exampleblog.com --count=10</code></pre>
+<h1 id="tumblr-tag">tumblr-tag</h1>
+<p>Search for blog posts containing 1 or more tags. The raw text of each post is returned with meta data.</p>
 <h2 id="parameters-3">Parameters</h2>
 <ul>
-<li><strong>query</strong>*: Wikipedia page title, case sensitive.</li>
-<li><strong>date</strong>*: Month, as YYYY-MM-DD (day is ignored)</li>
+<li><strong>query</strong>*: Tag(s) to search for. Separate multiple tags with commas.</li>
+<li><strong>count</strong><em>: Number of posts to return </em>for each requested tag in <strong>query</strong>*.</li>
 </ul>
 <h2 id="example-3">Example</h2>
-<pre><code>massmine --task=wikipedia-views --query=Earl_Grey_tea --date=2015-09-01</code></pre>
+<pre><code># This will return up to 20 posts including the tag &quot;lol&quot;
+massmine --task=tumblr-tag --query=lol --count=20
+
+# Search for multiple tags at once. This will return up to 40 posts
+massmine --task=tumblr-tag --query=lol,gif --count=20</code></pre>
 <!-- end PANDAC template code -->
               <!-- /cite modal -->
               <div id="citemodal" class="modal fade" role="dialog">

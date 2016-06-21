@@ -33,10 +33,10 @@ pandoc ./src/md/authorization.md \
 #usage & config
 pandoc ./src/md/config.md \
 --template ./src/frames/docs-nav.html \
---output ./docs/config.html #\
-#--toc \
-#--toc-depth=2 \
-#--number-sections
+--output ./docs/config.html \
+--toc \
+--toc-depth=2 \
+--number-sections
 
 #google trends
 pandoc ./src/md/google.md \
@@ -47,9 +47,9 @@ pandoc ./src/md/google.md \
 #--number-sections
 
 #tumblr
-pandoc ./src/md/google.md \
+pandoc ./src/md/tumblr.md \
 --template ./src/frames/docs-nav.html \
---output ./docs/google.html #\
+--output ./docs/tumblr.html #\
 #--toc \
 #--toc-depth=2 \
 #--number-sections
@@ -58,9 +58,9 @@ pandoc ./src/md/google.md \
 pandoc ./src/md/twitter.md \
 --template ./src/frames/docs-nav.html \
 --output ./docs/twitter.html #\
-#--toc \
-#--toc-depth=1 \
-#--number-sections
+# --toc \
+# --toc-depth=1
+# --number-sections
 
 #wikipedia
 pandoc ./src/md/wikipedia.md \

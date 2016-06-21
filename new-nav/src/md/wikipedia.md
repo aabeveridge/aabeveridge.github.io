@@ -1,14 +1,13 @@
 ---
-title: 'MassMine: Wikipedia'
+title: Wikipedia tasks
 ...
 Check out the [general usage examples](/docs/config.html) to learn how to use MassMine. Below is a description of the tasks available for Wikipedia.
 
 Task parameters marked * are required. For parameters marked with a + choose only one.
 
-## Tasks
+<hr/>
 
-<br></br>
-<div class="task">wikipedia-page-links</div>
+#wikipedia-page-links
 
 Returns all links embedded in a given Wikipedia page.
 
@@ -20,8 +19,7 @@ Returns all links embedded in a given Wikipedia page.
 
     massmine --task=wikipedia-page-links --query=Earl_Grey_tea
 
-<br></br><br></br>
-<div class="task">wikipedia-search</div>
+#wikipedia-search
 
 Search wikipedia by keyword. Meta-information for all pages containing matches to the search query are returned.
 
@@ -33,8 +31,7 @@ Search wikipedia by keyword. Meta-information for all pages containing matches t
 
     massmine --task=wikipedia-search --query=bergamot
 
-<br></br><br></br>
-<div class="task">wikipedia-text</div>
+#wikipedia-text
 
 Returns the full text (plain text, with formatting removed) of a given Wikipedia page.
 
@@ -46,8 +43,7 @@ Returns the full text (plain text, with formatting removed) of a given Wikipedia
 
     massmine --task=wikipedia-text --query=Earl_Grey_tea
 
-<br></br><br></br>
-<div class="task">wikipedia-views</div>
+#wikipedia-views
 
 Returns the daily page views for a given Wikipedia page for a given month.
 

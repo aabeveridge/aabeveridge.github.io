@@ -124,14 +124,11 @@
           <div class="col-md-8 col-md-offset-2">
             <div class="page-content">
 <!-- PANDOC main page template -->
-<h1 class="title">MassMine: Web (URL) Scraping</h1>
+<h1 class="title">Web (URL) Scraping Tasks</h1>
 <p>Check out the <a href="/docs/config.html">general usage examples</a> to learn how to use MassMine. Below is a description of the tasks available for web (URL) scraping.</p>
 <p>Task parameters marked * are required. For parameters marked with a + choose only one.</p>
-<h2 id="tasks">Tasks</h2>
-<br></br>
-<div class="task">
-web-text
-</div>
+<hr/>
+<h1 id="web-text">web-text</h1>
 <p>Returns the text from one or more supplied URLs with html tags removed. If you only want the plain text from a webpage, and don't care about the underlying structure (lists, tables, etc.), then this is the quickest method for extracting webpage content.</p>
 <h2 id="parameters">Parameters</h2>
 <ul>
@@ -142,7 +139,7 @@ web-text
 massmine --task=web-text --query=http://www.massmine.org
 
 # Scrape multiple webpages at once
-massmine --task=web-text --query=&#39;http://www.massmine.org http://www.call-cc.org/&#39;</code></pre>
+  massmine --task=web-text --query=&#39;http://www.massmine.org http://www.call-cc.org/&#39;</code></pre>
 <!-- end PANDAC template code -->
               <!-- /cite modal -->
               <div id="citemodal" class="modal fade" role="dialog">

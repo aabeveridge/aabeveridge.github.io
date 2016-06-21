@@ -378,6 +378,75 @@ html, body {
     width: 93%;
 }
 
+.page-content [id^="twitter"], .page-content [id^="google"], .page-content [id^="wikipedia"], .page-content [id^="tumblr"], .page-content [id^="web"] {
+    font-size: 22px;
+    font-weight: bold;
+    width: 270px;
+    background: #D0D0D0;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 80px;
+}
+
+.page-content [id^="parameters"], .page-content [id^="example"] {
+  font-size: 20px;
+  margin-top: 24px;
+}
+
+.page-content hr {
+  border-color: #404040;
+  border-width: 4px;
+}
+
+.page-content .img-responsive {
+  	box-shadow: 10px 10px 5px grey;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.hint {
+    font-size: 16px;
+    line-height: 29px;
+    color: #333;
+    padding: 5px;
+    background: #FFFFCC;
+    border-radius: 5px;
+    border: 1px solid #dddd66;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.warning {
+    font-size: 16px;
+    line-height: 29px;
+    color: #333;
+    padding: 5px;
+    background: #FFCCCC;
+    border-radius: 5px;
+    border-top: solid 3px;
+    border-left: solid 3px;
+    border-right: solid 3px;
+    border-bottom: solid 3px;
+    border-color: #FF8080;
+}
+
+.install-list {
+  list-style: none;
+  margin-left: -12px;
+  margin-top: 12px;
+}
+
+.install-list i {
+  font-size: x-large;
+  margin-right: 12px;
+  color: #454545;
+}
+
+.install-list a:hover i {
+  color: #989898;
+}
+
 /*======================================
   Sidebar
 ======================================*/

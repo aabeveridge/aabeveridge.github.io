@@ -124,28 +124,22 @@
           <div class="col-md-8 col-md-offset-2">
             <div class="page-content">
 <!-- PANDOC main page template -->
-<h1 class="title">MassMine: Twitter</h1>
+<h1 class="title">Twitter Tasks</h1>
 <div class="hint">
-To access Twitter using MassMine you must first authenticate. This is a requirement of Twitter. <a href="/docs/authorization.html">Authorization is simple</a>, and only has to be completed once.
+To access Twitter using MassMine you must first authenticate. This is a requirement of Twitter. <a href="authorization.html">Authorization is simple</a>, and only has to be completed once.
 </div>
 <p>To authenticate with Twitter, run</p>
 <pre><code>massmine --task=twitter-auth</code></pre>
 <p>Check out the <a href="/docs/config.html">general usage examples</a> to learn how to use MassMine. Below is a description of the tasks available for Twitter.</p>
 <p>Task parameters marked * are required. For parameters marked with a + choose only one.</p>
-<h2 id="tasks">Tasks</h2>
-<br></br>
-<div class="task">
-twitter-auth
-</div>
+<hr/>
+<h1 id="twitter-auth">twitter-auth</h1>
 <p>Sets up MassMine to make data requests under your Twitter account privileges. This task <em>must</em> be ran before using any other Twitter tasks, or an error will be returned.</p>
 <h2 id="parameters">Parameters</h2>
-<p><none></p>
+<p>-none-</p>
 <h2 id="example">Example</h2>
 <pre><code>massmine --task=twitter-auth</code></pre>
-<br></br><br></br>
-<div class="task">
-twitter-followers
-</div>
+<h1 id="twitter-followers">twitter-followers</h1>
 <p>Returns information each follower for a specified user.</p>
 <h2 id="parameters-1">Parameters</h2>
 <ul>
@@ -153,10 +147,7 @@ twitter-followers
 </ul>
 <h2 id="example-1">Example</h2>
 <pre><code>massmine --task=twitter-followers --user=quinoa</code></pre>
-<br></br><br></br>
-<div class="task">
-twitter-friends
-</div>
+<h1 id="twitter-friends">twitter-friends</h1>
 <p>Returns information on each friend of a specified user.</p>
 <h2 id="parameters-2">Parameters</h2>
 <ul>
@@ -164,19 +155,13 @@ twitter-friends
 </ul>
 <h2 id="example-2">Example</h2>
 <pre><code>massmine --task=twitter-friends --user=quinoa</code></pre>
-<br></br><br></br>
-<div class="task">
-twitter-locations
-</div>
+<h1 id="twitter-locations">twitter-locations</h1>
 <p>Returns a list of valid geo-locations <a href="https://developer.yahoo.com/geo/geoplanet/guide/concepts.html">as Yahoo Where on Earth Indentifiers (WOEIDS)</a> accepted by Twitter. These WOEIDs can be used with some Twitter tasks that accept a <em>geo</em> parameter.</p>
 <h2 id="parameters-3">Parameters</h2>
-<p><none></p>
+<p>-none-</p>
 <h2 id="example-3">Example</h2>
 <pre><code>massmine --task=twitter-locations</code></pre>
-<br></br><br></br>
-<div class="task">
-twitter-sample
-</div>
+<h1 id="twitter-sample">twitter-sample</h1>
 <p>Returns a random sample of tweets as they occur in <em>real time</em>. Up to 1% of Twitter's actual volume is returned. Returns up to a maximum number of tweets requested OR until a specified date/time is reached. Both &quot;count&quot; and &quot;dur&quot; can be specified, in which case the task finished whenever either target is reached.</p>
 <h2 id="parameters-4">Parameters</h2>
 <ul>
@@ -193,10 +178,7 @@ massmine --task=twitter-sample --dur=&#39;2015-10-11 14:30:00&#39;
 # This will finish whenever 50 tweets or the deadline is reached,
 # whichever occurs first
 massmine --task=twitter-sample --dur=&#39;2015-10-11 14:30:00&#39; --count=50</code></pre>
-<br></br><br></br>
-<div class="task">
-twitter-search
-</div>
+<h1 id="twitter-search">twitter-search</h1>
 <p>Search for <em>pre-existing</em> tweets matching a given search phrase. Not all tweets are indexed and made available by Twitter's search, and search-able tweets are indexed for the last 7 days only. For better search coverage, consider using the <em>twitter-stream</em> task to capture tweets as they occur in real time.</p>
 <h2 id="parameters-5">Parameters</h2>
 <ul>
@@ -214,10 +196,7 @@ massmine --task=twitter-search --query=love --count=300 --geo=37.781157,-122.398
 
 # ... in French
 massmine --task=twitter-search --query=amour --count=300 --lang=fr</code></pre>
-<br></br><br></br>
-<div class="task">
-twitter-stream
-</div>
+<h1 id="twitter-stream">twitter-stream</h1>
 <p>Returns tweets as they occur in <em>real time</em>, matching either a search phrase, a user name, or a location. Up to 1% of Twitter's actual volume is returned. Returns up to a maximum number of tweets requested OR until a specified date/time is reached. Both &quot;count&quot; and &quot;dur&quot; can be specified, in which case the task finished whenever either target is reached.</p>
 <h2 id="parameters-6">Parameters</h2>
 <ul>
@@ -238,10 +217,7 @@ massmine --task=twitter-stream --user=nasa,wired --dur=&#39;2015-10-11 14:30:00&
 
 # Or, simply grab tweets coming out of New York City
 massmine --task=twitter-stream --geo=-74,40,-73,41 --count=300</code></pre>
-<br></br><br></br>
-<div class="task">
-twitter-trends
-</div>
+<h1 id="twitter-trends">twitter-trends</h1>
 <p>Returns the top-50 trends for a given location.</p>
 <h2 id="parameters-7">Parameters</h2>
 <ul>
@@ -250,10 +226,7 @@ twitter-trends
 <h2 id="example-7">Example</h2>
 <pre><code># Current trends in Seattle, Washington
 massmine --task=twitter-trends --geo=2490383</code></pre>
-<br></br><br></br>
-<div class="task">
-twitter-trends-nohash
-</div>
+<h1 id="twitter-trends-nohash">twitter-trends-nohash</h1>
 <p>Returns the top-50 trends for a given location, with #hashtags excluded.</p>
 <h2 id="parameters-8">Parameters</h2>
 <ul>
@@ -262,10 +235,7 @@ twitter-trends-nohash
 <h2 id="example-8">Example</h2>
 <pre><code># Current trends in Seattle, Washington
 massmine --task=twitter-trends-nohash --geo=2490383</code></pre>
-<br></br><br></br>
-<div class="task">
-twitter-user
-</div>
+<h1 id="twitter-user">twitter-user</h1>
 <p>Returns 1 or more users timelines (i.e., their tweet history), in reverse chronological order.</p>
 <h2 id="parameters-9">Parameters</h2>
 <ul>

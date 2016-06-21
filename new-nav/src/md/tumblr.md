@@ -1,5 +1,5 @@
 ---
-title: 'MassMine: Tumblr'
+title: Tumblr Tasks
 ...
 <div class="hint">To access Tumblr using MassMine you must first authenticate. This is a requirement of Tumblr. Authorization is simple, and only has to be completed once.</div>
 
@@ -11,23 +11,21 @@ Check out the [general usage examples](/docs/config.html) to learn how to use Ma
 
 Task parameters marked * are required. For parameters marked with a + choose only one.
 
-## Tasks
+<hr/>
 
-<br></br>
-<div class="task">tumblr-auth</div>
+#tumblr-auth
 
 Sets up MassMine to make data requests under your Tumblr account privileges. This task *must* be ran before using any other Tumble tasks, or an error will be returned.
 
 ## Parameters
 
-<none>
+-none-
 
 ## Example
 
     massmine --task=tumblr-auth
 
-<br></br><br></br>
-<div class="task">tumblr-blog-info</div>
+#tumblr-blog-info
 
 Retrieve meta data information about 1 or more blogs, including the number of posts, description, and more.
 
@@ -49,8 +47,7 @@ Retrieve meta data information about 1 or more blogs, including the number of po
 	# Tumblr blogs with custom URLs can also retrieved
     massmine --task=tumblr-blog-info --query=www.exampleblog.com
 
-<br></br><br></br>
-<div class="task">tumblr-posts</div>
+#tumblr-posts
 
 Retrieve posts from 1 or more blogs. The raw text of each post is returned with meta data.
 
@@ -73,8 +70,7 @@ Retrieve posts from 1 or more blogs. The raw text of each post is returned with 
 	# Tumblr blogs with custom URLs can also retrieved
     massmine --task=tumblr-posts --query=www.exampleblog.com --count=10
 
-<br></br><br></br>
-<div class="task">tumblr-tag</div>
+#tumblr-tag
 
 Search for blog posts containing 1 or more tags. The raw text of each post is returned with meta data.
 

@@ -126,25 +126,22 @@
 <!-- PANDOC main page template -->
 <h1 class="title">API Authentication</h1>
 <span class="abstract">Often, API data sources require authentication, and setup is necessary before MassMine can be authorized to collect data. This section explains how to access the required keys and tokens that allow API access, and how to save those credentials for use in ongoing data colletion projects. The steps below are a one-time setup. Once completed, MassMine will automatically connect to the available data sources for collection projects. <strong>The following MassMine sources require credentials or setup for access:</strong> - Twitter - Tumblr</span>
-<h1 id="twitter-authentication">Twitter Authentication</h1>
+<h1 id="authentication-for-twitter">Authentication for Twitter</h1>
 <p>To collect data from Twitter you must login to your Twitter account and create a new &quot;application.&quot; This &quot;application&quot; is not actually software or a computer program, but it is the access point through which MassMine collects data from Twitter. Every Twitter &quot;application&quot; is provided a certain amount of bandwidth<sup>1</sup>, and this limits the amount of free data an &quot;application&quot; may access through Twitter's API. For more details on how Twitter limits data access through their API, visit <a href="https://dev.twitter.com/overview/documentation">Twitter's online documention</a>. MassMine automatically manages &quot;rate limits&quot; for the user, within the limits permitted by Twitter's bandwidth restrictions.</p>
 <h2 id="creating-an-application">Creating an Application</h2>
 <p>Seting up &quot;application&quot; access through Twitter requires a normal Twitter account. If you already have a Twitter account, using it to collect data through Twitter's API will not affect your account. However, in order to add API access to your Twitter account, you must prove account ownership by providing your mobile telephone number. Go to your Twitter home page and click on <code>settings</code> in the drop down menu under the <code>profile and settings</code> tab.</p>
 <p>Next, click on the <code>mobile</code> side bar menu option to provide your mobile number.</p>
-<div class="figure">
-<img src="/images/mobile-twit.png" />
-
-</div>
+<p><img src="images/mobile-twit.png" class="img-responsive" alt="responsive image" /></p>
 <p>Twitter will send a text to your phone with a code to confirm your phone number. Follow the steps provided by Twitter to finish confirmation.</p>
 <h2 id="application-setup">Application Setup</h2>
 <p>After completing mobile verification, remain logged in to your account and go to <a href="https://apps.twitter.com" class="uri">https://apps.twitter.com</a>, and click on the <code>Create New App</code> button.</p>
 <p>On the following screen, fill in the boxes shown below. Under &quot;Name&quot; you will need to provide a unique application name, but &quot;Description&quot; and &quot;Website&quot; are allowed to be generic information.</p>
-<p><img src="/images/create-app.png" class="img-fluid"></p>
+<p><img src="images/create-app.png" class="img-responsive" alt="responsive image" /></p>
 <h2 id="application-secrets-and-tokens">Application Secrets and Tokens</h2>
 <p>After creating the &quot;application,&quot; click on the application name and it will take you to the page for that application. In there you will click on a link in the middle of the page titled: &quot;manage keys and access tokens.&quot;</p>
-<p><img src="/images/keys-click.png" class="img-fluid"></p>
+<p><img src="images/keys-click.png" class="img-responsive" alt="responsive image" /></p>
 <p>After clicking on &quot;manage keys and access tokens&quot; link, you will be redirected to the page that provides the credentials MassMine requires in order to collect data from the Twitter APIs. Keep this page open because you will need to copy and paste the keys and tokens on this page into MassMine.</p>
-<p><img src="/images/keys-tokens.png" width="750" class="img-fluid"></p>
+<p><img src="images/keys-tokens.png" class="img-responsive" alt="responsive image" /></p>
 <h2 id="saving-application-secrets-and-tokens-in-massmine">Saving Application Secrets and Tokens in MassMine</h2>
 <p>While keeping the keys and tokens page open in your browser, return to a terminal window and use the <code>twitter-auth</code> task as shown below. Type in the following command and press ENTER:</p>
 <pre><code>massmine --task=twitter-auth</code></pre>

@@ -125,13 +125,25 @@
             <div class="page-content">
 <!-- PANDOC main page template -->
 <h1 class="title">Using MassMine</h1>
-<h1 id="introduction">Introduction</h1>
+<div id="TOC">
+<ul>
+<li><a href="#introduction"><span class="toc-section-number">1</span> Introduction</a></li>
+<li><a href="#getting-help"><span class="toc-section-number">2</span> Getting Help</a></li>
+<li><a href="#using-and-configuring-massmine"><span class="toc-section-number">3</span> Using and Configuring MassMine</a><ul>
+<li><a href="#choosing-a-task"><span class="toc-section-number">3.1</span> Choosing a Task</a></li>
+<li><a href="#composing-data-requests"><span class="toc-section-number">3.2</span> Composing Data Requests</a></li>
+</ul></li>
+<li><a href="#alternative-configuration-file"><span class="toc-section-number">4</span> Alternative Configuration File</a></li>
+<li><a href="#working-with-the-resulting-data"><span class="toc-section-number">5</span> Working With The Resulting Data</a></li>
+</ul>
+</div>
+<h1 id="introduction"><span class="header-section-number">1</span> Introduction</h1>
 <p>MassMine's behavior is controlled via options set either directly on the command line, or by using a configuration file (or a combination of both). For most options, MassMine accepts short and long versions. For example, the following long format command</p>
 <pre><code>massmine --count=50</code></pre>
 <p>is equivalent to the following short format version</p>
 <pre><code>massmine -c 50</code></pre>
 <p>Users are free to use whichever form is preferred, but for the sake of clarity long format options will be used for this documentation.</p>
-<h1 id="getting-help">Getting Help</h1>
+<h1 id="getting-help"><span class="header-section-number">2</span> Getting Help</h1>
 <p>MassMine ships with built-in help to familiarize users with features. See what options are available to you with</p>
 <pre><code>massmine --help</code></pre>
 <div class="raw">
@@ -145,13 +157,13 @@
 </div>
 <p>In addition to per-option help, example commands for collecting data are provided with</p>
 <pre><code>massmine --help examples</code></pre>
-<h1 id="using-and-configuring-massmine">Using and Configuring MassMine</h1>
+<h1 id="using-and-configuring-massmine"><span class="header-section-number">3</span> Using and Configuring MassMine</h1>
 <p>Fetching data using MassMine involves composing a series of options that describe your data collection request. To compose such a request, you must:</p>
 <ol style="list-style-type: decimal">
 <li>Choose an appropriate <strong>task</strong></li>
 <li>Include any necessary options to specify the details of your data request.</li>
 </ol>
-<h2 id="choosing-a-task">Choosing a Task</h2>
+<h2 id="choosing-a-task"><span class="header-section-number">3.1</span> Choosing a Task</h2>
 <p>Data access methods in MassMine are referred to as &quot;tasks&quot;. Each task corresponds to a different data source. To see a list of all available tasks, use the help functionality:</p>
 <pre><code>massmine --help task</code></pre>
 <p>A listing of available tasks is printed to the terminal, each with a brief description. Next, it is important to learn what MassMine options are available for each task. To inspect these options, use</p>
@@ -159,7 +171,7 @@
 <p>Some tasks require zero options, such as the &quot;twitter-locations&quot; task. To run such tasks, the command is simply</p>
 <pre><code>massmine --task=twitter-locations</code></pre>
 <p>Most tasks, however, accept additional optional and/or required information as described in the help printout.</p>
-<h2 id="composing-data-requests">Composing Data Requests</h2>
+<h2 id="composing-data-requests"><span class="header-section-number">3.2</span> Composing Data Requests</h2>
 <p>Once you know which task you would like, you are ready to compose a data collection request. Let's assume you would like to search for tweets on Twitter that contain the keyword &quot;love&quot;. Using <code>massmine --help task</code> we learn that the appropriate task to use is called &quot;twitter-search&quot;. Next, we use <code>massmine --help task-options</code> to determine which options the twitter-search task accepts. We find:</p>
 <div class="raw">
 <p>twitter-search -- query* count geo lang</p>
@@ -179,7 +191,7 @@
 <pre><code>massmine --task=twitter-search --count=200 --query=love &gt; mydata.json</code></pre>
 <p>as well as piping</p>
 <pre><code>massmine --task=twitter-search --count=200 --query=love | tee output.json</code></pre>
-<h1 id="alternative-configuration-file">Alternative Configuration File</h1>
+<h1 id="alternative-configuration-file"><span class="header-section-number">4</span> Alternative Configuration File</h1>
 <p>For complex MassMine data requests the command line options can become long and unwieldy. For such situations, MassMine can also be controlled via a configuration file by use of the <code>--config=FILE</code> option. The configuration file should be a plain text file with the following format:</p>
 <ul>
 <li>Each line should have the format <code>option = value</code>, where <code>option</code> should be any valid long-format option (e.g., <code>task</code> and not <code>t</code>).</li>
@@ -195,7 +207,7 @@
 count = 200
 query = love
 output = mydata.json</code></pre>
-<h1 id="working-with-the-resulting-data">Working With The Resulting Data</h1>
+<h1 id="working-with-the-resulting-data"><span class="header-section-number">5</span> Working With The Resulting Data</h1>
 <p>MassMine returns data from all sources as JSON. Depending on your analysis workflow, it can be more desirable to work in a column-oriented data format (such as csv format), such as when importing data into R, SPSS, Excel, or similar. A <a href="https://github.com/n3mo/jsan">companion tool has been created called jsan</a> (The <strong>J</strong>SON <strong>S</strong>wiss <strong>A</strong>rmy k<strong>N</strong>ife) that provides quick and memory-efficient conversion into column-oriented data formats.</p>
 <p><code>jsan</code> can be used after data has been collected. For example:</p>
 <pre><code># Fetch some data first

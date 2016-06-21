@@ -1,7 +1,7 @@
 ---
-title: 'MassMine: Twitter'
+title: Twitter Tasks
 ...
-<div class="hint">To access Twitter using MassMine you must first authenticate. This is a requirement of Twitter. <a href="/docs/authorization.html">Authorization is simple</a>, and only has to be completed once.</div>
+<div class="hint">To access Twitter using MassMine you must first authenticate. This is a requirement of Twitter. <a href="authorization.html">Authorization is simple</a>, and only has to be completed once.</div>
 
 To authenticate with Twitter, run
 
@@ -11,23 +11,21 @@ Check out the [general usage examples](/docs/config.html) to learn how to use Ma
 
 Task parameters marked * are required. For parameters marked with a + choose only one.
 
-## Tasks
+<hr/>
 
-<br></br>
-<div class="task">twitter-auth</div>
+#twitter-auth
 
 Sets up MassMine to make data requests under your Twitter account privileges. This task *must* be ran before using any other Twitter tasks, or an error will be returned.
 
 ## Parameters
 
-<none>
+-none-
 
 ## Example
 
     massmine --task=twitter-auth
 
-<br></br><br></br>
-<div class="task">twitter-followers</div>
+#twitter-followers
 
 Returns information each follower for a specified user.
 
@@ -39,8 +37,7 @@ Returns information each follower for a specified user.
 
     massmine --task=twitter-followers --user=quinoa
 
-<br></br><br></br>
-<div class="task">twitter-friends</div>
+#twitter-friends
 
 Returns information on each friend of a specified user.
 
@@ -52,21 +49,19 @@ Returns information on each friend of a specified user.
 
     massmine --task=twitter-friends --user=quinoa
 
-<br></br><br></br>
-<div class="task">twitter-locations</div>
+#twitter-locations
 
 Returns a list of valid geo-locations [as Yahoo Where on Earth Indentifiers (WOEIDS)](https://developer.yahoo.com/geo/geoplanet/guide/concepts.html) accepted by Twitter. These WOEIDs can be used with some Twitter tasks that accept a *geo* parameter.
 
 ## Parameters
 
-<none>
+-none-
 
 ## Example
 
     massmine --task=twitter-locations
 
-<br></br><br></br>
-<div class="task">twitter-sample</div>
+#twitter-sample
 
 Returns a random sample of tweets as they occur in *real time*. Up to 1% of Twitter's actual volume is returned. Returns up to a maximum number of tweets requested OR until a specified date/time is reached. Both "count" and "dur" can be specified, in which case the task finished whenever either target is reached.
 
@@ -85,10 +80,9 @@ Returns a random sample of tweets as they occur in *real time*. Up to 1% of Twit
 
     # This will finish whenever 50 tweets or the deadline is reached,
     # whichever occurs first
-	massmine --task=twitter-sample --dur='2015-10-11 14:30:00' --count=50
+ 	massmine --task=twitter-sample --dur='2015-10-11 14:30:00' --count=50
 
-<br></br><br></br>
-<div class="task">twitter-search</div>
+#twitter-search
 
 Search for *pre-existing* tweets matching a given search phrase. Not all tweets are indexed and made available by Twitter's search, and search-able tweets are indexed for the last 7 days only. For better search coverage, consider using the *twitter-stream* task to capture tweets as they occur in real time.
 
@@ -110,8 +104,7 @@ Search for *pre-existing* tweets matching a given search phrase. Not all tweets 
     # ... in French
     massmine --task=twitter-search --query=amour --count=300 --lang=fr
 
-<br></br><br></br>
-<div class="task">twitter-stream</div>
+#twitter-stream
 
 Returns tweets as they occur in *real time*, matching either a search phrase, a user name, or a location. Up to 1% of Twitter's actual volume is returned. Returns up to a maximum number of tweets requested OR until a specified date/time is reached. Both "count" and "dur" can be specified, in which case the task finished whenever either target is reached.
 
@@ -136,8 +129,7 @@ Returns tweets as they occur in *real time*, matching either a search phrase, a 
     # Or, simply grab tweets coming out of New York City
     massmine --task=twitter-stream --geo=-74,40,-73,41 --count=300
 
-<br></br><br></br>
-<div class="task">twitter-trends</div>
+#twitter-trends
 
 Returns the top-50 trends for a given location.
 
@@ -150,8 +142,7 @@ Returns the top-50 trends for a given location.
     # Current trends in Seattle, Washington
     massmine --task=twitter-trends --geo=2490383
 
-<br></br><br></br>
-<div class="task">twitter-trends-nohash</div>
+#twitter-trends-nohash
 
 Returns the top-50 trends for a given location, with #hashtags excluded.
 
@@ -164,8 +155,7 @@ Returns the top-50 trends for a given location, with #hashtags excluded.
     # Current trends in Seattle, Washington
     massmine --task=twitter-trends-nohash --geo=2490383
 
-<br></br><br></br>
-<div class="task">twitter-user</div>
+#twitter-user
 
 Returns 1 or more users timelines (i.e., their tweet history), in reverse chronological order.
 
