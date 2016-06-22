@@ -718,12 +718,12 @@ html, body {
   }
 
   .page-content {
-    margin-left: -20px !important;
+    margin-left: -25px !important;
     margin-right: -5px !important;
   }
 
   .page-content p, ul {
-    margin-right: -10px;
+    margin-right: -15px;
   }
 
   .embed-responsive {
