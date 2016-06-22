@@ -746,6 +746,10 @@ html, body {
     margin-right: 0px;
   }
 
+  #research-list li {
+    margin-left: 20px;
+  }
+
   #home-modals .btn-secondary {
     margin-bottom: 37px;
   }
