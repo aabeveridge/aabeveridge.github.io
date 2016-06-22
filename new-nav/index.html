@@ -122,7 +122,7 @@
                 <p><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1J2ywTHhGvU" frameborder="0" allowfullscreen></iframe></p>
               </div>
               <div class="row">
-                <div class="home-modals">
+                <div id="home-modals">
                   <!-- data sources modal -->
                   <div class="col-md-4">
                     <h1>Data Sources:</h1>
@@ -140,24 +140,24 @@
                         <div class="modal-body">
                           <p>MassMine collects and processes data from Twitter, Tumblr, Wikipedia, Google Trends, and any web page URL.</p>
                           <div class="row">
-                            <div class="twit-logo col-md-4 col-md-offset-1">
-                              <img id="logo-img" class="img-responsive" alt="responsive image" src="docs/images/twit-logo.jpg" />
+                            <div class="col-md-4 col-md-offset-1">
+                              <img id="twit-logo" class="img-responsive" alt="responsive image" src="docs/images/twit-logo.jpg" />
                             </div>
-                            <div class="tumb-logo col-md-4 col-md-offset-1">
-                              <img id="logo-img" class="img-responsive" alt="responsive image" src="docs/images/tumb-logo.jpg" />
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="wiki-logo col-md-4 col-md-offset-1">
-                              <img id="logo-img" class="img-responsive" alt="responsive image" src="docs/images/wiki-logo.jpg" />
-                            </div>
-                            <div class="goog-logo col-md-4 col-md-offset-1">
-                              <img id="logo-img" class="img-responsive" alt="responsive image" src="docs/images/goog-logo.jpg" />
+                            <div class="col-md-4 col-md-offset-1">
+                              <img id="tumb-logo" class="img-responsive" alt="responsive image" src="docs/images/tumb-logo.jpg" />
                             </div>
                           </div>
                           <div class="row">
-                            <div class="http-logo col-md-4 col-md-offset-4">
-                              <img id="logo-img" class="img-responsive" alt="responsive image" src="docs/images/http-logo.jpg" />
+                            <div class="col-md-4 col-md-offset-1">
+                              <img id="wiki-logo" class="img-responsive" alt="responsive image" src="docs/images/wiki-logo.jpg" />
+                            </div>
+                            <div class="col-md-4 col-md-offset-1">
+                              <img id="goog-logo" class="img-responsive" alt="responsive image" src="docs/images/goog-logo.jpg" />
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-4 col-md-offset-4">
+                              <img id="http-logo" class="img-responsive" alt="responsive image" src="docs/images/http-logo.jpg" />
                             </div>
                           </div>
                         </div>
@@ -182,7 +182,7 @@
                           <h4 class="modal-title"><span class="m-logo">M</span><b>Features:</b></h4>
                         </div>
                         <div class="modal-body">
-                          <ul class="features-list">
+                          <ul id="features-list">
                             <li>Designed for use on personal computers or on servers/clusters.</li>
                             <li>Handles the acquisition of data from sites such as Twitter, Wikipedia, etc., including rate limits imposed by these services.</li>
                             <li>Makes setting up custom data requests easy, allowing for flexible deployment for individualized research needs.</li>
@@ -218,7 +218,7 @@
                           <p>MassMine has been funded by the National Endowment for the Humanities since May of 2015.</p>
                           <p>In the spirit of Digital Humanities research, MassMine seeks to be an interdisciplinary tool that supports many types of social network and internet data collection and analysis.</p>
                           <p>MassMine has been used for academic research in:</p>
-                          <ul class="research-list">
+                          <ul id="research-list">
                             <li>Humanities</li>
                             <li>Psychology</li>
                             <li>Communication</li>

@@ -4,7 +4,7 @@ html, body {
 /*======================================
   Home modals and jumbotron
 ======================================*/
-.home-modals {
+#home-modals {
   margin-top: 25px;
   margin-left: 20px;
 }
@@ -26,24 +26,19 @@ html, body {
   color:black;
 }
 
-.home-modals h1 {
-  margin-top: 0 !important;
-  margin-bottom: -5px !important;
-  font-size: 20px !important;
+#home-modals h1 {
+  margin-top: 0;
+  margin-bottom: -5px;
+  font-size: 20px;
 }
 
-.home-modals p {
-  font-size: 17px !important;
+#home-modals p {
+  font-size: 17px;
 }
 
-.home-modals i {
+#home-modals i {
   font-size: 13px;
   margin-right: 4px;
-}
-
-.home-modals img {
-  margin-top: 20px;
-  margin-bottom: 12px;
 }
 
 .modal-header {
@@ -56,24 +51,30 @@ html, body {
   margin-bottom: 10px;
 }
 
-.goog-logo {
-  margin-top: 16px;
+#goog-logo {
+  margin-top: 47px;
 }
 
-.tumb-logo {
-  margin-top: -5px;
+#tumb-logo {
+  margin-top: 24px;
 }
 
-.features-list {
+#tumb-logo, #twit-logo, #wiki-logo, #goog-logo {
+  margin-bottom: 10px;
+}
+
+#features-list {
   margin-top: 20px;
+  font-size: 17px;
 }
 
-.research-list {
+#research-list {
   margin-left: 30px;
 }
 
-.research-list li {
-  margin-top: -5px !important;
+#research-list li {
+  margin-top: -5px;
+  font-size: 17px;
 }
 
 .m-logo {
@@ -87,21 +88,6 @@ html, body {
   padding-bottom: 1px;
   margin-right: 7px;
 }
-
-/*.home-modals > [class*='col-']:before {
- background: #e3e3e3;
- bottom: 0;
- content: " ";
- left: 0;
- position: absolute;
- width: 3px;
- top: 0;
- margin-left: -10px;
-}
-
-.home-modals > [class*='col-']:first-child:before {
- display: none;
-}*/
 
 /*======================================
   Banner
@@ -364,7 +350,7 @@ html, body {
   margin-bottom: 10px;
 }
 
-#logo-img {
+#tumb-logo, #goog-logo, #http-logo, #twit-logo, #wiki-logo {
   box-shadow: none;
 }
 
@@ -750,26 +736,39 @@ html, body {
   }
 
   .modal-body p {
-    margin-left: 5px;
+    margin-left: 0px;
     margin-right: 5px;
     margin-bottom: 10px;
   }
 
   .modal-body ul {
-    margin-left: -20px;
+    margin-left: -24px !important;
     margin-right: 0px;
   }
 
-  .home-modals .btn-secondary {
+  #home-modals .btn-secondary {
     margin-bottom: 37px;
   }
 
-  .home-modals h1 {
-    margin-bottom: -12px !important;
+  #home-modals h1 {
+    margin-bottom: -12px;
   }
 
-  .tumb-logo, .goog-logo, .http-logo, .twit-logo, .wiki-logo {
-    margin-left: 25px;
+  #tumb-logo, #goog-logo, #http-logo, #twit-logo, #wiki-logo {
+    margin-left: 15px;
+    padding: 0;
+  }
+
+  #tumb-logo, #goog-logo, #http-logo, #wiki-logo {
+    margin-top: 10px;
+  }
+
+  #twit-logo {
+    margin-top: 2px;
+  }
+
+  #tumb-logo, #goog-logo {
+    margin-bottom: 0px;
   }
 
   .nav-subtitle {
@@ -861,7 +860,7 @@ html, body {
     padding-left: 5px;
     margin-left: 135px;
     margin-bottom: -4px;
-    margin-top: -118px;
+    margin-top: -117px;
     outline: none;
     font-size: small;
   }
