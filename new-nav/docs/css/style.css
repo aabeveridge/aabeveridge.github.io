@@ -832,16 +832,16 @@ html, body {
 
   #sidebar-wrapper #version {
     color: #484848;
-    font-size: x-small;
+    font-size: 10px;
     margin-left: 31px;
     margin-top: -25px;
   }
 
   #sidebar-wrapper #side-copy {
-    font-size: x-small;
+    font-size: 0;
     margin-left: 0px;
-    color: #484848;
-    margin-top: -22px;
+    color: #E8E8E8;
+    margin-top: -42px;
     margin-bottom: 0px;
   }
 
