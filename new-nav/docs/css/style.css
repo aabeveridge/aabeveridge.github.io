@@ -471,7 +471,7 @@ html, body {
   color: #989898;
 }
 
-#sidebar-wrapper .side-bottom {
+#sidebar-wrapper #side-bottom {
   margin-bottom: 50px;
 }
 
@@ -726,10 +726,6 @@ html, body {
     margin-right: -10px;
   }
 
-  /*.img-responsive {
-    margin-left: 20px;
-  }*/
-
   .embed-responsive {
     margin-left: 18px;
     padding-right: -40;
@@ -814,7 +810,7 @@ html, body {
   }
 
   #sidebar-wrapper hr {
-    margin-top: -11px;
+    margin-top: -35px;
     width: 203px;
   }
 
@@ -867,10 +863,6 @@ html, body {
     margin-top: -117px;
     outline: none;
     font-size: small;
-  }
-
-  #sidebar-wrapper .side-bottom {
-    margin-bottom: 10px;
   }
 
   #wrapper.toggled {
