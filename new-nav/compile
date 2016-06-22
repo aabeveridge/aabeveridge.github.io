@@ -1,13 +1,8 @@
 #!/bin/bash
 
 #######################################################
-##  massmine.org build script
+##  massmine.org/docs build script
 #######################################################
-
-#home
-# pandoc ./src/md/home.md \
-# --template ./src/frames/main.html \
-# --output index.html
 
 #docs main
 pandoc ./src/md/getting-started.md \
