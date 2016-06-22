@@ -325,7 +325,7 @@ html, body {
     border: 2px solid black;
     border-radius: 10px;
     padding: 5px;
-    margin-top: 80px;
+    margin-top: 65px;
 }
 
 .page-content [id^="parameters"], .page-content [id^="example"] {
@@ -492,13 +492,13 @@ html, body {
   display: block;
   border-color: #404040;
   border-width: 4px;
-  margin-left: 18px;
+  margin-left: 22px;
   margin-top: 2px;
   width: 182px;
 }
 
 #sidebar-wrapper #left-icon {
-  margin-left: -19px;
+  margin-left: -14px;
   margin-right: 0px;
 }
 
@@ -512,6 +512,10 @@ html, body {
   margin-bottom: 0px;
   }
 
+  #sidebar-wrapper #icon:focus, #sidebar-wrapper #left-icon:focus {
+    outline: none;
+  }
+
 #sidebar-wrapper #icon i, #sidebar-wrapper #left-icon i {
   font-size: 30px;
 }
@@ -523,7 +527,7 @@ html, body {
 #sidebar-wrapper #version {
   color: #484848;
   font-size: x-small;
-  margin-left: 21px;
+  margin-left: 26px;
   margin-top: -25px;
 }
 
@@ -578,38 +582,38 @@ html, body {
     color: #454545;
   }
 
-  /*.twit-logo {
-    margin-bottom: 40px;
-  }*/
-
-  .wiki-logo {
-    margin-bottom: -25px;
-    margin-top: -10px;
-  }
-
-  .tumb-logo, .goog-logo, .http-logo, .twit-logo, .wiki-logo {
-    margin-left: 100px;
-  }
-
 /*======================================
   Medium width style
 ======================================*/
 @media (max-width:992px) {
 
-  .home-modals .btn-secondary {
+  #home-modals .btn-secondary {
     margin-bottom: 37px;
   }
 
-  .home-modals h1 {
+  #home-modals h1 {
     margin-bottom: -12px !important;
   }
 
-  .goog-logo {
-    margin-top:50px;
+  #tumb-logo, #goog-logo, #http-logo, #twit-logo, #wiki-logo {
+    margin-left: 15px;
+    padding: 0;
   }
 
-  .tumb-logo {
-    margin-top: 30px;
+  #tumb-logo, #goog-logo, #http-logo, #wiki-logo {
+    margin-top: 10px;
+  }
+
+  #twit-logo {
+    margin-top: 2px;
+  }
+
+  #wiki-logo {
+    margin-bottom: 0;
+  }
+
+  #tumb-logo, #goog-logo {
+    margin-bottom: 0px;
   }
 
   .footer p {
@@ -637,11 +641,11 @@ html, body {
 ======================================*/
 @media (max-width:767px) {
 
-  .home-modals .btn-secondary {
+  #home-modals .btn-secondary {
     margin-bottom: 37px;
   }
 
-  .home-modals h1 {
+  #home-modals h1 {
     margin-bottom: -12px !important;
   }
 
@@ -667,10 +671,6 @@ html, body {
 
   .first-modal {
     margin-left: 0;
-  }
-
-  .tumb-logo, .goog-logo, .http-logo, .twit-logo, .wiki-logo {
-    margin-left: 75px;
   }
 
   #TOC {
@@ -752,23 +752,6 @@ html, body {
 
   #home-modals h1 {
     margin-bottom: -12px;
-  }
-
-  #tumb-logo, #goog-logo, #http-logo, #twit-logo, #wiki-logo {
-    margin-left: 15px;
-    padding: 0;
-  }
-
-  #tumb-logo, #goog-logo, #http-logo, #wiki-logo {
-    margin-top: 10px;
-  }
-
-  #twit-logo {
-    margin-top: 2px;
-  }
-
-  #tumb-logo, #goog-logo {
-    margin-bottom: 0px;
   }
 
   .nav-subtitle {
