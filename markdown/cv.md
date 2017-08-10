@@ -16,7 +16,6 @@ Thesis: "(Inter)Active Rhetoric: The Ethics of Agency and Praxis"
 Degree: BA  
 Major: English (Focus: Rhetoric)
 
-
 <!-- ### **Monographs in progress** -->
 
 <!--*Big Data and the Humanities*. Co-authored with Sidney Dobrin. Under review.-->
@@ -29,7 +28,7 @@ Major: English (Focus: Rhetoric)
 "MassMine: Your Access to Data." Co-authored with Nicholas Van Horn. *The Journal of Open Source
 Software*. Fall 2016. <http://dx.doi.org/10.21105/joss.00050>
 
-"Writing through Big Data: New Challenges and Possibilities for Data-Driven Arguments." *Composition Forum*. Forthcoming. 
+"Writing through Big Data: New Challenges and Possibilities for Data-Driven Arguments." *Composition Forum*. Forthcoming.
 
 "Circulation Analytics: Research Software Development and Social Network Data." *Circulation, Rhetoric, and Writing*. Eds. Collin Gifford Brooke and Laurie E. Gries. Forthcoming.
 
@@ -60,11 +59,11 @@ Graduate Research Fellowship, University of Florida (2013--2015)
 > Writing)  
 > ENG1131 “Writing through Big Data” (Writing Studies, Data Visualization)  
 
-Graduate Teaching Assistant, University of Akron (2006 – 2008)
+Graduate Teaching Assistant, University of Akron (2006--2008)
 
 > English 3300:111 “Composition 111” (Freshman Composition)
 
-Writing Center Consultant, The Ohio State University (2004 - 2006)
+Writing Center Consultant, The Ohio State University (2004--2006)
 
 ### **Grants Funded**
 “MassMine: Collecting and Archiving Big Data for Social Media Humanities Research.” *National Endowment for the Humanities*. May 2015.
@@ -100,7 +99,7 @@ Writing Center Consultant, The Ohio State University (2004 - 2006)
 “The Language of Homelessness.” Denman Research Forum, Columbus, OH (May 2005).
 
 ### **Invited Lectures and Academic Trainings**
-"Social Media Data Mining for Communication Research." SIGDOC, Halifax Nova Scotia (August 2017)
+"Social Media Data Mining for Communication Research." SIGDOC, Halifax Nova Scotia (August 2017).
 
 "Text Mining and Visualization." Digital Humanities Bootcamp, University of Florida (January 2016).
 
