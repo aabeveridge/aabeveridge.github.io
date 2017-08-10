@@ -9,7 +9,7 @@
 ## markdown. Site navigation is created with Pandoc's
 ## include-before-body function by inserting nav.html
 ## into every page's HTML when it is built by Pandoc.
-####################################################### 
+#######################################################
 
 #home page
 pandoc ./markdown/home.md \
@@ -22,14 +22,14 @@ pandoc ./markdown/home.md \
 --title-prefix="welcome"
 
 #projects page
-pandoc ./markdown/projects.md \
---css style.css \
---template ./templates/body.html \
---output projects.html \
---smart \
---include-before-body ./templates/projects-nav.html \
---include-after-body ./templates/footer.html \
---title-prefix="projects"
+# pandoc ./markdown/projects.md \
+# --css style.css \
+# --template ./templates/body.html \
+# --output projects.html \
+# --smart \
+# --include-before-body ./templates/projects-nav.html \
+# --include-after-body ./templates/footer.html \
+# --title-prefix="projects"
 
 #cv page
 pandoc ./markdown/cv.md \
@@ -48,7 +48,7 @@ pandoc ./markdown/cv.md \
 #--output teaching.html \
 #--smart \
 #--include-before-body ./templates/nav.html \
-#--title-prefix="teaching" 
+#--title-prefix="teaching"
 #--include-after-body ./templates/footer.html \
 
 #git add --all

@@ -1,10 +1,10 @@
 ### **Education**
 
 **University of Florda**  
-Degree: PhD (Expected Spring 2017)  
+Degree: PhD (2017)  
 Field: Writing Studies  
-Director: Sidney Dobrin  
-Dissertation in progress: "Writing Macroscopes: Data Mining Methods for Networked Writing, Digital Rhetoric, and Attention Ecology"
+Director: Sidney I. Dobrin  
+Dissertation in progress: "Writing Macroscopes: Networked Writing, Digital Content, and Data Science"
 
 **University of Akron**  
 Degree: MA (2008)  
@@ -16,21 +16,24 @@ Thesis: "(Inter)Active Rhetoric: The Ethics of Agency and Praxis"
 Degree: BA  
 Major: English (Focus: Rhetoric)
 
-<!--### **Monographs in progress**-->
+<!-- ### **Monographs in progress** -->
 
 <!--*Big Data and the Humanities*. Co-authored with Sidney Dobrin. Under review.-->
 
-### **Peer Reviewed Articles and Book Chapters In Progress**
-
+### **Peer Reviewed Articles and Book Chapters**
 "Looking in the Dustbin: Data Janitorial Work, Statistical Reasoning, and Information Rhetorics." *Computers and Composition Online*. Fall 2015. Web. <http://casit.bgsu.edu/cconline/fall15/beveridge/>
 
-"Attention Ecology: Trend Circulation and the Virality Threshold." Co-authored with Nicholas Van Horn and Sean Morey. *Digital Humanities Quarterly*. Forthcoming.
+"Attention Ecology: Trend Circulation and the Virality Threshold." Co-authored with Nicholas Van Horn and Sean Morey. *Digital Humanities Quarterly*. Fall 2016. Web. <http://www.digitalhumanities.org/dhq/vol/10/4/00027
+1/000271.html>
 
-"Circulation Analytics: Research Software Development and Social Network Data." *Circulation, Rhetoric, and Writing*. Eds. Collin Gifford Brooke and Laurie E. Gries. Chapter accepted. Collection under review.
+"MassMine: Your Access to Data." Co-authored with Nicholas Van Horn. *The Journal of Open Source
+Software*. Fall 2016. Web. <http://dx.doi.org/10.21105/joss.00050>
 
-"Writing through Big Data: New Challenges and Possibilities for Data-Driven Arguments." Under Review.
+"Writing through Big Data: New Challenges and Possibilities for Data-Driven Arguments." *Composition Forum*. Forthcoming. Fall 2017. Web.
 
-"The Markdown Movement: Writing's Influence on Markup." Under Review.
+"Circulation Analytics: Research Software Development and Social Network Data." *Circulation, Rhetoric, and Writing*. Eds. Collin Gifford Brooke and Laurie E. Gries. Forthcoming. Print.
+
+"The Markdown Movement: Writing's Influence on Markup." *Kairos*. Forthcoming. Web.
 
 <!--"Genre and Public Rhetoric." In progress.-->
 
@@ -38,9 +41,13 @@ Major: English (Focus: Rhetoric)
 
 <!--"Landspeak." In progress.-->
 
-### **Professional Posts and Teaching**
+### **Collections in Progress**
+*Doing Visual Studies*. Edited with Laurie E. Gries. First Author: Gries. Chapter submissions received---editing in progress.
 
-Graduate Research Fellowship, University of Florida (2016--present)
+### **Professional Posts and Teaching**
+Assistant Professor, University of North Carolina at Greensboro (2017--present)
+
+Graduate Research Fellowship, University of Florida (2016--2017)
 
 > ENC3310 "Advanced Exposition: Digital Rhetoric as Scholarship" (Digital Rhetoric, Advanced Writing)  
 > ENG1131 "Writing through Trends" (Writing Studies, Social Networks)  
@@ -72,7 +79,6 @@ Writing Center Consultant, The Ohio State University (2004 - 2006)
 > **Roles:** Grant writing, interdisciplinary curriculum and classroom support (UF college of Journalism, UF Digital Humanities Graduate Cirtificate), training.  
 
 ### **Conference Presentations**
-
 "Circulation, Data Viz, and Visual Rhetoric." Panel Member. 17th Biennial Rhetoric Society of America Conference, Atlanta, GA, (May 2016).
 
 "Writing through Big Data: Using MassMine in the Advanced Writing Classroom." Conference on College Composition and Communication. Houston, TX (April 2016).
@@ -94,6 +100,8 @@ Writing Center Consultant, The Ohio State University (2004 - 2006)
 “The Language of Homelessness.” Denman Research Forum, Columbus, OH (May 2005).
 
 ### **Invited Lectures and Academic Trainings**
+"Social Media Data Mining for Communication Research." SIGDOC, Halifax Nova Scotia (August 2017)
+
 "Text Mining and Visualization." Digital Humanities Bootcamp, University of Florida (January 2016).
 
 “Introduction to Arduino: Prototyping and Programming.” Marston Science Library, University of Florida (April, November 2015).
@@ -103,11 +111,6 @@ Writing Center Consultant, The Ohio State University (2004 - 2006)
 “Professional Web Presence, Personal Site, Online Portfolios.” George A. Smathers Library, University of Florida (October 2014).
 
 ### **Professional Activities and Service**
-
-Technical Editor, *Trace Journal*. (2015 -- present).
-
-Technical Editor, *Kudzu House Quarterly*. (2015 -- present).
-
-Panel and Presentation Reviewer, *Rhetoric Society of America Conference*. (2016).
+Panel and Presentation Reviewer, *Rhetoric Society of America Conference*. (2016--present).
 
 Newcomers Welcome Committee Volunteer, *Conference on College Composition and Communication*. (2016).
