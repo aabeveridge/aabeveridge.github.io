@@ -4,7 +4,7 @@
 Degree: PhD (2017)  
 Field: Writing Studies  
 Director: Sidney I. Dobrin  
-Dissertation in progress: "Writing Macroscopes: Networked Writing, Digital Content, and Data Science"
+Dissertation: "Writing Macroscopes: Networked Writing, Digital Content, and Data Science"
 
 **University of Akron**  
 Degree: MA (2008)  
