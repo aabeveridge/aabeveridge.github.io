@@ -2,7 +2,7 @@
 
 #### **Contact:**
 
-Aaron Beverige
+Aaron Beverige  
 Assistant Professor of Digital Rhetoric  
 Department of English  
 University of North Carolina at Greensboro  
