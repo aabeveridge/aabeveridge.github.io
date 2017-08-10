@@ -21,7 +21,7 @@ Major: English (Focus: Rhetoric)
 <!--*Big Data and the Humanities*. Co-authored with Sidney Dobrin. Under review.-->
 
 ### **Peer Reviewed Articles and Book Chapters**
-"Looking in the Dustbin: Data Janitorial Work, Statistical Reasoning, and Information Rhetorics." *Computers and Composition Online*. Fall 2015. Web. <http://casit.bgsu.edu/cconline/fall15/beveridge/>
+"Looking in the Dustbin: Data Janitorial Work, Statistical Reasoning, and Information Rhetorics." *Computers and Composition Online*. Fall 2015. Web. <http://cconlinejournal.org/fall15/beveridge/>
 
 "Attention Ecology: Trend Circulation and the Virality Threshold." Co-authored with Nicholas Van Horn and Sean Morey. *Digital Humanities Quarterly*. Fall 2016. <http://www.digitalhumanities.org/dhq/vol/10/4/000271/000271.html>
 
