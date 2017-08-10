@@ -24,17 +24,16 @@ Major: English (Focus: Rhetoric)
 ### **Peer Reviewed Articles and Book Chapters**
 "Looking in the Dustbin: Data Janitorial Work, Statistical Reasoning, and Information Rhetorics." *Computers and Composition Online*. Fall 2015. Web. <http://casit.bgsu.edu/cconline/fall15/beveridge/>
 
-"Attention Ecology: Trend Circulation and the Virality Threshold." Co-authored with Nicholas Van Horn and Sean Morey. *Digital Humanities Quarterly*. Fall 2016. Web. <http://www.digitalhumanities.org/dhq/vol/10/4/00027
-1/000271.html>
+"Attention Ecology: Trend Circulation and the Virality Threshold." Co-authored with Nicholas Van Horn and Sean Morey. *Digital Humanities Quarterly*. Fall 2016. <http://www.digitalhumanities.org/dhq/vol/10/4/000271/000271.html>
 
 "MassMine: Your Access to Data." Co-authored with Nicholas Van Horn. *The Journal of Open Source
-Software*. Fall 2016. Web. <http://dx.doi.org/10.21105/joss.00050>
+Software*. Fall 2016. <http://dx.doi.org/10.21105/joss.00050>
 
-"Writing through Big Data: New Challenges and Possibilities for Data-Driven Arguments." *Composition Forum*. Forthcoming. Fall 2017. Web.
+"Writing through Big Data: New Challenges and Possibilities for Data-Driven Arguments." *Composition Forum*. Forthcoming. 
 
-"Circulation Analytics: Research Software Development and Social Network Data." *Circulation, Rhetoric, and Writing*. Eds. Collin Gifford Brooke and Laurie E. Gries. Forthcoming. Print.
+"Circulation Analytics: Research Software Development and Social Network Data." *Circulation, Rhetoric, and Writing*. Eds. Collin Gifford Brooke and Laurie E. Gries. Forthcoming.
 
-"The Markdown Movement: Writing's Influence on Markup." *Kairos*. Forthcoming. Web.
+"The Markdown Movement: Writing's Influence on Markup." *Kairos*. Forthcoming.
 
 <!--"Genre and Public Rhetoric." In progress.-->
 
