@@ -16,6 +16,7 @@ Thesis: "(Inter)Active Rhetoric: The Ethics of Agency and Praxis"
 Degree: BA  
 Major: English (Focus: Rhetoric)
 
+
 <!-- ### **Monographs in progress** -->
 
 <!--*Big Data and the Humanities*. Co-authored with Sidney Dobrin. Under review.-->
