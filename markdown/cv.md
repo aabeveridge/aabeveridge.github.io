@@ -17,7 +17,7 @@ Degree: BA
 Major: English (Focus: Rhetoric)
 
 ### **Peer Reviewed Articles and Chapters**
-"Circulation Analytics: Research Software Development and Social Network Data." *Circulation, Rhetoric, and Writing*. Eds. Collin Gifford Brooke and Laurie E. Gries. Spring 2018.
+"Circulation Analytics: Research Software Development and Social Network Data." *Circulation, Rhetoric, and Writing*. Eds. Collin Gifford Brooke and Laurie E. Gries. Utah State University Press. Spring 2018. <https://www.amazon.com/Circulation-Writing-Rhetoric-Laurie-Gries/dp/160732671X>
 
 "The Markdown Movement: Writing's Influence on Markup." *Kairos*. Spring 2018. <http://praxis.technorhetoric.net/tiki-index.php?page=PraxisWiki:_:markdown>
 
