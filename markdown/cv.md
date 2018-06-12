@@ -16,48 +16,50 @@ Thesis: "(Inter)Active Rhetoric: The Ethics of Agency and Praxis"
 Degree: BA  
 Major: English (Focus: Rhetoric)
 
-<!-- ### **Monographs in progress** -->
+### **Peer Reviewed Articles and Chapters**
+"Circulation Analytics: Research Software Development and Social Network Data." *Circulation, Rhetoric, and Writing*. Eds. Collin Gifford Brooke and Laurie E. Gries. Spring 2018.
 
-<!--*Big Data and the Humanities*. Co-authored with Sidney Dobrin. Under review.-->
+"The Markdown Movement: Writing's Influence on Markup." *Kairos*. Spring 2018. <http://praxis.technorhetoric.net/tiki-index.php?page=PraxisWiki:_:markdown>
 
-### **Peer Reviewed Articles and Book Chapters**
-"Looking in the Dustbin: Data Janitorial Work, Statistical Reasoning, and Information Rhetorics." *Computers and Composition Online*. Fall 2015. Web. <http://cconlinejournal.org/fall15/beveridge/>
-
-"Attention Ecology: Trend Circulation and the Virality Threshold." Co-authored with Nicholas Van Horn and Sean Morey. *Digital Humanities Quarterly*. Fall 2016. <http://www.digitalhumanities.org/dhq/vol/10/4/000271/000271.html>
+"Writing through Big Data: New Challenges and Possibilities for Data-Driven Arguments." *Composition Forum*. Fall 2017. <http://compositionforum.com/issue/37/big-data.php>
 
 "MassMine: Your Access to Data." Co-authored with Nicholas Van Horn. *The Journal of Open Source
 Software*. Fall 2016. <http://dx.doi.org/10.21105/joss.00050>
 
-"Writing through Big Data: New Challenges and Possibilities for Data-Driven Arguments." *Composition Forum*. Forthcoming.
+"Attention Ecology: Trend Circulation and the Virality Threshold." Co-authored with Nicholas Van Horn and Sean Morey. *Digital Humanities Quarterly*. Fall 2016. <http://www.digitalhumanities.org/dhq/vol/10/4/000271/000271.html>
 
-"Circulation Analytics: Research Software Development and Social Network Data." *Circulation, Rhetoric, and Writing*. Eds. Collin Gifford Brooke and Laurie E. Gries. Forthcoming.
+"Looking in the Dustbin: Data Janitorial Work, Statistical Reasoning, and Information Rhetorics." *Computers and Composition Online*. Fall 2015. Web. <http://cconlinejournal.org/fall15/beveridge/>
 
-"The Markdown Movement: Writing's Influence on Markup." *Kairos*. Forthcoming.
+### **Articles and Chapters in Progress**
+“Where is Obama Hope Now? Tracking Changes in the Hope Trend.” *Doing Digital Visual Studies*. Utah State University Press. Under review.
 
-<!--"Genre and Public Rhetoric." In progress.-->
+“Big Data, Tiny Computers: Making Social Network Data Accessible with the Raspberry Pi.” Co-authored with Nicholas Van Horn. *Re-Programmable Rhetoric: Critical Making Theories and Methods in Digital Rhetoric and Composition*. Edited by Anthony Stagliano and Steve Holmes. University of Michigan Press. Under review.
 
-<!--"Tagging Feedback Loops: A Case Study for Visual Writing Networks." In progress.-->
+“Hand-coding vs. Natural Language Processing in Technical Communication Research.” Co-authored with Claire Lauer and Eva Brumberger. *IEEE Transactions for Professional Communication*. Under review.
 
-<!--"Landspeak." In progress.-->
+### **Books in Progress**
+*Doing Visual Studies*. Co-edited with Laurie E. Gries. Under Review.
 
-### **Collections in Progress**
-*Doing Visual Studies*. Edited with Laurie E. Gries. First Author: Gries. Chapter submissions received---editing in progress.
+### **Special Collections in Progress**
+"Composing Algorithms: Writing (with) Rhetorical Machines." *Computers and Composition*. Co-edited with Sergio C. Figueiredo and Steven K. Holmes. Forthcoming 2020. 
 
 ### **Professional Posts and Teaching**
 Assistant Professor, University of North Carolina at Greensboro (2017--present)
+> ENG 306 "Digital Rhetoric"
+> ENG 365 "Writing Across the University: Writing the Sciences"
+> ENG 659 "Digital Literacies and Online Rhetoric"
 
 Graduate Research Fellowship, University of Florida (2016--2017)
 
-> ENC3310 "Advanced Exposition: Digital Rhetoric as Scholarship" (Digital Rhetoric, Advanced Writing)  
-> ENG1131 "Writing through Trends" (Writing Studies, Social Networks)  
+> ENC 3310 "Advanced Exposition: Digital Rhetoric as Scholarship"  
+> ENG 1131 "Writing through Trends"
 
 Seed Grant Research Fellowship, University of Florida Informatics Institute (2015--2016)
 
 Graduate Research Fellowship, University of Florida (2013--2015)
 
-> ENC5236 “Advanced Business Writing for Accountants” (Graduate Business
-> Writing)  
-> ENG1131 “Writing through Big Data” (Writing Studies, Data Visualization)  
+> ENC 5236 “Advanced Business Writing for Accountants”  
+> ENG 1131 “Writing through Big Data”
 
 Graduate Teaching Assistant, University of Akron (2006--2008)
 
@@ -78,6 +80,13 @@ Writing Center Consultant, The Ohio State University (2004--2006)
 > **Roles:** Grant writing, interdisciplinary curriculum and classroom support (UF college of Journalism, UF Digital Humanities Graduate Cirtificate), training.  
 
 ### **Conference Presentations**
+“The Right to be Forgotten: Public Memory in the Surveillance Economy.” Carolina Rhetoric Conference. Clemson, SC, (February 2018).
+
+“Supercomputers and Research at Scale.” College Conference on
+Composition and Communication. Kansas City, MO, (March 2018).
+
+“Social Media Data Mining for Communication Research.” Association for Computing Machinery: Special Interest Group for Design of Communication. Halifax, NS, (August 2017).
+
 "Circulation, Data Viz, and Visual Rhetoric." Panel Member. 17th Biennial Rhetoric Society of America Conference, Atlanta, GA, (May 2016).
 
 "Writing through Big Data: Using MassMine in the Advanced Writing Classroom." Conference on College Composition and Communication. Houston, TX (April 2016).
@@ -99,6 +108,8 @@ Writing Center Consultant, The Ohio State University (2004--2006)
 “The Language of Homelessness.” Denman Research Forum, Columbus, OH (May 2005).
 
 ### **Invited Lectures and Academic Trainings**
+“Social Network Trends and Cultural Analytics.” Colloquium talk for Bryan School of Business and Economics at UNCG. (February 2018).
+
 "Social Media Data Mining for Communication Research." SIGDOC, Halifax Nova Scotia (August 2017).
 
 "Text Mining and Visualization." Digital Humanities Bootcamp, University of Florida (January 2016).
