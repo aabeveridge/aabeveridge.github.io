@@ -41,12 +41,13 @@ Software*. Fall 2016. <http://dx.doi.org/10.21105/joss.00050>
 *Doing Visual Studies*. Co-edited with Laurie E. Gries. Under Review.
 
 ### **Special Collections in Progress**
-"Composing Algorithms: Writing (with) Rhetorical Machines." *Computers and Composition*. Co-edited with Sergio C. Figueiredo and Steven K. Holmes. Forthcoming 2020. 
+"Composing Algorithms: Writing (with) Rhetorical Machines." *Computers and Composition*. Co-edited with Sergio C. Figueiredo and Steven K. Holmes. Forthcoming 2020.
 
 ### **Professional Posts and Teaching**
 Assistant Professor, University of North Carolina at Greensboro (2017--present)
-> ENG 306 "Digital Rhetoric"
-> ENG 365 "Writing Across the University: Writing the Sciences"
+
+> ENG 306 "Digital Rhetoric"  
+> ENG 365 "Writing Across the University: Writing the Sciences"  
 > ENG 659 "Digital Literacies and Online Rhetoric"
 
 Graduate Research Fellowship, University of Florida (2016--2017)
@@ -63,7 +64,7 @@ Graduate Research Fellowship, University of Florida (2013--2015)
 
 Graduate Teaching Assistant, University of Akron (2006--2008)
 
-> English 3300:111 “Composition 111” (Freshman Composition)
+> ENG 3300:111 “Composition 111”
 
 Writing Center Consultant, The Ohio State University (2004--2006)
 
@@ -80,14 +81,14 @@ Writing Center Consultant, The Ohio State University (2004--2006)
 > **Roles:** Grant writing, interdisciplinary curriculum and classroom support (UF college of Journalism, UF Digital Humanities Graduate Cirtificate), training.  
 
 ### **Conference Presentations**
-“The Right to be Forgotten: Public Memory in the Surveillance Economy.” Carolina Rhetoric Conference. Clemson, SC, (February 2018).
+“The Right to be Forgotten: Public Memory in the Surveillance Economy.” Carolina Rhetoric Conference. Clemson, SC (February 2018).
 
 “Supercomputers and Research at Scale.” College Conference on
-Composition and Communication. Kansas City, MO, (March 2018).
+Composition and Communication. Kansas City, MO (March 2018).
 
-“Social Media Data Mining for Communication Research.” Association for Computing Machinery: Special Interest Group for Design of Communication. Halifax, NS, (August 2017).
+“Social Media Data Mining for Communication Research.” Association for Computing Machinery: Special Interest Group for Design of Communication. Halifax, NS (August 2017).
 
-"Circulation, Data Viz, and Visual Rhetoric." Panel Member. 17th Biennial Rhetoric Society of America Conference, Atlanta, GA, (May 2016).
+"Circulation, Data Viz, and Visual Rhetoric." Panel Member. 17th Biennial Rhetoric Society of America Conference, Atlanta, GA (May 2016).
 
 "Writing through Big Data: Using MassMine in the Advanced Writing Classroom." Conference on College Composition and Communication. Houston, TX (April 2016).
 
