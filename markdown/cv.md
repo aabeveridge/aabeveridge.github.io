@@ -28,7 +28,7 @@ Software*. Fall 2016. <http://dx.doi.org/10.21105/joss.00050>
 
 "Attention Ecology: Trend Circulation and the Virality Threshold." Co-authored with Nicholas Van Horn and Sean Morey. *Digital Humanities Quarterly*. Fall 2016. <http://www.digitalhumanities.org/dhq/vol/10/4/000271/000271.html>
 
-"Looking in the Dustbin: Data Janitorial Work, Statistical Reasoning, and Information Rhetorics." *Computers and Composition Online*. Fall 2015. Web. <http://cconlinejournal.org/fall15/beveridge/>
+"Looking in the Dustbin: Data Janitorial Work, Statistical Reasoning, and Information Rhetorics." *Computers and Composition Online*. Fall 2015. <http://cconlinejournal.org/fall15/beveridge/>
 
 ### **Articles and Chapters in Progress**
 “Where is Obama Hope Now? Tracking Changes in the Hope Trend.” *Doing Digital Visual Studies*. Utah State University Press. Under review.
