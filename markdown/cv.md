@@ -38,7 +38,7 @@ Software*. Fall 2016. <http://dx.doi.org/10.21105/joss.00050>
 “Hand-coding vs. Natural Language Processing in Technical Communication Research.” Co-authored with Claire Lauer and Eva Brumberger. *IEEE Transactions for Professional Communication*. Under review.
 
 ### **Books in Progress**
-*Doing Visual Studies*. Co-edited with Laurie E. Gries. Under Review.
+*Doing Digital Visual Studies*. Co-edited with Laurie E. Gries. Under Review.
 
 ### **Special Collections in Progress**
 "Composing Algorithms: Writing (with) Rhetorical Machines." *Computers and Composition*. Co-edited with Sergio C. Figueiredo and Steven K. Holmes. Forthcoming 2020.
