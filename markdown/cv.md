@@ -32,13 +32,15 @@ Software*. Fall 2016. <http://dx.doi.org/10.21105/joss.00050>
 
 ### **Articles and Chapters in Progress**
 
+"Doing Digital Visual Studies: An Introduction." *Doing Digital Visual Studies*. Utah State University Press. Under review.
+
 “Where is Obama Hope Now? Tracking Changes in the Hope Trend.” *Doing Digital Visual Studies*. Utah State University Press. Under review.
 
 “Big Data, Tiny Computers: Making Data-Driven Methods Accessible with the Raspberry Pi.” Co-authored with Nicholas Van Horn. *Re-Programmable Rhetoric: Critical Making Theories and Methods in Digital Rhetoric and Composition*. Edited by Anthony Stagliano and Steve Holmes. University of Michigan Press. Under review.
 
 “Hand-coding vs. Natural Language Processing in Technical Communication Research.” Co-authored with Claire Lauer and Eva Brumberger. *IEEE Transactions for Professional Communication*. Under review.
 
-"A Taxonomy of Algorithmic Rhetoric." In progress. 
+"A Taxonomy of Algorithmic Rhetoric." *Computers and Composition*. In progress.
 
 ### **Books in Progress**
 *Doing Digital Visual Studies*. Co-edited with Laurie E. Gries. Under Review.
