@@ -1,6 +1,6 @@
 ### **Education**
 
-**University of Florda**  
+**University of Florida**  
 Degree: PhD (2017)  
 Field: Writing Studies  
 Director: Sidney I. Dobrin  
@@ -125,3 +125,5 @@ Composition and Communication. Kansas City, MO (March 2018).
 Panel and Presentation Reviewer, *Rhetoric Society of America Conference*. (2016--present).
 
 Newcomers Welcome Committee Volunteer, *Conference on College Composition and Communication*. (2016).
+
+  
