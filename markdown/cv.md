@@ -30,6 +30,9 @@ Software*. Fall 2016. <http://dx.doi.org/10.21105/joss.00050>
 
 "Looking in the Dustbin: Data Janitorial Work, Statistical Reasoning, and Information Rhetorics." *Computers and Composition Online*. Fall 2015. <http://cconlinejournal.org/fall15/beveridge/>
 
+### **Books in Progress**
+*Doing Digital Visual Studies*. Co-edited with Laurie E. Gries. Under Review.
+
 ### **Articles and Chapters in Progress**
 
 "Doing Digital Visual Studies: An Introduction." *Doing Digital Visual Studies*. Utah State University Press. Under review.
@@ -41,9 +44,6 @@ Software*. Fall 2016. <http://dx.doi.org/10.21105/joss.00050>
 “Hand-coding vs. Natural Language Processing in Technical Communication Research.” Co-authored with Claire Lauer and Eva Brumberger. *IEEE Transactions for Professional Communication*. Under review.
 
 "A Taxonomy of Algorithmic Rhetoric." *Computers and Composition*. In progress.
-
-### **Books in Progress**
-*Doing Digital Visual Studies*. Co-edited with Laurie E. Gries. Under Review.
 
 ### **Special Collections in Progress**
 "Composing Algorithms: Writing (with) Rhetorical Machines." *Computers and Composition*. Co-edited with Sergio C. Figueiredo and Steven K. Holmes. Forthcoming 2020.
