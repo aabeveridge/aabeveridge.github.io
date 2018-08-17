@@ -44,7 +44,7 @@ Software*. Fall 2016. <http://dx.doi.org/10.21105/joss.00050>
 
 “Big Data, Tiny Computers: Making Data-Driven Methods Accessible with the Raspberry Pi.” Co-authored with Nicholas Van Horn. *Re-Programmable Rhetoric: Critical Making Theories and Methods in Digital Rhetoric and Composition*. Eds. Anthony Stagliano and Steve Holmes. University of Michigan Press. Under review.
 
-"A Taxonomy of Algorithmic Rhetoric." *Computers and Composition*. In progress.
+"A Taxonomy of Machine Readers/Writers for Digital Rhetoric (Or, What is Artificial Intelligence?)." *Computers and Composition*. In progress.
 
 ### **Special Collections in Progress**
 "Composing Algorithms: Writing (with) Rhetorical Machines." *Computers and Composition*. Co-edited with Sergio C. Figueiredo and Steven K. Holmes. Forthcoming 2020.
