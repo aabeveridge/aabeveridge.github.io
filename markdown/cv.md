@@ -47,7 +47,7 @@ Software*. Fall 2016. <http://dx.doi.org/10.21105/joss.00050>
 
 "A Taxonomy of Machine Readers/Writers for Digital Rhetoric (Or, What is Artificial Intelligence?)." *Computers and Composition*. In progress.
 
-### **Special Collections in Progress**
+### **Special Issues in Progress**
 "Composing Algorithms: Writing (with) Rhetorical Machines." *Computers and Composition*. Co-edited with Sergio C. Figueiredo and Steven K. Holmes. Forthcoming 2020.
 
 ### **Professional Posts and Teaching**
