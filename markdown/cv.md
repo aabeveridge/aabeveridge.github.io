@@ -30,10 +30,11 @@ Software*. Fall 2016. <http://dx.doi.org/10.21105/joss.00050>
 
 "Looking in the Dustbin: Data Janitorial Work, Statistical Reasoning, and Information Rhetorics." *Computers and Composition Online*. Fall 2015. <http://cconlinejournal.org/fall15/beveridge/>
 
-### **Books in Progress**
-*Doing Digital Visual Studies*. Co-edited with Laurie E. Gries. Under Review.
-
+### **Monographs in Progress**
 *Macroscopic Rhetoric: Attention Ecology in the Era of Big Data*. In progress.
+
+### **Edited Collections in Progress**
+*Doing Digital Visual Studies*. Co-edited with Laurie E. Gries. Under Review.
 
 ### **Articles and Chapters in Progress**
 “Hand-coding vs. Natural Language Processing in Technical Communication Research.” Co-authored with Claire Lauer and Eva Brumberger. *IEEE Transactions for Professional Communication*. Accepted.
