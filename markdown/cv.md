@@ -33,8 +33,10 @@ Software*. Fall 2016. <http://dx.doi.org/10.21105/joss.00050>
 ### **Books in Progress**
 *Doing Digital Visual Studies*. Co-edited with Laurie E. Gries. Under Review.
 
+*Macroscopic Rhetoric: Attention Ecology in the Era of Big Data*. In progress.
+
 ### **Articles and Chapters in Progress**
-“Hand-coding vs. Natural Language Processing in Technical Communication Research.” Co-authored with Claire Lauer and Eva Brumberger. *IEEE Transactions for Professional Communication*. Accepted. 
+“Hand-coding vs. Natural Language Processing in Technical Communication Research.” Co-authored with Claire Lauer and Eva Brumberger. *IEEE Transactions for Professional Communication*. Accepted.
 
 "Doing Digital Visual Studies: An Introduction." *Doing Digital Visual Studies*. Utah State University Press. Under review.
 
