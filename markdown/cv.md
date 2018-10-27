@@ -17,7 +17,7 @@ Degree: BA
 Major: English (Focus: Rhetoric)
 
 ### **Peer Reviewed Articles and Chapters**
-“Hand Collecting and Coding Versus Data-Driven Methods in Technical and Professional Communication Research.” Co-authored with Claire Lauer and Eva Brumberger. *IEEE Transactions for Professional Communication*. Fall 2018. <https://www.researchgate.net/publication/328246287_Hand_Collecting_and_Coding_Versus_Data-Driven_Methods_in_Technical_and_Professional_Communication_Research>  
+“Hand Collecting and Coding Versus Data-Driven Methods in Technical and Professional Communication Research.” Co-authored with Claire Lauer and Eva Brumberger. *IEEE Transactions for Professional Communication*. Fall 2018. <https://www.researchgate.net/publication/328246287_Hand_Collecting_and_Coding_Versus_Data-Driven_Methods_in_Technical_and_Professional_Communication_Research>
 
 "Circulation Analytics: Research Software Development and Social Network Data." *Circulation, Rhetoric, and Writing*. Eds. Collin Gifford Brooke and Laurie E. Gries. Utah State University Press. Spring 2018. <https://www.amazon.com/Circulation-Writing-Rhetoric-Laurie-Gries/dp/160732671X>
 
