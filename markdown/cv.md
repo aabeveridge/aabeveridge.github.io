@@ -7,14 +7,14 @@ Director: Sidney I. Dobrin
 Dissertation: "Writing Macroscopes: Networked Writing, Digital Content, and Data Science"
 
 **University of Akron**  
-Degree: MA (2008)  
+Degree: MA (2008)
 Field: Composition Studies  
 Advisor: Julie Drew  
 Thesis: "(Inter)Active Rhetoric: The Ethics of Agency and Praxis"
 
 **The Ohio State University**  
 Degree: BA  
-Major: English (Focus: Rhetoric)
+Major: English
 
 ### **Peer Reviewed Articles and Chapters**
 “Hand Collecting and Coding Versus Data-Driven Methods in Technical and Professional Communication Research.” Co-authored with Claire Lauer and Eva Brumberger. *IEEE Transactions for Professional Communication*. Fall 2018. <https://www.researchgate.net/publication/328246287_Hand_Collecting_and_Coding_Versus_Data-Driven_Methods_in_Technical_and_Professional_Communication_Research>
