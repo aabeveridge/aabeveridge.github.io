@@ -17,6 +17,8 @@ Degree: BA
 Major: English (Focus: Rhetoric)
 
 ### **Peer Reviewed Articles and Chapters**
+“Hand Collecting and Coding Versus Data-Driven Methods in Technical and Professional Communication Research.” Co-authored with Claire Lauer and Eva Brumberger. *IEEE Transactions for Professional Communication*. Fall 20218. 
+
 "Circulation Analytics: Research Software Development and Social Network Data." *Circulation, Rhetoric, and Writing*. Eds. Collin Gifford Brooke and Laurie E. Gries. Utah State University Press. Spring 2018. <https://www.amazon.com/Circulation-Writing-Rhetoric-Laurie-Gries/dp/160732671X>
 
 "The Markdown Movement: Writing's Influence on Markup." *Kairos*. Spring 2018. <http://praxis.technorhetoric.net/tiki-index.php?page=PraxisWiki:_:markdown>
@@ -37,8 +39,6 @@ Software*. Fall 2016. <http://dx.doi.org/10.21105/joss.00050>
 *Doing Digital Visual Studies*. Co-edited with Laurie E. Gries. Under Review.
 
 ### **Articles and Chapters in Progress**
-“Hand-coding vs. Natural Language Processing in Technical Communication Research.” Co-authored with Claire Lauer and Eva Brumberger. *IEEE Transactions for Professional Communication*. Accepted.
-
 "Doing Digital Visual Studies: An Introduction." *Doing Digital Visual Studies*. Utah State University Press. Under review.
 
 “Where is Obama Hope Now? Tracking Changes in the Hope Trend.” *Doing Digital Visual Studies*. Utah State University Press. Under review.
