@@ -33,22 +33,20 @@ Software*. Fall 2016. <http://dx.doi.org/10.21105/joss.00050>
 "Looking in the Dustbin: Data Janitorial Work, Statistical Reasoning, and Information Rhetorics." *Computers and Composition Online*. Fall 2015. <http://cconlinejournal.org/fall15/beveridge/>
 
 ### **Monographs in Progress**
-*Macroscopic Rhetoric: Attention Ecology in the Era of Big Data*. In progress.
+*Data-Driven Rhetoric: How Data Science Reinvents Digital Rhetoric and Technical Writing*. In progress.
 
 ### **Edited Collections in Progress**
-*Doing Digital Visual Studies*. Co-edited with Laurie E. Gries. Under Review.
-
-### **Articles and Chapters in Progress**
-"Doing Digital Visual Studies: An Introduction." *Doing Digital Visual Studies*. Utah State University Press. Under review.
-
-“Where is Obama Hope Now? Tracking Changes in the Hope Trend.” *Doing Digital Visual Studies*. Utah State University Press. Under review.
-
-“Big Data, Tiny Computers: Making Data-Driven Methods Accessible with the Raspberry Pi.” Co-authored with Nicholas Van Horn. *Re-Programmable Rhetoric: Critical Making Theories and Methods in Digital Rhetoric and Composition*. Eds. Anthony Stagliano and Steve Holmes. Utah State University Press. Under review.
-
-"A Taxonomy of Machine Readers/Writers for Digital Rhetoric (Or, What is Artificial Intelligence?)." *Computers and Composition*. In progress.
+*Doing Digital Visual Studies*. Co-edited with Laurie E. Gries. Computers and Composition Digital Press, an imprint of Utah State University Press. Under Review.
 
 ### **Special Issues in Progress**
 "Composing Algorithms: Writing (with) Rhetorical Machines." *Computers and Composition*. Co-edited with Sergio C. Figueiredo and Steven K. Holmes. Forthcoming 2020.
+
+### **Articles and Chapters in Progress**
+"Doing Digital Visual Studies: An Introduction." *Doing Digital Visual Studies*. Computers and Composition Digital Press, an imprint of Utah State University Press. Under Review.
+
+“Mining Obama Hope: Tracking Changes in the Hope Trend.” *Doing Digital Visual Studies*. Computers and Composition Digital Press, an imprint of Utah State University Press. Under review.
+
+“Big Data, Tiny Computers: Making Data-Driven Methods Accessible with the Raspberry Pi.” Co-authored with Nicholas Van Horn. *Re-Programmable Rhetoric: Critical Making Theories and Methods in Digital Rhetoric and Composition*. Eds. Anthony Stagliano and Steve Holmes. Utah State University Press. Under review.
 
 ### **Professional Posts and Teaching**
 Assistant Professor, University of North Carolina at Greensboro (2017--present)
