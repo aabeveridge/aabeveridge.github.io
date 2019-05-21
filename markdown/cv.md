@@ -7,7 +7,7 @@ Director: Sidney I. Dobrin
 Dissertation: "Writing Macroscopes: Networked Writing, Digital Content, and Data Science"
 
 **University of Akron**  
-Degree: MA (2008)
+Degree: MA (2008)  
 Field: Composition Studies  
 Advisor: Julie Drew  
 Thesis: "(Inter)Active Rhetoric: The Ethics of Agency and Praxis"
