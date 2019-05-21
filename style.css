@@ -20,7 +20,7 @@ p {
   font-size: 18px;
   margin-left: auto;
   margin-right: auto;
-}  
+}
 
 img {
   max-width: 100%;
@@ -213,9 +213,9 @@ div#TOC {
   right: 1px;
   left: 16px;
   top: 0px;
-  width: 190px; 
-  height: 195px; 
-  -webkit-backface-visibility: hidden;  
+  width: 190px;
+  height: 195px;
+  -webkit-backface-visibility: hidden;
 }
 
 .welltoc a {
@@ -225,7 +225,7 @@ div#TOC {
 
 .welltoc li {
   list-style: square;
-  color: #444;  
+  color: #444;
 }
 
 a {
@@ -283,13 +283,13 @@ a::selection {
 }
 
 .nav li {
-  font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace;
+  font-family: 'Overpass Mono', monospace;
   font-size: 1.2em;
   line-height: 40px;
   height: 40px;
   border-bottom: 1px solid #888;
 }
- 
+
 .nav a {
   text-decoration: none;
   display: block;
@@ -313,7 +313,7 @@ a::selection {
 .nav a::selection {
   color: #808080;
 }
- 
+
 .nav .active a {
 /*  background-color: #fff;*/
   background-color: #696969;
@@ -329,6 +329,15 @@ a::selection {
   color: #666666;
 }
 
+.fa-github {
+  /* color: black; */
+}
+
+.fa-linkedin {
+  /* color: black; */
+  margin-left: 20px;
+}
+
 @media screen and (min-width: 850px) {
 
   .nav li {
@@ -339,20 +348,20 @@ a::selection {
     font-size: 1.2em;
     -webkit-backface-visibility: hidden;
   }
-  
+
   .nav hm {
   padding-left: 4px;
   position: absolute;
   left: 20px;
   z-index: 10;
   }
- 
+
   /* Option 1 - Display Inline */
   .nav li {
     display: inline-block;
     margin-right: -4px;
   }
- 
+
   /* Options 2 - Float
   .nav li {
     float: left;
@@ -367,4 +376,3 @@ a::selection {
   }
   */
 }
-

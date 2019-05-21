@@ -12,20 +12,8 @@
 #######################################################
 
 #home page
-# pandoc ./markdown/home.md
-# --css=style.css \
-# --template=./templates/body.html \
-# --include-before-body=./templates/home-nav.html \
-# --include-after-body=./templates/footer.html \
-# --title-prefix="welcome" \
-# -smart \
+pandoc ./markdown/home.md --css=style.css --template=./templates/body.html --include-before-body=./templates/home-nav.html --include-after-body=./templates/footer.html --metadata pagetitle="A. Beveridge" --output=index.html
 
 
 #cv page
-pandoc ./markdown/cv.md \
---css=style.css \
---template=./templates/body.html \
---include-before-body=./templates/cv-nav.html \
---include-after-body=./templates/footer.html \
---title-prefix="cv" \
---output=cv.html
+pandoc ./markdown/cv.md --css=style.css --template=./templates/body.html --include-before-body=./templates/cv-nav.html --include-after-body=./templates/footer.html --metadata pagetitle="cv" --output=cv.html
