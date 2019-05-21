@@ -33,7 +33,7 @@ Software*. Fall 2016. <http://dx.doi.org/10.21105/joss.00050>
 "Looking in the Dustbin: Data Janitorial Work, Statistical Reasoning, and Information Rhetorics." *Computers and Composition Online*. Fall 2015. <http://cconlinejournal.org/fall15/beveridge/>
 
 ### **Monographs in Progress**
-*Data-Driven Rhetoric: How Data Science Reinvents Digital Rhetoric and Technical Writing*. In progress.
+*Data-Driven Rhetoric: How Data Science Reinvents Digital Rhetoric*. In progress.
 
 ### **Edited Collections in Progress**
 *Doing Digital Visual Studies*. Co-edited with Laurie E. Gries. Computers and Composition Digital Press, an imprint of Utah State University Press. Under Review.
