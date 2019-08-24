@@ -7,4 +7,4 @@ Assistant Professor of Digital Rhetoric
 **Office:** MHRA 3320  
 **Contact:** akbeveri [at] uncg_dot_edu  
 **Social:**  
-<a href="https://github.com/aabeveridge"><i class="fab fa-github fa-2x"></i></a><a href="https://www.linkedin.com/in/aaron-beveridge-20a809186/"><i class="fab fa-linkedin fa-2x"></i></a>  
+<a href="https://github.com/aabeveridge"><i class="fab fa-github-square fa-2x"></i></a><a href="https://www.linkedin.com/in/aaron-beveridge-20a809186/"><i class="fab fa-linkedin fa-2x"></i></a>  

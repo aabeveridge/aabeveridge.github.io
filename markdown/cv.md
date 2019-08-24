@@ -35,10 +35,9 @@ Software*. Fall 2016. <http://dx.doi.org/10.21105/joss.00050>
 ### **Monographs in Progress**
 *Data-Driven Rhetoric: How Data Science Reinvents Digital Rhetoric*. In progress.
 
-### **Edited Collections in Progress**
+### **Edited Collections and Special Issues in Progress**
 *Doing Digital Visual Studies*. Co-edited with Laurie E. Gries. Computers and Composition Digital Press, an imprint of Utah State University Press. Under Review.
 
-### **Special Issues in Progress**
 "Composing Algorithms: Writing (with) Rhetorical Machines." *Computers and Composition*. Co-edited with Sergio C. Figueiredo and Steven K. Holmes. Forthcoming 2020.
 
 ### **Articles and Chapters in Progress**
@@ -47,6 +46,25 @@ Software*. Fall 2016. <http://dx.doi.org/10.21105/joss.00050>
 “Mining Obama Hope: Tracking Changes in the Hope Trend.” *Doing Digital Visual Studies*. Computers and Composition Digital Press, an imprint of Utah State University Press. Under review.
 
 “Big Data, Tiny Computers: Making Data-Driven Methods Accessible with the Raspberry Pi.” Co-authored with Nicholas Van Horn. *Re-Programmable Rhetoric: Critical Making Theories and Methods in Digital Rhetoric and Composition*. Eds. Anthony Stagliano and Steve Holmes. Utah State University Press. Under review.
+
+### **Grants Funded**
+"MassMine Advancement Grant for Sustainable Humanities Data-Driven Research." *National Endowment for the Humanities*. September 2019.  
+
+> **Amount Funded:** $324,865.00  
+> **Roles:** PI, Project Director  
+> **Funding Details:** <https://www.neh.gov/sites/default/files/inline-files/NEH-Grant-Awards-August-2019-PDF.pdf>  
+
+“MassMine: Collecting and Archiving Big Data for Social Media Humanities Research.” *National Endowment for the Humanities*. May 2015.
+
+> **Amount funded:** $60,000.00  
+> **Roles:** Project Director, Data Analytics Development, Usability Testing.  
+> **Funding Details:** <https://securegrants.neh.gov/publicquery/main.aspx?f=1&gn=HD-228942-15>
+
+"MassMine Development and Training Project." *University of Florida Informatics Institute*. May 2015.
+
+> **Amount funded:** $49,837.00  
+> **Roles:** Project Director, Interdisciplinary Curriculum Development (UF college of Journalism, UF Digital Humanities Graduate Cirtificate), Usability Testing.  
+
 
 ### **Professional Posts and Teaching**
 Assistant Professor, University of North Carolina at Greensboro (2017--present)
@@ -72,18 +90,6 @@ Graduate Teaching Assistant, University of Akron (2006--2008)
 > ENG 3300:111 “Composition 111”
 
 Writing Center Consultant, The Ohio State University (2004--2006)
-
-### **Grants Funded**
-“MassMine: Collecting and Archiving Big Data for Social Media Humanities Research.” *National Endowment for the Humanities*. May 2015.
-
-> **Amount funded:** $60,000.00  
-> **Roles:** Grant writing, data analytics development, participant training, and testing.  
-> **Grant application:** <http://ufdc.ufl.edu/AA00025642/00001/pdf>
-
-"MassMine Development and Training Project." *University of Florida Informatics Institute*. May 2015.
-
-> **Amount funded:** $49,837.00  
-> **Roles:** Grant writing, interdisciplinary curriculum and classroom support (UF college of Journalism, UF Digital Humanities Graduate Cirtificate), training.  
 
 ### **Conference Presentations**
 “The Right to be Forgotten: Public Memory in the Surveillance Economy.” Carolina Rhetoric Conference. Clemson, SC (February 2018).
