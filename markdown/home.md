@@ -2,7 +2,7 @@
 
 ### **Aaron Beveridge**  
 Assistant Professor of Informatics and Analytics  
-[MS of Informatics and Analytics](https://grs.uncg.edu/msia/concentrations/#1557924224496-555ba779-e19a)  
+[MS of Informatics and Analytics](https://grs.uncg.edu/msia/)  
 University of North Carolina at Greensboro  
 **Office:** MHRA 3320  
 **Contact:** akbeveri [at] uncg_dot_edu  
