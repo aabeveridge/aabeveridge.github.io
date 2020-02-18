@@ -48,28 +48,29 @@ Software*. Fall 2016. <http://dx.doi.org/10.21105/joss.00050>
 "MassMine Development and Training Project." *University of Florida Informatics Institute*. May 2015.
 
 > **Amount funded:** $49,837.00  
-> **Roles:** Project Director, Interdisciplinary Curriculum Development (UF college of Journalism, UF Digital Humanities Graduate Cirtificate), Usability Testing.  
+> **Roles:** Project Director, Interdisciplinary Curriculum Development (UF college of Journalism, UF Digital Humanities Graduate Certificate), Usability Testing.  
 
-### **Monographs in Progress**
-*Data-Driven Rhetoric: How Data Science Reinvents Digital Rhetoric*. In progress.
+### **Books in Progress**
+*MassMine Textbook*. In progress.
 
-### **Edited Collections and Special Issues in Progress**
-*Doing Digital Visual Studies*. Co-edited with Laurie E. Gries. Computers and Composition Digital Press, an imprint of Utah State University Press. Under Review.
-
+### **Special Issues in Progress**
 "Composing Algorithms: Writing (with) Rhetorical Machines." *Computers and Composition*. Co-edited with Sergio C. Figueiredo and Steven K. Holmes. Forthcoming 2020.
 
 ### **Articles and Chapters in Progress**
-"Doing Digital Visual Studies: An Introduction." *Doing Digital Visual Studies*. Computers and Composition Digital Press, an imprint of Utah State University Press. Under Review.
-
-“Mining Obama Hope: Tracking Changes in the Hope Trend.” *Doing Digital Visual Studies*. Computers and Composition Digital Press, an imprint of Utah State University Press. Under review.
-
 “Big Data, Tiny Computers: Making Data-Driven Methods Accessible with the Raspberry Pi.” Co-authored with Nicholas Van Horn. *Re-Programmable Rhetoric: Critical Making Theories and Methods in Digital Rhetoric and Composition*. Eds. Anthony Stagliano and Steve Holmes. Utah State University Press. Under review.
 
 ### **Professional Posts and Teaching**
-Assistant Professor, University of North Carolina at Greensboro (2017--present)
+Assistant Professor of Informatics and Analytics, University of North Carolina at Greensboro (2020--present)
+
+> IAL 620 "Text Mining and Natural Language Processing"  
+> IAL 621 "Content Analysis for Social Network Data"  
+> IAL 622 "Internet of Things and Wearable Analytics"  
+> IAL 689 "Capstone Project in Cultural Analytics"  
+
+Assistant Professor of Digital Rhetoric, University of North Carolina at Greensboro (2017--2020)
 
 > ENG 306 "Digital Rhetoric"  
-> ENG 365 "Writing Across the University: Writing the Sciences"  
+> ENG 365 "Writing Across the University: Writing for the Sciences"  
 > ENG 659 "Digital Literacies and Online Rhetoric"
 
 Graduate Research Fellowship, University of Florida (2016--2017)

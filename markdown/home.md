@@ -1,9 +1,9 @@
-<p><img src="./images/headshot1_tiny.jpg" align="left" style="display:inline;margin:6px 14px 0px 10px;"/>My research combines humanities and data science methods to study networked writing and the circulation of digital artifacts. With a focus on text mining, natural language processing, and data visualization, my work contributes to the ongoing expansion of data-driven methods in rhetoric and writing studies. My research and teaching interests also include media ecology, the rhetoric of science, maker culture, and technical communication.</p>
+<p><img src="./images/headshot1_tiny.jpg" align="left" style="display:inline;margin:6px 14px 0px 10px;"/>As a research software developer, my work focuses primarily on applications of text mining and natural language processing for mixed methods research. My research and teaching interests also include social network analysis, usability, frontend design, and intellectual property and datafication ethics. I direct the Cultural Analytics concentration for the MS of Informatics and Analytics at UNCG, and I am the Project Director for [MassMine](http://www.massmine.org).</p>
 
 ### **Aaron Beveridge**  
-Assistant Professor of Digital Rhetoric  
-[Department of English](https://english.uncg.edu/)  
-[University of North Carolina at Greensboro](https://english.uncg.edu/)  
+Assistant Professor of Informatics and Analytics  
+[MS of Informatics and Analytics](https://grs.uncg.edu/msia/concentrations/#1557924224496-555ba779-e19a)  
+University of North Carolina at Greensboro  
 **Office:** MHRA 3320  
 **Contact:** akbeveri [at] uncg_dot_edu  
 **Social:**  
