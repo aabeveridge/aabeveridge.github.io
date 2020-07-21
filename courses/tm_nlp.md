@@ -16,7 +16,7 @@ As a core course in the Cultural Analytics concentration for the MS of Informati
 - *Text Mining with R*
 
 ## Schedule
-All courses for the Cultural Analytics concentration maintain a 12 week schedule, and this allows the final 3 weeks (weeks 13-15) to be dedicated to the final projects for the course. The final projects act as the final for each course, but these projects also allow students to experiment with potential projects they may pursue during their Capstone for the MSIA program.
+All courses for the Cultural Analytics concentration maintain a 12 week schedule, and this allows the final 3 weeks (weeks 13-15) to be dedicated to workshops for the final projects in the course. The final projects act as the "final" for each course, but these projects also allow students to experiment with potential projects they may pursue during their Capstone for the MSIA program.
 
 ### [Week 1--8/19] **Introduction: Text Mining and Natural Language Processing**
 - [Lecture] "Text Mining and Natural Language Processing"
@@ -73,6 +73,6 @@ All courses for the Cultural Analytics concentration maintain a 12 week schedule
 
 ### [Week 11--10/28] **Word Embeddings**
 
-### [Week 12--11/4] **Final Project Proposal**
+### [Week 12--11/4] **Final Project Proposals**
 
 ### [Weeks 13-Final--11/11-12/3] **Workshops for Final Projects**
