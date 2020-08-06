@@ -1,7 +1,30 @@
 # Content Analysis for Social Network Data [IAL 621]
 
 ## Overview
-As a core course in the Cultural Analytics concentration for the MS of Informatics and Analytics at UNCG, IAL 620 explores and complicates a simple question: how do we extract the most important information or meaning from a collection of documents (corpus)? Obviously, answers to questions of "importance" and "meaning" are framed by the scholars asking the questions and the inherent limitations in the data they explore. For this course, the primary form of data will be text--words and phrases, how they are interrelated, and how the documents and sites in which they are contained affect those interrelations.
+As a core course in the Cultural Analytics concentration for the MS of Informatics and Analytics at UNCG, IAL 620 explores and complicates a simple question: how do we extract the most important information or meaning from a collection of natural language documents (corpus)? Obviously, answers to questions of "importance" and "meaning" are framed by the scholars asking the questions and the inherent limitations in the data they explore. For this course, the primary form of data will be human-produced text: words and phrases, how they are interrelated, and how the documents and sites in which they are contained affect those interrelations.
+
+## Student Learning Objectives
+- Recognize and apply data-driven methods to analyze trends and audiences on Twitter
+- Recognize relevant issues pertaining to individual privacy rights and intellectual property for social network data
+- Identify and discriminate among various methodologies for describing trends and for measuring audience engagement in social networks
+
+## Assignments
+- Project Proposal -- 20%
+- Tutorials (code and documentation) -- 20%
+- Workshops (weekly progress on course projects) -- 20%
+- Final Presentation (final report on course projects) -- 25%
+- Quizzes -- 10%
+- Course resource contributions -- 5%
+
+## Tools and Technologies Needed for Course
+- R programming language
+- MassMine
+- Atom text editor
+- R packages
+  - Tidyverse
+  - R markdown
+
+## Texts
 
 ## Schedule
 All courses for the Cultural Analytics concentration maintain a 12 week schedule, and this allows the final 3 weeks (weeks 13-15) to be dedicated to workshops for the final projects in the course. The final projects act as the "final" for each course, but these projects also allow students to experiment with potential projects they may pursue during their Capstone for the MSIA program.

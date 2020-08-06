@@ -3,6 +3,19 @@
 ## Overview
 As a core course in the Cultural Analytics concentration for the MS of Informatics and Analytics at UNCG, IAL 620 explores and complicates a simple question: how do we extract the most important information or meaning from a collection of documents (corpus)? Obviously, answers to questions of "importance" and "meaning" are framed by the scholar asking the question and the inherent limitations in the data explored. In this case, the primary form of data will be text--words and phrases, how they are interrelated, and the documents in which they are contained.
 
+## Student Learning Objectives
+- Recognize and apply text mining and natural language processing methods
+- Recognize relevant issues pertaining to individual privacy rights and intellectual property for web scraping
+- Identify and discriminate among various methodologies for cleaning, organizing, describing, and comparing natural language data
+
+## Assignments
+- Project Proposal -- 20%
+- Tutorials (code and documentation) -- 20%
+- Workshops (weekly progress on course projects) -- 20%
+- Final Presentation (final report on course projects) -- 25%
+- Quizzes -- 10%
+- Course resource contributions -- 5%
+
 ## Tools and Technologies Needed for Course
 - R programming language
 - Atom text editor
@@ -26,18 +39,21 @@ All courses for the Cultural Analytics concentration maintain a 12 week schedule
   - How will we use TM and NLP in this course?
   - How does this course fit within the Cultural Analytics concentration?
 - Syllabus and course assignment/calendar discussion
+- [Tutorial] HTML -- Due 8/26
 
 ### [Week 2--8/26] **Text as Data: Types and Terminologies**
 - [Lecture] "Text as Data: Types and Terminologies"
   - Unicode
-  - HTML/CSS overview
+  - HTML
+  - PDFs
+  - Others
 - Markdown & Pandoc
 - Install R, Tidyverse, Rvest
 - Rvest tutorial
-- Read: chapters 1-5 of *Where Wizards Stay Up Late*, Due week 3
+- Read: chapters 1-5 of *Where Wizards Stay Up Late*
 
-### [Week 3--9/2] **Choosing a Dataset and Collecting Data**
-- [Lecture] "Choosing a Dataset and Exploring Research Questions"
+### [Week 3--9/2] Choosing a Dataset and Collecting Data
+- **[Lecture] "Choosing a Dataset and Exploring Research Questions"**
   - How do you know if you've chosen the right dataset?
     - Examples of using the wrong dataset
   - How do you know if you're asking the right questions?
@@ -48,9 +64,10 @@ All courses for the Cultural Analytics concentration maintain a 12 week schedule
   - How to begin exploring a dataset and revising a research question?
       - Recursive process
 - Use Rvest to begin collecting data for final project
-- [Test] *Where Wizards Stay Up Late*, open book
+- **[Assignment] Project Proposal -- Due 9/9**
 
 ### [Week 4--9/9] **Privacy Rights and Text Mining Ethics**
+- [Quiz] *Where Wizards Stay Up Late*, open book
 
 ### [Week 5--9/16] **Developing and Exploring Research Questions**
 - Mixed Methods Research
