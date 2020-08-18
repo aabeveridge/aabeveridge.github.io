@@ -1,7 +1,7 @@
 # Content Analysis for Social Network Data [IAL 621]
 
 ## Overview
-As a core course in the Cultural Analytics concentration for the MS of Informatics and Analytics at UNCG, IAL 620 explores and complicates a simple question: how do we extract the most important information or meaning from a collection of natural language documents (corpus)? Obviously, answers to questions of "importance" and "meaning" are framed by the scholars asking the questions and the inherent limitations in the data they explore. For this course, the primary form of data will be human-produced text: words and phrases, how they are interrelated, and how the documents and sites in which they are contained affect those interrelations.
+As a core course in the Cultural Analytics concentration for the MS of Informatics and Analytics at UNCG, IAL 620 explores and complicates a simple question: how do we determine the most engaging or relevant content in a digital network (or, among a group of users within a network)? Obviously, answers to questions of "engagement" and "relevance" are framed by the researcher who asking the questions and by the inherent limitations in the networks explored. For this course, we will focus on Twitter content--tweets--and the text, images, videos, URLs, and other content those tweets contain. However, students may also explore other networks and content depending on the project they propose for the course.  
 
 ## Student Learning Objectives
 - Recognize and apply data-driven methods to analyze trends and audiences on Twitter
@@ -12,9 +12,9 @@ As a core course in the Cultural Analytics concentration for the MS of Informati
 - Project Proposal -- 20%
 - Tutorials (code and documentation) -- 20%
 - Workshops (weekly progress on course projects) -- 20%
-- Final Presentation (final report on course projects) -- 25%
-- Quizzes -- 10%
-- Course resource contributions -- 5%
+- Ethics Paper -- 10%
+- Tests -- 10%
+- Final Presentation (final report on course projects) -- 20%
 
 ## Tools and Technologies Needed for Course
 - R programming language
@@ -25,6 +25,7 @@ As a core course in the Cultural Analytics concentration for the MS of Informati
   - R markdown
 
 ## Texts
+- Selected readings from *Diffusion of Innovations* and *Networks, Crowds, and Markets*
 
 ## Schedule
 All courses for the Cultural Analytics concentration maintain a 12 week schedule, and this allows the final 3 weeks (weeks 13-15) to be dedicated to workshops for the final projects in the course. The final projects act as the "final" for each course, but these projects also allow students to experiment with potential projects they may pursue during their Capstone for the MSIA program.
@@ -40,6 +41,7 @@ All courses for the Cultural Analytics concentration maintain a 12 week schedule
   - This will be continued when students address Game Theory later in the semester
 - Was this a necessary evolution (the result of too much stuff)? Or, did this 'break the internet'?
 - Introduction: Diffusion of Innovations
+[Assignment] Workshops: apply for Twitter developer credentials (API access)
 
 ### [Week 2--8/27] **Digital Network Lifecycles**
 - Types of digital networks
