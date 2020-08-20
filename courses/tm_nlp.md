@@ -1,4 +1,8 @@
 # Text Mining and Natural Language Processing [IAL 620]
+Course Instructor: Aaron Beveridge
+Office: 500 Forest Building, Office 113
+Email: akbeveri@uncg.edu
+Office Hour: By appointment
 
 ## **Overview**
 As a core course in the Cultural Analytics concentration for the MS of Informatics and Analytics at UNCG, IAL 620 explores and complicates a simple question: how do we extract the most important or meaningful information from a collection of documents (corpus)? Obviously, answers to questions of "importance" and "meaning" are framed by the researcher asking the questions and by the inherent limitations in the data explored. In this case, the primary form of data will be text--words and phrases, how they are interrelated, and the documents in which they are contained. For this course, students create a unique corpus using web scraping methods, and then students describe and analyze their corpus using text mining and natural language processing.  
@@ -29,6 +33,18 @@ The test for this course will be an open book, open internet test. The test will
 Each student will conduct research regarding industrial, commercial, or institutional applications of text mining and natural language processing. The specific areas chosen by students should be closely related to their course projects. These will be informal presentations conducted during class times, allowing students an opportunity to learn collaboratively during the semester.
 
 ### Grading Scale
+- A 94-100
+- A- 90-93             
+- B+ 87-89           
+- B 83-86              
+- B- 80-82             
+- C+ 77-79            
+- C 73-76
+- C- 70-72
+- D+ 67-69
+- D 63-66
+- D- 60-62
+- F Below 60
 
 ### Tools and Technologies Required for Course
 - R programming language
@@ -43,7 +59,7 @@ Each student will conduct research regarding industrial, commercial, or institut
 ## **Course Guidelines**
 
 ### Attendance
-Attendance and class participation are mandatory. Each student can miss one class, and each additional class missed will result in a 5% reduction in the final grade for the course.  
+Attendance and class participation are mandatory. Each student can miss one class, and each additional class missed will result in a 5% reduction in the final grade for the course.
 
 ### Email
 The instructor will respond to all emails during a regular "work" schedule from 8am to 4pm, Monday-Friday. This means that any emails received after 4pm will be responded to on the following day, and any emails received after 4pm on Friday will be responded to on the following Monday.
@@ -52,6 +68,7 @@ The instructor will respond to all emails during a regular "work" schedule from 
 All assignments are to be submitted through Canvas or GitHub. Emailed assignments will not be accepted.
 
 ### Late/Missed Assignments
+Late assignments will not be accepted. If for some reason you are unable to complete an assignment, then you should negotiate an extension ahead of time. This means emailing the instructor at least one day prior to the due date and asking for permission. Failure to do so will result in a zero,
 
 
 ## **Schedule**  
@@ -60,17 +77,17 @@ All courses for the Cultural Analytics concentration maintain a 12 week schedule
 ### [Week 1--8/19] Course Introduction
 - [Lecture] "What is Cultural Analytics?"
 - [Readings for 8/26] NLP Overview
-- [Workshop for 8/26] Install R, Tidyverse, Rvest, Atom/R Studio
 
 ### [Week 2--8/26] Natural Language Processing
 - [Lecture] "Key Terms and Concepts in NLP"
-- [Workshop for 9/2] Rvest tutorial
 - [Readings for 9/2] From "Prologue" to chapter 5 of *Where Wizards Stay Up Late*
+- [Workshop] Install R, Tidyverse, Rvest, Atom/R Studio
 
 ### [Week 3--9/2] Text as Data: Choosing/Creating a Corpus for Analysis
 - [Lecture] "Text as Data: Types, Terminologies, and Choosing a Corpus"
 - [Assignment for 9/9] Rough draft of Project Proposal
 - [Readings for 9/9] From chapter 6 to "Epilogue" of *Where Wizards Stay Up Late*
+- [Workshop] Rvest tutorial
 
 ### [Week 4--9/9] Wrangling, Scrubbing, and Transforming Text Data
 - [Lecture] "Wrangling, Scrubbing, and Transforming Text Data"
@@ -80,46 +97,46 @@ All courses for the Cultural Analytics concentration maintain a 12 week schedule
 - [Test] Covering readings, key concepts, and terminologies from first 3 weeks
 - [Optional] Individual conferences
 
-### [Week 6--9/23] Regular Expressions and Fuzzy Matching
-[Lecture] "Regular Expressions and Fuzzy Matching"
-[Workshop] Tutorials TBA
-[Industry/Commercial/Institutional Presentation]
+### [Week 6--9/23] Word Frequency
+- [Lecture] "Word Frequency and Zipf's Law"
+- [Workshop] Tutorials TBA
+- [Industry/Commercial/Institutional Presentation]
 
-### [Week 7--9/30] Word Frequency
-[Lecture] "Word Frequency and Zipf's Law"
-[Workshop] Tutorials TBA
-[Industry/Commercial/Institutional Presentation]
+### [Week 7--9/30] N-Grams and Collocations
+- [Lecture] "N-Grams and Collocations"
+- [Workshop] Tutorials TBA
+- [Industry/Commercial/Institutional Presentation]
 
-### [Week 8--10/7] N-Grams and Collocations
-[Lecture] "N-Grams and Collocations"
-[Workshop] Tutorials TBA
-[Industry/Commercial/Institutional Presentation]
+### [Week 8--10/7] Sentiment Analysis
+- [Lecture] "Sentiment Analysis"
+- [Workshop] Tutorials TBA
+- [Industry/Commercial/Institutional Presentation]
 
 ### [Week 9--10/14] Topic Models
-[Lecture] "Topic Models"
-[Workshop] Tutorials TBA
-[Industry/Commercial/Institutional Presentation]
+- [Lecture] "Topic Models"
+- [Workshop] Tutorials TBA
+- [Industry/Commercial/Institutional Presentation]
 
 ### [Week 10--10/21] Word Embeddings
-[Workshop] "Word Embeddings"
-[Workshop] Tutorials TBA
-[Industry/Commercial/Institutional Presentation]
+- [Workshop] "Word Embeddings"
+- [Workshop] Tutorials TBA
+- [Industry/Commercial/Institutional Presentation]
 
 ### [Week 11--10/28] Project Proposals
-[Assignment] Project Proposal Due
-[Workshop] Show continued progress on project
+- [Assignment] Project Proposal Due
+- [Workshop] Show continued progress on project
 
 ### [Weeks 12--11/4] Ethics
-[Workshop] Show continued progress on project
-[Readings/Videos] TBA
+- [Workshop] Show continued progress on project
+- [Readings/Videos] TBA
 
 ### [Week 13--11/11] Ethics
-[Workshop] Show continued progress on project
-[Readings/Videos] TBA
+- [Workshop] Show continued progress on project
+- [Readings/Videos] TBA
 
 ### [Week 14--11/18] Final Presentation Preparation
-[Assignment] Ethics Response
-[Workshop] Show continued progress on project
+- [Assignment] Ethics Response
+- [Workshop] Show continued progress on project
 
 ### [Week 15--12/2]
-[Assignment] Final Presentation
+- [Assignment] Final Presentation
