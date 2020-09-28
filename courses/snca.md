@@ -1,6 +1,4 @@
 # Content Analysis for Social Network Data [IAL 621]
-
-# Text Mining and Natural Language Processing [IAL 620]
 Course Instructor: Aaron Beveridge
 Office: 500 Forest Building, Office 113
 Email: akbeveri@uncg.edu
@@ -9,7 +7,7 @@ Office Hour: By appointment
 ## **Overview**
 As a core course in the Cultural Analytics concentration for the MS of Informatics and Analytics at UNCG, IAL 620 explores and complicates a simple question: how do we determine the most engaging or relevant content in a digital network (or, among a group of users within a network)? Obviously, answers to questions of "engagement" and "relevance" are framed by the researcher who asking the questions and by the inherent limitations in the networks explored. For this course, we will focus on Twitter content--tweets--and the text, images, videos, URLs, and other content those tweets contain. However, students may also explore other networks and content depending on the project they propose for the course.  
 
-## Student Learning Objectives
+### Student Learning Objectives
 - Recognize and apply data-driven methods to analyze trends and audiences on Twitter
 - Recognize relevant issues pertaining to individual privacy rights and intellectual property for social network data
 - Identify and discriminate among various methodologies for describing trends and for measuring audience engagement in social networks
@@ -55,8 +53,8 @@ Each student will conduct research regarding industrial, commercial, or institut
 - MassMine
 
 ## Texts
-- *Data and Goliath*
 - Selected readings from *Diffusion of Innovations* and *Networks, Crowds, and Markets*
+- Articles, book excerpts, and videos made available in Canvas
 
 ## **Course Guidelines**
 
@@ -77,46 +75,67 @@ All courses for the Cultural Analytics concentration maintain a 12 week schedule
 
 ### [Week 1--8/20] Course Introduction
 - [Discussion] What is Social Network Content Analysis?
-- [Workshop] Install R, Tidyverse, Atom/R Studio
-- [Readings] Selected readings for Diffusion of Innovations
+- [Workshop] Install R, Tidyverse, Atom/R Studio, Apply for Twitter Developer Credentials
+- [Readings for 8/27] Selected readings for Diffusion of Innovations
 
 ### [Week 2--8/27] Diffusion of Innovations
 - [Lecture] "Diffusion of Innovations"
-- [Workshop] Install MassMine, Apply for Twitter Developer Credentials
+- [Workshop] Install R, Tidyverse, Rvest, Atom/R Studio
+- [Readings for 9/3] Selected readings from *Networks, Crowds, and Markets*
 
 ### [Week 3--9/3] Networks, Graphs, Strong and Weak Ties
 - [Lecture] Networks, Graphs, Strong and Weak Ties
+- [Workshop] Install MassMine, test Twitter credentials
 
 ### [Week 4--9/10] APIs and Social Network Data
 - [Lecture] "APIs and Social Network Data"
 - [Workshop] Download and explore a sample dataset from Twitter
+- [Assignment] Rough draft of project proposal
 
 ### [Week 5--9/17] **No Class**
 - [Test] Covering readings, key concepts, and terminologies from first 3 weeks
 - [Optional] Individual conferences
 
-**Developing and Exploring Research Questions**
+### [Week 6--9/24] Developing and Exploring Research Questions
+- [Lecture] "Developing and Exploring Research Questions"
+- [Workshop] Tutorials TBA
+- [Industry/Commercial/Institutional Presentation]
 
-### [Week 6--9/24] **Speech to Text**
+### [Week 7--10/1] Wrangling and Scrubbing Social Network Data
+- [Lecture] "Wrangling and Scrubbing Social Network Data"
+- [Workshop] Tutorials TBA
+- [Industry/Commercial/Institutional Presentation]
 
-### [Week 7--10/1] **Wrangling and Scrubbing Social Network Data**
-- JSON
-- #hashtags
-- URLs
+### [Week 8--10/8] Descriptive Content Analysis: Time, Engagement, and Circulation
+- [Lecture] "Descriptive Content Analysis: Time, Engagement, and Circulation"
+- [Workshop] Tutorials TBA
+- [Industry/Commercial/Institutional Presentation]
 
-### [Week 8--10/8] **Sentiment Analysis (Text)**
+### [Week 9--10/15] User Profiles, Locations, and Audience Analysis
+- [Lecture] "User Profiles, Locations, and Audience Analysis"
+- [Workshop] Tutorials TBA
+- [Industry/Commercial/Institutional Presentation]
 
-### [Week 9--10/15] **Sentiment Analysis (Emoji)**
+### [Week 10--10/22] Sentiment and Emoji
+- [Lecture] "Sentiment and Emoji"
+- [Workshop] Tutorials TBA
+- [Industry/Commercial/Institutional Presentation]
 
-### [Week 10--10/22] **Network Analysis**
-- Game theory
+### [Week 11--10/29] Project Proposals
+- [Assignment] Project Proposals due
+- [Workshop] Show continued progress on project
 
-### [Week 11--10/29] **Content Moderation and Censorship**
-- Freedom of Speech
-- Ethics and Content Moderation
-- What are the limits of censorship?
-  - The problem with "whack-a-mole" censorship
+### [Week 12--11/5] Ethics
+- [Workshop] Show continued progress on project
+- [Readings/Videos] TBA
 
-### [Week 12--11/5] **Final Project Proposals**
+### [Weeks 13--11/12] Ethics
+- [Workshop] Show continued progress on project
+- [Readings/Videos] TBA
 
-### [Weeks 13-15--11/12-12/4] **Workshops for Final Projects**
+### [Weeks 14--11/19] Final Presentation Preparation
+- [Assignment] Ethics Response
+- [Readings/Videos] TBA
+
+### [Weeks 15--12/3]
+- [Assignment] Final Presentation

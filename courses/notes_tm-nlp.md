@@ -1,60 +1,53 @@
 # Notes for IAL 620 Text Mining and Natural Language processing
 
-### [Week 1--8/19] **Introduction: Text Mining and Natural Language Processing**
-- [Lecture] "Text Mining and Natural Language Processing"
-  - What is Text Mining (TM)?
-  - What is Natural Language Processing (NLP)?
-  - What are the applications of TM and NLP for research?
-  - How will we use TM and NLP in this course?
-  - How does this course fit within the Cultural Analytics concentration?
-- Syllabus and course assignment/calendar discussion
+### Course Introduction
+- [Lecture] "What is Cultural Analytics?"
+- Syllabus reading
+- [Workshop] "Why R?"
+  - Install R Studio, R packages
+  - Optional command line and R studio tutorials
+- [Readings] NLP readings, Due week 2
+
+### [Week 2] What is Natural Language Processing?
+- [Lecture] "Natural Language Processing: Historical Overview, Key Terms and Concepts, and Introductory Demonstration"
+- [Workshop] HTML and CSS tutorial
 - [Tutorial] HTML -- Due 8/26
 
-### [Week 2--8/26] **Text as Data: Types and Terminologies**
+### [Week 3] Text Mining: An Introduction to Web Scraping
 - [Lecture] "Text as Data: Types and Terminologies"
-  - Unicode
   - HTML
   - PDFs
-  - Others
-- Markdown & Pandoc
-- Install R, Tidyverse, Rvest
-- Rvest tutorial
+  - Unicode
+- [Workshop] Rvest tutorial, Selector gadget
 - Read: chapters 1-5 of *Where Wizards Stay Up Late*
 
-### [Week 3--9/2] Choosing a Dataset and Collecting Data
-- **[Lecture] "Choosing a Dataset and Exploring Research Questions"**
-  - How do you know if you've chosen the right dataset?
-    - Examples of using the wrong dataset
-  - How do you know if you're asking the right questions?
-    - Examples of poor research questions
-      - Example questions that cannot be answered--or very difficult
-      - Example questions that are too contrived or needlessly complex
-        - Occam's razor
-  - How to begin exploring a dataset and revising a research question?
-      - Recursive process
-- Use Rvest to begin collecting data for final project
-- **[Assignment] Project Proposal -- Due 9/9**
+### [Week 4] Text Mining: Choosing a Dataset and Collecting Data
+- [Lecture] "Course Project Introduction: Choosing a Data Source"
+- [Workshop] RSelenium tutorial, Developer tools
 
-### [Week 4--9/9] **Privacy Rights and Text Mining Ethics**
-- [Quiz] *Where Wizards Stay Up Late*, open book
+### [Week 5] Test
+- [Assignment] Project Proposal Draft due
 
-### [Week 5--9/16] **Developing and Exploring Research Questions**
-- Mixed Methods Research
-- Diffusion of Innovations
-- Exploratory Methods
+### [Week 6] Wrangling and Scrubbing Unstructured Text Data
+- [Lecture] "Data Janitors: Wrangling and Scrubbing Text Data"
+  - Stopwords, stemming (or not), tolower(), removing punctuation, URLs
+  - Dataframes and Document Term Matrix (for bag of words)
+- [Workshop] Chapters 1 & 5 from *Text Mining with R*, TM package tutorials
 
-### [Week 6--9/23] **Wrangling and Scrubbing Text Data**
-- [Lecture] "Wrangling and Scrubbing Text Data"
-  - Use Data Janitors article
-- Pandoc (converting documents and text)
-- Chapters 1 & 5 from *Text Mining with R*, complete tutorials
+### [Week 7] Word Frequency, N-Grams, and Correlations
+- [Lecture]
+  - Also discuss the importance of customized stopwords lexicon
+    - There are many more semantically irrelevant words than common stopwords
+- [Workshop] Chapters 3 & 4 from *Text Mining with R* (skip section 4.1.3) tutorial
 
-### [Week 7--9/30] **Regular Expressions and Fuzzy Matching**
+### [Week 8] Sentiment Analysis
+- [Lecture]
+- [Workshop] Chapter 2 & section 4.1.3 from Chapter 4 from *Text Mining with R*
 
-### [Week 8--10/7] **Word Frequency**
+### [Week 9] Topic Modeling
+- [Lecture]
+- [Workshop] Chapter 6 from *Text Mining with R*
 
-### [Week 9--10/14] **N-Grams and Collocations**
-
-### [Week 10--10/21] **Topic Modeling**
-
-### [Week 11--10/28] **Word Embeddings**
+### [Week 10] Word Embeddings
+- [Lecture]
+- [Workshop] **Decide which package and tutorials to use**

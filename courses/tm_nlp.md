@@ -54,7 +54,7 @@ Each student will conduct research regarding industrial, commercial, or institut
 ### Texts
 - *Where Wizards Stay Up Late** (used copies widely available)
 - *Text Mining with R* (free, online)
-- Articles and book excerpts made available in Canvas
+- Articles, book excerpts, and videos made available in Canvas
 
 ## **Course Guidelines**
 
