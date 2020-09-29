@@ -51,7 +51,7 @@ Software*. Fall 2016. <http://dx.doi.org/10.21105/joss.00050>
 > **Roles:** Project Director, Interdisciplinary Curriculum Development (UF college of Journalism, UF Digital Humanities Graduate Certificate), Usability Testing.
 
 ### **Edited Special Issues**
-"Composing Algorithms: Writing (with) Rhetorical Machines." *Computers and Composition*. Co-edited with Sergio C. Figueiredo and Steven K. Holmes. <https://www.sciencedirect.com/journal/computers-and-composition/vol/57>
+"Composing Algorithms: Writing (with) Rhetorical Machines." *Computers and Composition*. Co-edited with Sergio C. Figueiredo and Steven K. Holmes. Volume 57, September 2020. <https://www.sciencedirect.com/journal/computers-and-composition/vol/57>
 
 ### **Books in Progress**
 *Interdisciplinary Data Mining: Best Practices and Research Methodologies for Analyzing Social Media and Digital Content*
