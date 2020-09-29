@@ -48,13 +48,13 @@ Software*. Fall 2016. <http://dx.doi.org/10.21105/joss.00050>
 "MassMine Development and Training Project." *University of Florida Informatics Institute*. May 2015.
 
 > **Amount funded:** $49,837.00  
-> **Roles:** Project Director, Interdisciplinary Curriculum Development (UF college of Journalism, UF Digital Humanities Graduate Certificate), Usability Testing.  
+> **Roles:** Project Director, Interdisciplinary Curriculum Development (UF college of Journalism, UF Digital Humanities Graduate Certificate), Usability Testing.
+
+### **Edited Special Issues**
+"Composing Algorithms: Writing (with) Rhetorical Machines." *Computers and Composition*. Co-edited with Sergio C. Figueiredo and Steven K. Holmes. <https://www.sciencedirect.com/journal/computers-and-composition/vol/57>
 
 ### **Books in Progress**
-*MassMine Textbook*. In progress.
-
-### **Special Issues in Progress**
-"Composing Algorithms: Writing (with) Rhetorical Machines." *Computers and Composition*. Co-edited with Sergio C. Figueiredo and Steven K. Holmes. Forthcoming 2020.
+*Interdisciplinary Data Mining: Best Practices and Research Methodologies for Analyzing Social Media and Digital Content*
 
 ### **Articles and Chapters in Progress**
 “Big Data, Tiny Computers: Making Data-Driven Methods Accessible with the Raspberry Pi.” Co-authored with Nicholas Van Horn. *Re-Programmable Rhetoric: Critical Making Theories and Methods in Digital Rhetoric and Composition*. Eds. Anthony Stagliano and Steve Holmes. Utah State University Press. Under review.
