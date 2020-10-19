@@ -59,6 +59,12 @@ Software*. Fall 2016. <http://dx.doi.org/10.21105/joss.00050>
 ### **Articles and Chapters in Progress**
 “Big Data, Tiny Computers: Making Data-Driven Methods Accessible with the Raspberry Pi.” Co-authored with Nicholas Van Horn. *Re-Programmable Rhetoric: Critical Making Theories and Methods in Digital Rhetoric and Composition*. Eds. Anthony Stagliano and Steve Holmes. Utah State University Press. Under review.
 
+"Mining Hope: Preserving and Exploring Twitter Data for Digital Visual Studies." Co-authored with Nicholas Van Horn. *Doing Digital Visual Studies: One Image, Multiple Methodologies*. Eds. Laurie Gries and Blake Hallinan. Computers and Composition Digital Press. Forthcoming.
+
+"Project-Oriented Web Scraping in Technical Communication Research" Co-authored with John Gallagher. *Journal of Business and Technical Communication*. Under review.
+
+"Engineering Affect: Sentiment Analysis and the Future of Prosody Analytics." *Artificial Intelligence and the Humanities*. Eds. Sidney I. Dobrin. Under review. 
+
 ### **Professional Posts and Teaching**
 Assistant Professor of Informatics and Analytics, University of North Carolina at Greensboro (2020--present)
 
