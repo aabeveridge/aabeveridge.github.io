@@ -54,7 +54,7 @@ Software*. Fall 2016. <http://dx.doi.org/10.21105/joss.00050>
 "Composing Algorithms: Writing (with) Rhetorical Machines." *Computers and Composition*. Co-edited with Sergio C. Figueiredo and Steven K. Holmes. Volume 57, September 2020. <https://www.sciencedirect.com/journal/computers-and-composition/vol/57>
 
 ### **Books in Progress**
-*Interdisciplinary Data Mining: Best Practices and Research Methodologies for Analyzing Social Media and Digital Content*
+*Interdisciplinary Data Mining: Best Practices and Research Methodologies for Studying Digital Content*
 
 ### **Articles and Chapters in Progress**
 “Big Data, Tiny Computers: Making Data-Driven Methods Accessible with the Raspberry Pi.” Co-authored with Nicholas Van Horn. *Re-Programmable Rhetoric: Critical Making Theories and Methods in Digital Rhetoric and Composition*. Eds. Anthony Stagliano and Steve Holmes. Utah State University Press. Under review.
