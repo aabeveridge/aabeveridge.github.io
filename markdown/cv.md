@@ -7,14 +7,10 @@ Director: Sidney I. Dobrin
 Dissertation: "Writing Macroscopes: Networked Writing, Digital Content, and Data Science"  
 
 **University of Akron**  
-Degree: MA (2008)  
-Field: Composition Studies  
-Advisor: Julie Drew  
-Thesis: "(Inter)Active Rhetoric: The Ethics of Agency and Praxis"  
+Degree: MA English (2008)   
 
 **The Ohio State University**  
-Degree: BA  
-Major: English  
+Degree: BA English (2005)  
 
 ## **Peer Reviewed Articles and Chapters**
 **“Big Data, Tiny Computers: Making Data-Driven Methods Accessible with the Raspberry Pi.”** Co-authored with Nicholas Van Horn. *Re-Programmable Rhetoric: Critical Making Theories and Methods in Digital Rhetoric and Composition*. Eds. Anthony Stagliano and Steve Holmes. Utah State University Press. Accepted 2021.
