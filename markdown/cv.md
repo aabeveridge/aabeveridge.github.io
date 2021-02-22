@@ -1,7 +1,3 @@
-**Aaron Beveridge, PhD**  
-Assistant Professor of Informatics and Analytics  
-University of North Carolina at Greensboro  
-
 ## **Education**
 
 **University of Florida**  
