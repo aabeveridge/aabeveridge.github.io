@@ -299,6 +299,8 @@ a::selection {
 
 .nav .home a {
   color: #FF0000;
+  margin-left: -20px;
+  font-size: 16px;
 }
 
 
